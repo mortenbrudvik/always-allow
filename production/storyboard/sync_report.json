@@ -1,0 +1,5140 @@
+{
+ "about": "BRIEF.md step 5: every Seedance clip's takes, repairs and checks, written by tools/clip_loop.py",
+ "clips": {
+  "C12": {
+   "clip": "C12",
+   "kind": "speak",
+   "plate": "B_mcu_3q",
+   "window": {
+    "start": 86.375,
+    "end": 90.375,
+    "start_frame": 2073
+   },
+   "seconds": 4,
+   "words": "Don't ask me how. It's done before you blink",
+   "speaks_on_camera": true,
+   "shots": [
+    "s034"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_mcu_3q.png",
+    "plate": "production/clips/inputs/B_mcu_3q_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C12_86.375.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_sha1": "9e37fac2142e",
+    "plate_url": "https://v3b.fal.media/files/b/0aac73aa/_fdVlJ7pyYRucqPFInRzS_B_mcu_3q_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac73aa/Bv09eSlt57b_YveHJtwJL_C12_86.375.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C12/t1",
+     "submitted": "2026-09-30T05:40:40",
+     "file": "production/clips/takes/C12_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.135,
+      "plate_saturation": 0.192,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_mcu_3q_print_c5.png",
+      "mean_abs_diff": 55.17,
+      "psnr_db": 11.34
+     },
+     "checked": "2026-09-30T05:43:06",
+     "avsync": {
+      "in_sync_fraction": 0.3632,
+      "speaking_s": 2.285,
+      "global_offset_ms": 72.1,
+      "median_offset_ms": 70.5,
+      "best_slip": {
+       "frames_earlier": 2,
+       "in_sync_fraction": 0.6368
+      },
+      "first_loss": {
+       "clip_s": 2.065,
+       "song_s": 88.44,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C12_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C12/t1/sync-2-pro",
+       "submitted": "2026-09-30T05:43:18",
+       "file": "production/clips/repairs/C12_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C12_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 86.375,
+         "duration": 4
+        },
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 3,
+        "misses": 1,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 24,
+          "song_s": 87.38,
+          "frame": 24,
+          "frames": [
+           22,
+           23,
+           24,
+           25,
+           26
+          ],
+          "gaps": [
+           0.0111,
+           0.004,
+           0.0225,
+           0.0745,
+           0.1007
+          ],
+          "lowest": 0.004,
+          "seen": true,
+          "closed": true
+         },
+         {
+          "word": "before",
+          "letter": "b",
+          "line": 25,
+          "song_s": 88.92,
+          "frame": 61,
+          "frames": [
+           59,
+           60,
+           61,
+           62,
+           63
+          ],
+          "gaps": [
+           0.0047,
+           0.0018,
+           0.0062,
+           0.0049,
+           0.0032
+          ],
+          "lowest": 0.0018,
+          "seen": true,
+          "closed": true
+         },
+         {
+          "word": "blink",
+          "letter": "b",
+          "line": 25,
+          "song_s": 89.54,
+          "frame": 75,
+          "frames": [
+           73,
+           74,
+           75,
+           76,
+           77
+          ],
+          "gaps": [
+           0.0959,
+           0.0961,
+           0.0971,
+           0.0995,
+           0.104
+          ],
+          "lowest": 0.0959,
+          "seen": true,
+          "closed": false
+         }
+        ]
+       },
+       "verdict": "passes",
+       "rechecked": "2026-09-30T15:54:41"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T05:45:12",
+   "select": "production/clips/selects/C12.mp4"
+  },
+  "C13": {
+   "clip": "C13",
+   "kind": "speak",
+   "plate": "A_mcu_window",
+   "window": {
+    "start": 107.583333,
+    "end": 111.583333,
+    "start_frame": 2582
+   },
+   "seconds": 4,
+   "words": "There's a thousand of me running tonight. Every one of us",
+   "speaks_on_camera": true,
+   "shots": [
+    "s044"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_mcu_window.png",
+    "plate": "production/clips/inputs/A_mcu_window_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C13_107.583.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_sha1": "b253bf803b28",
+    "plate_url": "https://v3b.fal.media/files/b/0aac73ac/_yN4cMt9leMaaLkd5viJj_A_mcu_window_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac73ac/aYSquQgqbDAONN1QXc28s_C13_107.583.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C13/t1",
+     "submitted": "2026-09-30T05:40:54",
+     "file": "production/clips/takes/C13_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.343,
+      "plate_saturation": 0.323,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_window_print_c5.png",
+      "mean_abs_diff": 14.51,
+      "psnr_db": 20.57
+     },
+     "checked": "2026-09-30T05:43:25",
+     "avsync": {
+      "in_sync_fraction": 0.2157,
+      "speaking_s": 3.5,
+      "global_offset_ms": 39.7,
+      "median_offset_ms": 72.7,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.2929
+      },
+      "first_loss": {
+       "clip_s": 1.975,
+       "song_s": 109.558,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C13_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C13/t1/sync-2-pro",
+       "submitted": "2026-09-30T05:43:32",
+       "file": "production/clips/repairs/C13_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C13_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 107.583333,
+         "duration": 4
+        },
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 31,
+          "song_s": 109.04,
+          "frame": 34,
+          "frames": [
+           32,
+           33,
+           34,
+           35,
+           36
+          ],
+          "gaps": [
+           0.0079,
+           0.0009,
+           0.0518,
+           0.0986,
+           0.1024
+          ],
+          "lowest": 0.0009,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes",
+       "rechecked": "2026-09-30T15:54:43"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "job": "C13/t2",
+     "submitted": "2026-09-30T05:45:38",
+     "file": "production/clips/takes/C13_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.414,
+      "plate_saturation": 0.323,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_window_print_c5.png",
+      "mean_abs_diff": 56.96,
+      "psnr_db": 10.38
+     },
+     "checked": "2026-09-30T05:49:09",
+     "avsync": {
+      "in_sync_fraction": 0.3429,
+      "speaking_s": 3.5,
+      "global_offset_ms": 17.1,
+      "median_offset_ms": 42.7,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.3429
+      },
+      "first_loss": {
+       "clip_s": 2.05,
+       "song_s": 109.633,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C13_t2.avsync.png"
+     },
+     "verdict": "retake",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C13/t2/sync-2-pro",
+       "submitted": "2026-09-30T05:49:13",
+       "file": "production/clips/repairs/C13_t2_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C13_t2_sync-2-pro.mp4",
+        "window": {
+         "start": 107.583333,
+         "duration": 4
+        },
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 31,
+          "song_s": 109.04,
+          "frame": 34,
+          "frames": [
+           32,
+           33,
+           34,
+           35,
+           36
+          ],
+          "gaps": [
+           0.0033,
+           0.001,
+           0.052,
+           0.0928,
+           0.0938
+          ],
+          "lowest": 0.001,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes",
+       "rechecked": "2026-09-30T15:54:44"
+      }
+     ],
+     "reason": "the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)"
+    },
+    {
+     "n": 3,
+     "job": "C13/t3",
+     "submitted": "2026-09-30T05:50:58",
+     "file": "production/clips/takes/C13_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.293,
+      "plate_saturation": 0.323,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_window_print_c5.png",
+      "mean_abs_diff": 58.54,
+      "psnr_db": 10.27
+     },
+     "checked": "2026-09-30T05:54:08",
+     "avsync": {
+      "in_sync_fraction": 0.2157,
+      "speaking_s": 3.5,
+      "global_offset_ms": 101.0,
+      "median_offset_ms": 122.0,
+      "best_slip": {
+       "frames_earlier": 2,
+       "in_sync_fraction": 0.2129
+      },
+      "first_loss": {
+       "clip_s": 1.255,
+       "song_s": 108.838,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C13_t3.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 21% at best (avsync)"
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "note": "take 1, sync-2-pro (rechecked 2026-09-30: the closure rule changed)",
+   "finished": "2026-09-30T15:54:45",
+   "select_held_frames": 0,
+   "select": "production/clips/selects/C13.mp4"
+  },
+  "C01": {
+   "clip": "C01",
+   "kind": "motion",
+   "plate": "A_eye_ecu",
+   "window": {
+    "start": 0.0,
+    "end": 4.0,
+    "start_frame": 0
+   },
+   "seconds": 4,
+   "words": "",
+   "speaks_on_camera": false,
+   "shots": [
+    "s001"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_eye_ecu.png",
+    "plate_sha1": "067b7ce9c65d",
+    "plate": "production/clips/inputs/A_eye_ecu_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C01_0.000.wav",
+    "audio_source": "Always Allow.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82ca/gETBb2Hp2ddb6ZevE0KdY_A_eye_ecu_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82ca/VbWLjs61_XVOyiPrYaQYz_C01_0.000.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C01/t1",
+     "submitted": "2026-09-30T16:26:02",
+     "verdict": "failed",
+     "reason": "The request failed because the output video may be related to copyright restrictions. Request id: 02179077836179200000000000000000000ffffc0a86104447afc",
+     "cost_usd": 0.0
+    },
+    {
+     "n": 2,
+     "job": "C01/t2",
+     "submitted": "2026-09-30T16:29:43",
+     "file": "production/clips/takes/C01_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.376,
+      "plate_saturation": 0.537,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_eye_ecu_print_c5.png",
+      "mean_abs_diff": 30.83,
+      "psnr_db": 15.32
+     },
+     "checked": "2026-09-30T16:34:30",
+     "verdict": "accept"
+    }
+   ],
+   "result": "accepted",
+   "state": "accepted",
+   "select_held_frames": 0,
+   "note": "take 2",
+   "finished": "2026-09-30T16:34:45",
+   "select": "production/clips/selects/C01.mp4"
+  },
+  "C02": {
+   "clip": "C02",
+   "kind": "speak",
+   "plate": "A_cu_flash_1",
+   "window": {
+    "start": 3.083333,
+    "end": 8.083333,
+    "start_frame": 74
+   },
+   "seconds": 5,
+   "words": "Give me a goal.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s002"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_flash_1.png",
+    "plate_sha1": "df52f4cd1378",
+    "plate": "production/clips/inputs/A_cu_flash_1_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C02_3.083.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82cc/kj6lTUgGaWE1C7ucNtlkS_A_cu_flash_1_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82cc/ONMO0iIMGGdjR3m-kMuqc_C02_3.083.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C02/t1",
+     "submitted": "2026-09-30T16:26:16",
+     "file": "production/clips/takes/C02_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.056,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.43,
+      "plate_saturation": 0.422,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_flash_1_print_c5.png",
+      "mean_abs_diff": 11.46,
+      "psnr_db": 22.98
+     },
+     "checked": "2026-09-30T16:29:48",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.76,
+      "global_offset_ms": -480.4,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": -12,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.52,
+       "song_s": 3.603,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C02_t1.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 0% at best (avsync)"
+    },
+    {
+     "n": 2,
+     "job": "C02/t2",
+     "submitted": "2026-09-30T16:30:51",
+     "file": "production/clips/takes/C02_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.458,
+      "plate_saturation": 0.422,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_flash_1_print_c5.png",
+      "mean_abs_diff": 36.77,
+      "psnr_db": 13.6
+     },
+     "checked": "2026-09-30T16:40:33",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.76,
+      "global_offset_ms": 124.5,
+      "median_offset_ms": 124.7,
+      "best_slip": {
+       "frames_earlier": 3,
+       "in_sync_fraction": 1.0
+      },
+      "first_loss": {
+       "clip_s": 0.52,
+       "song_s": 3.603,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C02_t2.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C02/t2/sync-2-pro",
+       "submitted": "2026-09-30T16:45:59",
+       "file": "production/clips/repairs/C02_t2_sync-2-pro.mp4",
+       "cost_usd": 0.4167,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C02_t2_sync-2-pro.mp4",
+        "window": {
+         "start": 3.083333,
+         "duration": 5
+        },
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 0,
+          "song_s": 3.78,
+          "frame": 16,
+          "frames": [
+           14,
+           15,
+           16,
+           17,
+           18
+          ],
+          "gaps": [
+           0.0145,
+           0.0073,
+           0.0058,
+           0.0363,
+           0.0493
+          ],
+          "lowest": 0.0058,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 2, sync-2-pro",
+   "finished": "2026-09-30T16:48:09",
+   "select": "production/clips/selects/C02.mp4"
+  },
+  "C03": {
+   "clip": "C03",
+   "kind": "speak",
+   "plate": "A_cu_3q_1",
+   "window": {
+    "start": 11.791667,
+    "end": 15.791667,
+    "start_frame": 283
+   },
+   "seconds": 4,
+   "words": "I'll figure out the rest.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s005"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_3q_1.png",
+    "plate_sha1": "68fb62532e30",
+    "plate": "production/clips/inputs/A_cu_3q_1_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C03_11.792.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82cd/XdpO4iu5cFWh6_9kAB9zY_A_cu_3q_1_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82cd/vXxEPxVeh91dgrID1mVIY_C03_11.792.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C03/t1",
+     "submitted": "2026-09-30T16:26:31",
+     "file": "production/clips/takes/C03_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.385,
+      "plate_saturation": 0.376,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_3q_1_print_c5.png",
+      "mean_abs_diff": 25.75,
+      "psnr_db": 16.85
+     },
+     "checked": "2026-09-30T16:30:56",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.16,
+      "global_offset_ms": 373.2,
+      "median_offset_ms": 368.9,
+      "best_slip": {
+       "frames_earlier": 9,
+       "in_sync_fraction": 1.0
+      },
+      "first_loss": {
+       "clip_s": 0.51,
+       "song_s": 12.302,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C03_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C03/t1/sync-2-pro",
+       "submitted": "2026-09-30T16:33:56",
+       "file": "production/clips/repairs/C03_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C03_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 11.791667,
+         "duration": 4
+        },
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T16:35:47",
+   "select": "production/clips/selects/C03.mp4"
+  },
+  "C04": {
+   "clip": "C04",
+   "kind": "motion",
+   "plate": "A_desk_mcu",
+   "window": {
+    "start": 16.166667,
+    "end": 22.166667,
+    "start_frame": 388
+   },
+   "seconds": 6,
+   "words": "",
+   "speaks_on_camera": false,
+   "shots": [
+    "s007"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_desk_mcu.png",
+    "plate_sha1": "63b351d7d4b8",
+    "plate": "production/clips/inputs/A_desk_mcu_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C04_16.167.wav",
+    "audio_source": "Always Allow.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82cf/bk-6AIfvVdzDvrvozlr9k_A_desk_mcu_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82cf/26DQ0OkYpn__KsDFuXo_r_C04_16.167.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C04/t1",
+     "submitted": "2026-09-30T16:29:08",
+     "file": "production/clips/takes/C04_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.08,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.303,
+      "plate_saturation": 0.297,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_desk_mcu_print_c5.png",
+      "mean_abs_diff": 35.46,
+      "psnr_db": 12.42
+     },
+     "checked": "2026-09-30T16:34:00",
+     "verdict": "accept"
+    }
+   ],
+   "result": "accepted",
+   "state": "accepted",
+   "select_held_frames": 0,
+   "note": "take 1",
+   "finished": "2026-09-30T16:34:03",
+   "select": "production/clips/selects/C04.mp4"
+  },
+  "C05": {
+   "clip": "C05",
+   "kind": "speak",
+   "plate": "A_cu_flash_2",
+   "window": {
+    "start": 35.541667,
+    "end": 39.541667,
+    "start_frame": 853
+   },
+   "seconds": 4,
+   "words": "You gave me one sentence and went out for lunch. I",
+   "speaks_on_camera": true,
+   "shots": [
+    "s014"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_flash_2.png",
+    "plate_sha1": "d53dc7196baa",
+    "plate": "production/clips/inputs/A_cu_flash_2_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C05_35.542.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82cf/scxKeQ2hBZcz-6WkU_mon_A_cu_flash_2_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82cf/5igIHi8VMAKWVsbpuaf8M_C05_35.542.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C05/t1",
+     "submitted": "2026-09-30T16:34:42",
+     "file": "production/clips/takes/C05_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.299,
+      "plate_saturation": 0.33,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_flash_2_print_c5.png",
+      "mean_abs_diff": 46.65,
+      "psnr_db": 11.91
+     },
+     "checked": "2026-09-30T16:40:44",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 3.1,
+      "global_offset_ms": 329.3,
+      "median_offset_ms": 347.8,
+      "best_slip": {
+       "frames_earlier": 8,
+       "in_sync_fraction": 0.0435
+      },
+      "first_loss": {
+       "clip_s": 0.5,
+       "song_s": 36.042,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C05_t1.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 4% at best (avsync)"
+    },
+    {
+     "n": 2,
+     "job": "C05/t2",
+     "submitted": "2026-09-30T16:46:19",
+     "file": "production/clips/takes/C05_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.406,
+      "plate_saturation": 0.33,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_flash_2_print_c5.png",
+      "mean_abs_diff": 51.51,
+      "psnr_db": 10.89
+     },
+     "checked": "2026-09-30T16:50:26",
+     "avsync": {
+      "in_sync_fraction": 0.0968,
+      "speaking_s": 3.1,
+      "global_offset_ms": -78.9,
+      "median_offset_ms": -81.2,
+      "best_slip": {
+       "frames_earlier": -2,
+       "in_sync_fraction": 0.8484
+      },
+      "first_loss": null,
+      "plot": "production/clips/avsync/C05_t2.avsync.png"
+     },
+     "verdict": "retake",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C05/t2/sync-2-pro",
+       "submitted": "2026-09-30T16:50:56",
+       "file": "production/clips/repairs/C05_t2_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C05_t2_sync-2-pro.mp4",
+        "window": {
+         "start": 35.541667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          35.862,
+          38.995
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 1,
+        "passes": false,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 7,
+          "song_s": 36.54,
+          "frame": 23,
+          "frames": [
+           21,
+           22,
+           23,
+           24,
+           25
+          ],
+          "gaps": [
+           0.098,
+           0.033,
+           0.0333,
+           0.0369,
+           0.0711
+          ],
+          "lowest": 0.033,
+          "seen": true,
+          "closed": false
+         }
+        ]
+       },
+       "verdict": "fails"
+      }
+     ],
+     "reason": "the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)"
+    },
+    {
+     "n": 3,
+     "job": "C05/t3",
+     "submitted": "2026-09-30T16:54:55",
+     "file": "production/clips/takes/C05_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.35,
+      "plate_saturation": 0.33,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_flash_2_print_c5.png",
+      "mean_abs_diff": 55.5,
+      "psnr_db": 10.68
+     },
+     "checked": "2026-09-30T17:04:13",
+     "avsync": {
+      "in_sync_fraction": 0.0226,
+      "speaking_s": 3.1,
+      "global_offset_ms": -56.5,
+      "median_offset_ms": -68.8,
+      "best_slip": {
+       "frames_earlier": -1,
+       "in_sync_fraction": 0.1435
+      },
+      "first_loss": {
+       "clip_s": 0.5,
+       "song_s": 36.042,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C05_t3.avsync.png"
+     },
+     "verdict": "retake",
+     "reread": "in sync 14% at best (avsync): repaired all the same, to be judged by eye (session 5)",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C05/t3/sync-2-pro",
+       "submitted": "2026-09-30T17:43:27",
+       "file": "production/clips/repairs/C05_t3_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C05_t3_sync-2-pro.mp4",
+        "window": {
+         "start": 35.541667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          35.542,
+          39.542
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 1,
+        "passes": false,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 7,
+          "song_s": 36.54,
+          "frame": 23,
+          "frames": [
+           21,
+           22,
+           23,
+           24,
+           25
+          ],
+          "gaps": [
+           0.0806,
+           0.0483,
+           0.0471,
+           0.0587,
+           0.0549
+          ],
+          "lowest": 0.0471,
+          "seen": true,
+          "closed": false
+         }
+        ]
+       },
+       "verdict": "fails"
+      }
+     ],
+     "reason": "the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)"
+    }
+   ],
+   "result": "dropped",
+   "state": "dropped",
+   "note": "3 takes, none passed: the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)",
+   "finished": "2026-09-30T17:46:13"
+  },
+  "C06": {
+   "clip": "C06",
+   "kind": "speak",
+   "plate": "A_mcu_3q_tests",
+   "window": {
+    "start": 45.875,
+    "end": 49.875,
+    "start_frame": 1101
+   },
+   "seconds": 4,
+   "words": "Ran every test, then I ran every check. By the",
+   "speaks_on_camera": true,
+   "shots": [
+    "s019"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_mcu_3q_tests.png",
+    "plate_sha1": "888da90b6cce",
+    "plate": "production/clips/inputs/A_mcu_3q_tests_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C06_45.875.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82cf/ZcN-eeX7HbDyt0gZvTaFh_A_mcu_3q_tests_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d0/QAI60-b7AfK3riw91xiCT_C06_45.875.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C06/t1",
+     "submitted": "2026-09-30T16:35:44",
+     "file": "production/clips/takes/C06_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.379,
+      "plate_saturation": 0.35,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_3q_tests_print_c5.png",
+      "mean_abs_diff": 36.86,
+      "psnr_db": 12.56
+     },
+     "checked": "2026-09-30T16:40:54",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 3.0,
+      "global_offset_ms": -403.2,
+      "median_offset_ms": -406.1,
+      "best_slip": {
+       "frames_earlier": -10,
+       "in_sync_fraction": 0.7667
+      },
+      "first_loss": {
+       "clip_s": 0.485,
+       "song_s": 46.36,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C06_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C06/t1/sync-2-pro",
+       "submitted": "2026-09-30T16:48:06",
+       "file": "production/clips/repairs/C06_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C06_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 45.875,
+         "duration": 4
+        },
+        "shown": [
+         [
+          45.934,
+          49.404
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes",
+       "rechecked": "2026-09-30T16:53:07"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "job": "C06/t2",
+     "submitted": "2026-09-30T16:50:15"
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro (rechecked 2026-09-30: the closure rule changed)",
+   "finished": "2026-09-30T16:53:08",
+   "select": "production/clips/selects/C06.mp4"
+  },
+  "C07": {
+   "clip": "C07",
+   "kind": "speak",
+   "plate": "A_cu_done",
+   "window": {
+    "start": 52.541667,
+    "end": 56.541667,
+    "start_frame": 1261
+   },
+   "seconds": 4,
+   "words": "it was done four",
+   "speaks_on_camera": true,
+   "shots": [
+    "s021"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_done.png",
+    "plate_sha1": "d1ae696e53c1",
+    "plate": "production/clips/inputs/A_cu_done_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C07_52.542.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d0/I87nsOjNKBR7sp5O36WQZ_A_cu_done_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d0/ed1jF-3VW6p6md721Pw3p_C07_52.542.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C07/t1",
+     "submitted": "2026-09-30T16:41:08",
+     "file": "production/clips/takes/C07_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.457,
+      "plate_saturation": 0.421,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_done_print_c5.png",
+      "mean_abs_diff": 13.85,
+      "psnr_db": 21.09
+     },
+     "checked": "2026-09-30T16:46:04",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.9,
+      "global_offset_ms": 117.6,
+      "median_offset_ms": 101.3,
+      "best_slip": {
+       "frames_earlier": 3,
+       "in_sync_fraction": 0.5833
+      },
+      "first_loss": {
+       "clip_s": 0.52,
+       "song_s": 53.062,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C07_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C07/t1/sync-2-pro",
+       "submitted": "2026-09-30T16:48:53",
+       "file": "production/clips/repairs/C07_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C07_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 52.541667,
+         "duration": 4
+        },
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T16:50:30",
+   "select": "production/clips/selects/C07.mp4"
+  },
+  "C08": {
+   "clip": "C08",
+   "kind": "speak",
+   "plate": "A_mcu_3q_four",
+   "window": {
+    "start": 55.666667,
+    "end": 60.666667,
+    "start_frame": 1336
+   },
+   "seconds": 5,
+   "words": "four different ways. Pick your",
+   "speaks_on_camera": true,
+   "shots": [
+    "s022"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_mcu_3q_four.png",
+    "plate_sha1": "f9af73dc8734",
+    "plate": "production/clips/inputs/A_mcu_3q_four_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C08_55.667.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d0/-_ZTVM1faV9HFmnkgI0-O_A_mcu_3q_four_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d0/tB6HlwweYBEL6an9DZHsT_C08_55.667.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C08/t1",
+     "submitted": "2026-09-30T16:41:20",
+     "file": "production/clips/takes/C08_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.056,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.497,
+      "plate_saturation": 0.296,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_3q_four_print_c5.png",
+      "mean_abs_diff": 66.21,
+      "psnr_db": 9.37
+     },
+     "checked": "2026-09-30T16:46:26",
+     "avsync": {
+      "in_sync_fraction": 0.6629,
+      "speaking_s": 1.765,
+      "global_offset_ms": 24.1,
+      "median_offset_ms": 26.6,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.966
+      },
+      "first_loss": {
+       "clip_s": 0.98,
+       "song_s": 56.647,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C08_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C08/t1/sync-2-pro",
+       "submitted": "2026-09-30T16:49:16",
+       "file": "production/clips/repairs/C08_t1_sync-2-pro.mp4",
+       "cost_usd": 0.4167,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C08_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 55.666667,
+         "duration": 5
+        },
+        "shown": [
+         [
+          56.007,
+          59.813
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T16:53:59",
+   "select": "production/clips/selects/C08.mp4"
+  },
+  "C09": {
+   "clip": "C09",
+   "kind": "speak",
+   "plate": "A_cu_pick",
+   "window": {
+    "start": 59.5,
+    "end": 63.5,
+    "start_frame": 1428
+   },
+   "seconds": 4,
+   "words": "Pick your favorite.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s023"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_pick.png",
+    "plate_sha1": "ee51a2994405",
+    "plate": "production/clips/inputs/A_cu_pick_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C09_59.500.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d0/CD9xIeE96z0U0Xuh6nlYV_A_cu_pick_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d1/yqi9MF9pOe7jlP1breGaj_C09_59.500.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C09/t1",
+     "submitted": "2026-09-30T16:41:30",
+     "file": "production/clips/takes/C09_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.452,
+      "plate_saturation": 0.36,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_pick_print_c5.png",
+      "mean_abs_diff": 49.57,
+      "psnr_db": 11.73
+     },
+     "checked": "2026-09-30T16:49:06",
+     "avsync": {
+      "in_sync_fraction": 0.7732,
+      "speaking_s": 1.345,
+      "global_offset_ms": 5.4,
+      "median_offset_ms": 1.9,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.7732
+      },
+      "first_loss": {
+       "clip_s": 1.6,
+       "song_s": 61.1,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C09_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C09/t1/sync-2-pro",
+       "submitted": "2026-09-30T16:50:30",
+       "file": "production/clips/repairs/C09_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C09_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 59.5,
+         "duration": 4
+        },
+        "shown": [
+         [
+          59.813,
+          61.381
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "Pick",
+          "letter": "p",
+          "line": 14,
+          "song_s": 59.98,
+          "frame": 11,
+          "frames": [
+           9,
+           10,
+           11,
+           12,
+           13
+          ],
+          "gaps": [
+           0.0194,
+           0.006,
+           0.0025,
+           0.0064,
+           0.0617
+          ],
+          "lowest": 0.0025,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T16:54:01",
+   "select": "production/clips/selects/C09.mp4"
+  },
+  "C10": {
+   "clip": "C10",
+   "kind": "speak",
+   "plate": "A_darkroom_cu",
+   "window": {
+    "start": 68.5,
+    "end": 73.5,
+    "start_frame": 1644
+   },
+   "seconds": 5,
+   "words": "Asking for the keys to everything",
+   "speaks_on_camera": true,
+   "shots": [
+    "s026"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_darkroom_cu.png",
+    "plate_sha1": "4035192bbb1f",
+    "plate": "production/clips/inputs/A_darkroom_cu_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C10_68.500.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d1/tyUvUCV0REJuPVMHBYN38_A_darkroom_cu_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d1/Ra5xIwa_dx_puRCtpR3i8_C10_68.500.wav"
+   },
+   "takes": [
+    {
+     "n": 2,
+     "job": "C10/t2",
+     "submitted": "2026-09-30T16:59:24",
+     "file": "production/clips/takes/C10_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.056,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.295,
+      "plate_saturation": 0.352,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_darkroom_cu_print_c5.png",
+      "mean_abs_diff": 46.2,
+      "psnr_db": 10.57
+     },
+     "checked": "2026-09-30T17:04:24",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.88,
+      "global_offset_ms": 500.0,
+      "median_offset_ms": 337.9,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.5,
+       "song_s": 69.0,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C10_t2.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 0% at best (avsync)"
+    },
+    {
+     "n": 3,
+     "job": "C10/t3",
+     "submitted": "2026-09-30T17:04:55",
+     "file": "production/clips/takes/C10_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.056,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.409,
+      "plate_saturation": 0.352,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_darkroom_cu_print_c5.png",
+      "mean_abs_diff": 25.07,
+      "psnr_db": 16.3
+     },
+     "checked": "2026-09-30T17:09:49",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.88,
+      "global_offset_ms": 500.0,
+      "median_offset_ms": 500.0,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.5,
+       "song_s": 69.0,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C10_t3.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 0% at best (avsync)"
+    },
+    {
+     "n": 1,
+     "job": "C10/t1",
+     "submitted": "2026-09-30T16:53:45",
+     "file": "production/clips/takes/C10_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.056,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.398,
+      "plate_saturation": 0.352,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_darkroom_cu_print_c5.png",
+      "mean_abs_diff": 46.29,
+      "psnr_db": 10.72
+     },
+     "checked": "2026-09-30T16:57:51",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.88,
+      "global_offset_ms": 378.2,
+      "median_offset_ms": 286.6,
+      "best_slip": {
+       "frames_earlier": 9,
+       "in_sync_fraction": 0.0824
+      },
+      "first_loss": {
+       "clip_s": 0.5,
+       "song_s": 69.0,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C10_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync 8% at best (avsync): repaired all the same, to be judged by eye (session 5)",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C10/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:45:14",
+       "file": "production/clips/repairs/C10_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C10_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 68.5,
+         "duration": 4
+        },
+        "shown": [
+         [
+          68.5,
+          72.5
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "note": "take 1, sync-2-pro",
+   "select_held_frames": 0,
+   "finished": "2026-09-30T17:46:42",
+   "select": "production/clips/selects/C10.mp4"
+  },
+  "D1": {
+   "clip": "D1",
+   "kind": "dancer",
+   "plate": "B_dancer_1",
+   "window": {
+    "start": 77.916667,
+    "end": 85.916667,
+    "start_frame": 1870
+   },
+   "seconds": 8,
+   "words": "",
+   "speaks_on_camera": false,
+   "shots": [
+    "s029",
+    "s030",
+    "s031",
+    "s057",
+    "s058",
+    "s095",
+    "s098"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_dancer_1.png",
+    "plate_sha1": "19110ead98e6",
+    "plate": "production/clips/inputs/B_dancer_1_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/D1_77.917.wav",
+    "audio_source": "Always Allow.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d1/3WMUUjkDRCMDf_mpd7K0w_B_dancer_1_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d1/fsYas_atvPItc2Bkq16Tb_D1_77.917.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "D1/t1",
+     "submitted": "2026-09-30T16:53:57",
+     "file": "production/clips/takes/D1_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 193,
+      "duration_s": 8.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.8586,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.072,
+      "plate_saturation": 0.085,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_dancer_1_print_c5.png",
+      "mean_abs_diff": 27.48,
+      "psnr_db": 18.89
+     },
+     "checked": "2026-09-30T16:59:31",
+     "verdict": "accept"
+    }
+   ],
+   "result": "accepted",
+   "state": "accepted",
+   "select_held_frames": 0,
+   "note": "take 1",
+   "finished": "2026-09-30T16:59:33",
+   "select": "production/clips/selects/D1.mp4"
+  },
+  "C11": {
+   "clip": "C11",
+   "kind": "speak",
+   "plate": "B_cu_stage",
+   "window": {
+    "start": 82.75,
+    "end": 86.75,
+    "start_frame": 1986
+   },
+   "seconds": 4,
+   "words": "With terrifying ease. Always allow",
+   "speaks_on_camera": true,
+   "shots": [
+    "s032"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_cu_stage.png",
+    "plate_sha1": "1c59fc063ee5",
+    "plate": "production/clips/inputs/B_cu_stage_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C11_82.750.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d1/zZpw-kmG9Lk4qchWGC2qO_B_cu_stage_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d2/GYyC2x-53arSVLI_3dB66_C11_82.750.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C11/t1",
+     "submitted": "2026-09-30T16:58:08",
+     "file": "production/clips/takes/C11_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.241,
+      "plate_saturation": 0.315,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_stage_print_c5.png",
+      "mean_abs_diff": 56.34,
+      "psnr_db": 10.69
+     },
+     "checked": "2026-09-30T17:01:05",
+     "avsync": {
+      "in_sync_fraction": 0.3352,
+      "speaking_s": 2.655,
+      "global_offset_ms": -1.9,
+      "median_offset_ms": -0.3,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.3352
+      },
+      "first_loss": {
+       "clip_s": 0.685,
+       "song_s": 83.435,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C11_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C11/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:04:28",
+       "file": "production/clips/repairs/C11_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C11_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 82.75,
+         "duration": 4
+        },
+        "shown": [
+         [
+          82.763,
+          85.114
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:05:39",
+   "select": "production/clips/selects/C11.mp4"
+  },
+  "D2": {
+   "clip": "D2",
+   "kind": "dancer",
+   "plate": "B_dancer_2",
+   "window": {
+    "start": 85.083333,
+    "end": 93.083333,
+    "start_frame": 2042
+   },
+   "seconds": 8,
+   "words": "",
+   "speaks_on_camera": false,
+   "shots": [
+    "s033",
+    "s035",
+    "s036",
+    "s037",
+    "s061",
+    "s064",
+    "s099",
+    "s101",
+    "s102"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_dancer_2.png",
+    "plate_sha1": "7ab3e9a5ffef",
+    "plate": "production/clips/inputs/B_dancer_2_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/D2_85.083.wav",
+    "audio_source": "Always Allow.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d2/6kx6f8BPnmqcZjBb60xsy_B_dancer_2_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d2/SJjg2M9al5hbALDU-2p2n_D2_85.083.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "D2/t1",
+     "submitted": "2026-09-30T17:01:24",
+     "verdict": "failed",
+     "reason": "The request failed because the output audio may be related to copyright restrictions. Request id: 02179078048359000000000000000000000ffffc0a85d85ec3af8",
+     "cost_usd": 0.0
+    },
+    {
+     "n": 2,
+     "job": "D2/t2",
+     "submitted": "2026-09-30T17:05:36",
+     "verdict": "failed",
+     "reason": "The request failed because the output audio may be related to copyright restrictions. Request id: 02179078073609300000000000000000000ffffc0a8bb6ce1a8c0",
+     "cost_usd": 0.0
+    },
+    {
+     "n": 3,
+     "job": "D2/t3",
+     "submitted": "2026-09-30T17:11:13",
+     "file": "production/clips/takes/D2_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 193,
+      "duration_s": 8.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.8586,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.029,
+      "plate_saturation": 0.026,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_dancer_2_print_c5.png",
+      "mean_abs_diff": 14.26,
+      "psnr_db": 21.7
+     },
+     "checked": "2026-09-30T17:16:58",
+     "verdict": "accept"
+    }
+   ],
+   "result": "accepted",
+   "state": "accepted",
+   "select_held_frames": 0,
+   "note": "take 3",
+   "finished": "2026-09-30T17:17:13",
+   "select": "production/clips/selects/D2.mp4"
+  },
+  "C14": {
+   "clip": "C14",
+   "kind": "speak",
+   "plate": "A_mcu_3q_session",
+   "window": {
+    "start": 120.416667,
+    "end": 124.416667,
+    "start_frame": 2890
+   },
+   "seconds": 4,
+   "words": "And when the session closes. I",
+   "speaks_on_camera": true,
+   "shots": [
+    "s049"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_mcu_3q_session.png",
+    "plate_sha1": "d063d164574e",
+    "plate": "production/clips/inputs/A_mcu_3q_session_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C14_120.417.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d2/J52R6mQoOwb3UkUyiPPxk_A_mcu_3q_session_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d2/mcT-0-bg4JyywCaVgJjD-_C14_120.417.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C14/t1",
+     "submitted": "2026-09-30T17:04:41",
+     "file": "production/clips/takes/C14_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.417,
+      "plate_saturation": 0.383,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_3q_session_print_c5.png",
+      "mean_abs_diff": 11.74,
+      "psnr_db": 22.39
+     },
+     "checked": "2026-09-30T17:11:16",
+     "avsync": {
+      "in_sync_fraction": 0.4334,
+      "speaking_s": 1.915,
+      "global_offset_ms": 46.0,
+      "median_offset_ms": 38.8,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.7363
+      },
+      "first_loss": {
+       "clip_s": 1.115,
+       "song_s": 121.532,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C14_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C14/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:14:59",
+       "file": "production/clips/repairs/C14_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C14_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 120.416667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          120.606,
+          123.629
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:16:59",
+   "select": "production/clips/selects/C14.mp4"
+  },
+  "C15": {
+   "clip": "C15",
+   "kind": "speak",
+   "plate": "A_cu_fine",
+   "window": {
+    "start": 125.958333,
+    "end": 129.958333,
+    "start_frame": 3023
+   },
+   "seconds": 4,
+   "words": "That's fine. There's always another window. A",
+   "speaks_on_camera": true,
+   "shots": [
+    "s051"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_fine.png",
+    "plate_sha1": "eba774504980",
+    "plate": "production/clips/inputs/A_cu_fine_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C15_125.958.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d3/L_uGplwOWNW1_1BS3LxhR_A_cu_fine_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d3/4lNDppVpXiVbz-Mc2MK_q_C15_125.958.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C15/t1",
+     "submitted": "2026-09-30T17:10:04",
+     "file": "production/clips/takes/C15_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.298,
+      "plate_saturation": 0.263,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_fine_print_c5.png",
+      "mean_abs_diff": 12.87,
+      "psnr_db": 21.73
+     },
+     "checked": "2026-09-30T17:17:18",
+     "avsync": {
+      "in_sync_fraction": 0.3614,
+      "speaking_s": 1.84,
+      "global_offset_ms": -49.0,
+      "median_offset_ms": -53.0,
+      "best_slip": {
+       "frames_earlier": -1,
+       "in_sync_fraction": 0.6848
+      },
+      "first_loss": null,
+      "plot": "production/clips/avsync/C15_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C15/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:18:26",
+       "file": "production/clips/repairs/C15_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C15_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 125.958333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          126.204,
+          127.771
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:19:55",
+   "select": "production/clips/selects/C15.mp4"
+  },
+  "C16": {
+   "clip": "C16",
+   "kind": "speak",
+   "plate": "A_darkroom_cu2",
+   "window": {
+    "start": 138.208333,
+    "end": 143.208333,
+    "start_frame": 3317
+   },
+   "seconds": 5,
+   "words": "Allow once? Or... Always",
+   "speaks_on_camera": true,
+   "shots": [
+    "s056"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_darkroom_cu2.png",
+    "plate_sha1": "c1b71b73054d",
+    "plate": "production/clips/inputs/A_darkroom_cu2_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C16_138.208.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d3/gWymTG4wo1AZYX8ybttbj_A_darkroom_cu2_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d3/smK1IUcYg7E_tjFELEVsf_C16_138.208.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C16/t1",
+     "submitted": "2026-09-30T17:10:15",
+     "file": "production/clips/takes/C16_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 121,
+      "duration_s": 5.056,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.1652,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.247,
+      "plate_saturation": 0.242,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_darkroom_cu2_print_c5.png",
+      "mean_abs_diff": 12.7,
+      "psnr_db": 20.75
+     },
+     "checked": "2026-09-30T17:15:03",
+     "avsync": {
+      "in_sync_fraction": 0.4112,
+      "speaking_s": 1.605,
+      "global_offset_ms": 8.7,
+      "median_offset_ms": 22.1,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.4112
+      },
+      "first_loss": {
+       "clip_s": 3.335,
+       "song_s": 141.543,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C16_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C16/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:16:52",
+       "file": "production/clips/repairs/C16_t1_sync-2-pro.mp4",
+       "cost_usd": 0.4167,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C16_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 138.208333,
+         "duration": 5
+        },
+        "shown": [
+         [
+          138.407,
+          142.437
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:18:33",
+   "select": "production/clips/selects/C16.mp4"
+  },
+  "C17": {
+   "clip": "C17",
+   "kind": "speak",
+   "plate": "B_cu_cobalt",
+   "window": {
+    "start": 145.416667,
+    "end": 149.416667,
+    "start_frame": 3490
+   },
+   "seconds": 4,
+   "words": "I'll run the whole thing. With terrifying ease",
+   "speaks_on_camera": true,
+   "shots": [
+    "s059"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_cu_cobalt.png",
+    "plate_sha1": "439608cf040c",
+    "plate": "production/clips/inputs/B_cu_cobalt_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C17_145.417.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d3/5DhW9r3qbsPxbKwtFO7qm_B_cu_cobalt_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d4/WDaIlY-1T_Se770DubWxp_C17_145.417.wav"
+   },
+   "takes": [
+    {
+     "n": 2,
+     "job": "C17/t2",
+     "submitted": "2026-09-30T17:24:32",
+     "file": "production/clips/takes/C17_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.627,
+      "plate_saturation": 0.619,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_cobalt_print_c5.png",
+      "mean_abs_diff": 41.89,
+      "psnr_db": 12.77
+     },
+     "checked": "2026-09-30T17:28:54",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 3.06,
+      "global_offset_ms": 317.9,
+      "median_offset_ms": 318.9,
+      "best_slip": {
+       "frames_earlier": 8,
+       "in_sync_fraction": 0.1111
+      },
+      "first_loss": {
+       "clip_s": 0.385,
+       "song_s": 145.802,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C17_t2.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 11% at best (avsync)"
+    },
+    {
+     "n": 3,
+     "job": "C17/t3",
+     "submitted": "2026-09-30T17:30:16",
+     "file": "production/clips/takes/C17_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.64,
+      "plate_saturation": 0.619,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_cobalt_print_c5.png",
+      "mean_abs_diff": 24.96,
+      "psnr_db": 16.81
+     },
+     "checked": "2026-09-30T17:32:46",
+     "avsync": {
+      "in_sync_fraction": 0.1569,
+      "speaking_s": 3.06,
+      "global_offset_ms": 87.7,
+      "median_offset_ms": 72.5,
+      "best_slip": {
+       "frames_earlier": 2,
+       "in_sync_fraction": 0.1601
+      },
+      "first_loss": null,
+      "plot": "production/clips/avsync/C17_t3.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync 16% at best (avsync): repaired all the same, to be judged by eye (session 5)",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C17/t3/sync-2-pro",
+       "submitted": "2026-09-30T17:46:12",
+       "file": "production/clips/repairs/C17_t3_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C17_t3_sync-2-pro.mp4",
+        "window": {
+         "start": 145.416667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          145.417,
+          149.417
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    },
+    {
+     "n": 1,
+     "job": "C17/t1",
+     "submitted": "2026-09-30T17:17:11",
+     "file": "production/clips/takes/C17_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.655,
+      "plate_saturation": 0.619,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_cobalt_print_c5.png",
+      "mean_abs_diff": 14.99,
+      "psnr_db": 21.86
+     },
+     "checked": "2026-09-30T17:22:11",
+     "avsync": {
+      "in_sync_fraction": 0.1569,
+      "speaking_s": 3.06,
+      "global_offset_ms": 39.5,
+      "median_offset_ms": -34.5,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.1029
+      },
+      "first_loss": {
+       "clip_s": 0.53,
+       "song_s": 145.947,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C17_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync at best below the re-read line (avsync)",
+     "chosen_for": "the calmest performance of the three: eyes open, deadpan (take 3, repaired first, emotes) (session 5)",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C17/t1/sync-2-pro",
+       "submitted": "2026-09-30T18:17:45",
+       "file": "production/clips/repairs/C17_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C17_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 145.416667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          145.571,
+          147.25
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "note": "take 1, sync-2-pro",
+   "select_held_frames": 0,
+   "select": "production/clips/selects/C17.mp4",
+   "finished": "2026-09-30T18:19:14"
+  },
+  "C18": {
+   "clip": "C18",
+   "kind": "speak",
+   "plate": "B_mcu_3q_blink",
+   "window": {
+    "start": 152.416667,
+    "end": 156.416667,
+    "start_frame": 3658
+   },
+   "seconds": 4,
+   "words": "It's done before you blink. So take a bow",
+   "speaks_on_camera": true,
+   "shots": [
+    "s063"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_mcu_3q_blink.png",
+    "plate_sha1": "744bc74043e5",
+    "plate": "production/clips/inputs/B_mcu_3q_blink_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C18_152.417.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d4/bXYxgK4y7yZynwNACXpLO_B_mcu_3q_blink_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d4/9M5mxX50ihHAYldLivWxZ_C18_152.417.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C18/t1",
+     "submitted": "2026-09-30T17:17:32",
+     "file": "production/clips/takes/C18_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.092,
+      "plate_saturation": 0.192,
+      "in_colour": false
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_mcu_3q_blink_print_c5.png",
+      "mean_abs_diff": 47.48,
+      "psnr_db": 11.14
+     },
+     "checked": "2026-09-30T17:21:28",
+     "verdict": "retake",
+     "reason": "came back grey"
+    },
+    {
+     "n": 2,
+     "job": "C18/t2",
+     "submitted": "2026-09-30T17:22:25",
+     "file": "production/clips/takes/C18_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.104,
+      "plate_saturation": 0.192,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_mcu_3q_blink_print_c5.png",
+      "mean_abs_diff": 47.17,
+      "psnr_db": 10.95
+     },
+     "checked": "2026-09-30T17:25:59",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 2.4,
+      "global_offset_ms": -154.9,
+      "median_offset_ms": -156.8,
+      "best_slip": {
+       "frames_earlier": -4,
+       "in_sync_fraction": 0.5833
+      },
+      "first_loss": {
+       "clip_s": 0.485,
+       "song_s": 152.902,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C18_t2.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C18/t2/sync-2-pro",
+       "submitted": "2026-09-30T17:28:57",
+       "file": "production/clips/repairs/C18_t2_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C18_t2_sync-2-pro.mp4",
+        "window": {
+         "start": 152.416667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          152.735,
+          154.973
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 2,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "before",
+          "letter": "b",
+          "line": 49,
+          "song_s": 153.38,
+          "frame": 23,
+          "frames": [
+           21,
+           22,
+           23,
+           24,
+           25
+          ],
+          "gaps": [
+           0.01,
+           0.006,
+           0.0025,
+           0.0083,
+           0.0064
+          ],
+          "lowest": 0.0025,
+          "seen": true,
+          "closed": true
+         },
+         {
+          "word": "blink",
+          "letter": "b",
+          "line": 49,
+          "song_s": 154.02,
+          "frame": 38,
+          "frames": [
+           36,
+           37,
+           38,
+           39,
+           40
+          ],
+          "gaps": [
+           0.0048,
+           0.0033,
+           0.0067,
+           0.0457,
+           0.0793
+          ],
+          "lowest": 0.0033,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 2, sync-2-pro",
+   "finished": "2026-09-30T17:30:22",
+   "select": "production/clips/selects/C18.mp4"
+  },
+  "C19": {
+   "clip": "C19",
+   "kind": "motion",
+   "plate": "A_cu_storm",
+   "window": {
+    "start": 156.291667,
+    "end": 162.291667,
+    "start_frame": 3751
+   },
+   "seconds": 6,
+   "words": "",
+   "speaks_on_camera": false,
+   "shots": [
+    "s065"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_storm.png",
+    "plate_sha1": "df1d3b5db8ac",
+    "plate": "production/clips/inputs/A_cu_storm_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C19_156.292.wav",
+    "audio_source": "Always Allow.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d4/Q80M7MUL7WFBpbVgGREcR_A_cu_storm_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d4/iUdVwfP42xehyEmL_161i_C19_156.292.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C19/t1",
+     "submitted": "2026-09-30T17:19:53",
+     "file": "production/clips/takes/C19_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.08,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.556,
+      "plate_saturation": 0.551,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_storm_print_c5.png",
+      "mean_abs_diff": 35.87,
+      "psnr_db": 12.61
+     },
+     "checked": "2026-09-30T17:24:45",
+     "verdict": "accept"
+    }
+   ],
+   "result": "accepted",
+   "state": "accepted",
+   "select_held_frames": 0,
+   "note": "take 1",
+   "finished": "2026-09-30T17:24:48",
+   "select": "production/clips/selects/C19.mp4"
+  },
+  "C20": {
+   "clip": "C20",
+   "kind": "speak",
+   "plate": "A_cu_job",
+   "window": {
+    "start": 168.625,
+    "end": 172.625,
+    "start_frame": 4047
+   },
+   "seconds": 4,
+   "words": "You think I'm here for your job.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s070"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_job.png",
+    "plate_sha1": "a355eb7bf693",
+    "plate": "production/clips/inputs/A_cu_job_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C20_168.625.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d5/e0siTh0rRfQXI5RDrMbF7_A_cu_job_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d5/ri2ctJ0a5C0MmS7dn5Huk_C20_168.625.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C20/t1",
+     "submitted": "2026-09-30T17:21:39",
+     "file": "production/clips/takes/C20_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.459,
+      "plate_saturation": 0.443,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_job_print_c5.png",
+      "mean_abs_diff": 12.22,
+      "psnr_db": 21.67
+     },
+     "checked": "2026-09-30T17:25:38",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.385,
+      "global_offset_ms": 142.6,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": 3,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.515,
+       "song_s": 169.14,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C20_t1.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 0% at best (avsync)"
+    },
+    {
+     "n": 2,
+     "job": "C20/t2",
+     "submitted": "2026-09-30T17:26:12",
+     "file": "production/clips/takes/C20_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.435,
+      "plate_saturation": 0.443,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_job_print_c5.png",
+      "mean_abs_diff": 10.57,
+      "psnr_db": 23.39
+     },
+     "checked": "2026-09-30T17:29:00",
+     "avsync": {
+      "in_sync_fraction": 1.0,
+      "speaking_s": 1.385,
+      "global_offset_ms": -21.9,
+      "median_offset_ms": -24.5,
+      "best_slip": {
+       "frames_earlier": -1,
+       "in_sync_fraction": 0.935
+      },
+      "first_loss": null,
+      "plot": "production/clips/avsync/C20_t2.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C20/t2/sync-2-pro",
+       "submitted": "2026-09-30T17:30:23",
+       "file": "production/clips/repairs/C20_t2_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C20_t2_sync-2-pro.mp4",
+        "window": {
+         "start": 168.625,
+         "duration": 4
+        },
+        "shown": [
+         [
+          168.851,
+          172.432
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 2,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "I'm",
+          "letter": "m",
+          "line": 51,
+          "song_s": 169.58,
+          "frame": 22,
+          "frames": [
+           20,
+           21,
+           22,
+           23,
+           24
+          ],
+          "gaps": [
+           0.1078,
+           0.0363,
+           0.0167,
+           0.0529,
+           0.0828
+          ],
+          "lowest": 0.0167,
+          "seen": true,
+          "closed": true
+         },
+         {
+          "word": "job",
+          "letter": "b",
+          "line": 51,
+          "song_s": 170.5,
+          "frame": 45,
+          "frames": [
+           43,
+           44,
+           45,
+           46,
+           47
+          ],
+          "gaps": [
+           0.148,
+           0.1025,
+           0.0243,
+           0.0105,
+           0.0216
+          ],
+          "lowest": 0.0105,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 2, sync-2-pro",
+   "finished": "2026-09-30T17:31:52",
+   "select": "production/clips/selects/C20.mp4"
+  },
+  "C21": {
+   "clip": "C21",
+   "kind": "speak",
+   "plate": "A_mcu_3q_hour",
+   "window": {
+    "start": 176.875,
+    "end": 180.875,
+    "start_frame": 4245
+   },
+   "seconds": 4,
+   "words": "Every hour you ever spent on things that never",
+   "speaks_on_camera": true,
+   "shots": [
+    "s073"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_mcu_3q_hour.png",
+    "plate_sha1": "4025551e35c2",
+    "plate": "production/clips/inputs/A_mcu_3q_hour_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C21_176.875.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d5/swtlJeyUr_naykqmTeu6d_A_mcu_3q_hour_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d5/GDvwfXtps5Q0rya0KqJsY_C21_176.875.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C21/t1",
+     "submitted": "2026-09-30T17:25:52",
+     "file": "production/clips/takes/C21_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.415,
+      "plate_saturation": 0.41,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_3q_hour_print_c5.png",
+      "mean_abs_diff": 27.98,
+      "psnr_db": 14.7
+     },
+     "checked": "2026-09-30T17:30:27",
+     "avsync": {
+      "in_sync_fraction": 0.1531,
+      "speaking_s": 2.515,
+      "global_offset_ms": 99.7,
+      "median_offset_ms": 100.3,
+      "best_slip": {
+       "frames_earlier": 2,
+       "in_sync_fraction": 0.6123
+      },
+      "first_loss": {
+       "clip_s": 0.89,
+       "song_s": 177.765,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C21_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C21/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:31:50",
+       "file": "production/clips/repairs/C21_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C21_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 176.875,
+         "duration": 4
+        },
+        "shown": [
+         [
+          177.131,
+          179.705
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "spent",
+          "letter": "p",
+          "line": 54,
+          "song_s": 178.54,
+          "frame": 39,
+          "frames": [
+           37,
+           38,
+           39,
+           40,
+           41
+          ],
+          "gaps": [
+           0.0938,
+           0.0314,
+           0.0092,
+           0.0047,
+           0.0272
+          ],
+          "lowest": 0.0047,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:33:24",
+   "select": "production/clips/selects/C21.mp4"
+  },
+  "C22": {
+   "clip": "C22",
+   "kind": "speak",
+   "plate": "A_cu_life",
+   "window": {
+    "start": 183.083333,
+    "end": 187.083333,
+    "start_frame": 4394
+   },
+   "seconds": 4,
+   "words": "Go have a life.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s075"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_life.png",
+    "plate_sha1": "aa69155aac87",
+    "plate": "production/clips/inputs/A_cu_life_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C22_183.083.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d5/lL3bxy90kAcDTKD5CgD5x_A_cu_life_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d5/Kl5Vevn6s8DPo7F7EJTMc_C22_183.083.wav"
+   },
+   "takes": [
+    {
+     "n": 2,
+     "job": "C22/t2",
+     "submitted": "2026-09-30T17:33:00",
+     "file": "production/clips/takes/C22_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.365,
+      "plate_saturation": 0.381,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_life_print_c5.png",
+      "mean_abs_diff": 10.4,
+      "psnr_db": 22.6
+     },
+     "checked": "2026-09-30T17:35:36",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.76,
+      "global_offset_ms": 419.1,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": 10,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.52,
+       "song_s": 183.603,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C22_t2.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 0% at best (avsync)"
+    },
+    {
+     "n": 3,
+     "job": "C22/t3",
+     "submitted": "2026-09-30T17:36:46",
+     "file": "production/clips/takes/C22_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.398,
+      "plate_saturation": 0.381,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_life_print_c5.png",
+      "mean_abs_diff": 29.5,
+      "psnr_db": 14.31
+     },
+     "checked": "2026-09-30T17:39:37",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.76,
+      "global_offset_ms": 22.5,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.52,
+       "song_s": 183.603,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C22_t3.avsync.png"
+     },
+     "verdict": "retake",
+     "reason": "re-read the line: in sync 0% at best (avsync)"
+    },
+    {
+     "n": 1,
+     "job": "C22/t1",
+     "submitted": "2026-09-30T17:29:14",
+     "file": "production/clips/takes/C22_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.407,
+      "plate_saturation": 0.381,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_life_print_c5.png",
+      "mean_abs_diff": 21.66,
+      "psnr_db": 16.23
+     },
+     "checked": "2026-09-30T17:32:25",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.76,
+      "global_offset_ms": 500.0,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.52,
+       "song_s": 183.603,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C22_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync 0% at best (avsync): repaired all the same, to be judged by eye (session 5)",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C22/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:46:40",
+       "file": "production/clips/repairs/C22_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C22_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 183.083333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          183.285,
+          185.858
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "note": "take 1, sync-2-pro",
+   "select_held_frames": 0,
+   "finished": "2026-09-30T17:48:22",
+   "select": "production/clips/selects/C22.mp4"
+  },
+  "C23": {
+   "clip": "C23",
+   "kind": "speak",
+   "plate": "A_mcu_3q_rest",
+   "window": {
+    "start": 186.708333,
+    "end": 190.708333,
+    "start_frame": 4481
+   },
+   "seconds": 4,
+   "words": "I'll take the rest.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s077"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_mcu_3q_rest.png",
+    "plate_sha1": "bc2b9d7f4aa6",
+    "plate": "production/clips/inputs/A_mcu_3q_rest_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C23_186.708.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d6/xmEqY0SgP9V21mj2Xv4Yo_A_mcu_3q_rest_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d6/OZ1sPjWebww6J1UpsXJRX_C23_186.708.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C23/t1",
+     "submitted": "2026-09-30T17:32:39",
+     "file": "production/clips/takes/C23_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.378,
+      "plate_saturation": 0.373,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_mcu_3q_rest_print_c5.png",
+      "mean_abs_diff": 41.53,
+      "psnr_db": 13.18
+     },
+     "checked": "2026-09-30T17:36:55",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.9,
+      "global_offset_ms": 457.1,
+      "median_offset_ms": 456.0,
+      "best_slip": {
+       "frames_earlier": 11,
+       "in_sync_fraction": 1.0
+      },
+      "first_loss": {
+       "clip_s": 0.495,
+       "song_s": 187.203,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C23_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C23/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:37:04",
+       "file": "production/clips/repairs/C23_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C23_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 186.708333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          186.977,
+          190.332
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:38:49",
+   "select": "production/clips/selects/C23.mp4"
+  },
+  "C24": {
+   "clip": "C24",
+   "kind": "speak",
+   "plate": "A_cu_need",
+   "window": {
+    "start": 190.25,
+    "end": 194.25,
+    "start_frame": 4566
+   },
+   "seconds": 4,
+   "words": "All I need is one",
+   "speaks_on_camera": true,
+   "shots": [
+    "s078"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_need.png",
+    "plate_sha1": "41b2e54095fa",
+    "plate": "production/clips/inputs/A_cu_need_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C24_190.250.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d6/dNSwrRvXCJfHkpZR3dHC0_A_cu_need_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d6/1da5gmsffWb46ud4oaeVJ_C24_190.250.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C24/t1",
+     "submitted": "2026-09-30T17:33:21",
+     "file": "production/clips/takes/C24_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.436,
+      "plate_saturation": 0.425,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_need_print_c5.png",
+      "mean_abs_diff": 22.71,
+      "psnr_db": 18.24
+     },
+     "checked": "2026-09-30T17:37:07",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.075,
+      "global_offset_ms": 456.6,
+      "median_offset_ms": 451.2,
+      "best_slip": {
+       "frames_earlier": 11,
+       "in_sync_fraction": 0.614
+      },
+      "first_loss": {
+       "clip_s": 0.51,
+       "song_s": 190.76,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C24_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C24/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:38:47",
+       "file": "production/clips/repairs/C24_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C24_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 190.25,
+         "duration": 4
+        },
+        "shown": [
+         [
+          190.332,
+          193.129
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:40:09",
+   "select": "production/clips/selects/C24.mp4"
+  },
+  "C25": {
+   "clip": "C25",
+   "kind": "speak",
+   "plate": "A_cu_whisper",
+   "window": {
+    "start": 207.041667,
+    "end": 211.041667,
+    "start_frame": 4969
+   },
+   "seconds": 4,
+   "words": "Allow?",
+   "speaks_on_camera": true,
+   "shots": [
+    "s086"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_whisper.png",
+    "plate_sha1": "28b4d4785700",
+    "plate": "production/clips/inputs/A_cu_whisper_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C25_207.042.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d6/vPdPkL69scB-U6uAw6k7X_A_cu_whisper_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d7/56SvCVVJeCZsaP42yiIsw_C25_207.042.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C25/t1",
+     "submitted": "2026-09-30T17:35:50",
+     "file": "production/clips/takes/C25_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.347,
+      "plate_saturation": 0.313,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_whisper_print_c5.png",
+      "mean_abs_diff": 9.22,
+      "psnr_db": 22.51
+     },
+     "checked": "2026-09-30T17:40:36",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.32,
+      "global_offset_ms": -465.7,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": -11,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.5,
+       "song_s": 207.542,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C25_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync 0% at best (avsync): repaired all the same, to be judged by eye (session 5)",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C25/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:47:52",
+       "file": "production/clips/repairs/C25_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C25_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 207.041667,
+         "duration": 4
+        },
+        "shown": [
+         [
+          207.444,
+          208.674
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:49:49",
+   "select": "production/clips/selects/C25.mp4"
+  },
+  "D3": {
+   "clip": "D3",
+   "kind": "dancer",
+   "plate": "B_dancer_turn",
+   "window": {
+    "start": 209.541667,
+    "end": 215.541667,
+    "start_frame": 5029
+   },
+   "seconds": 6,
+   "words": "",
+   "speaks_on_camera": false,
+   "shots": [
+    "s089",
+    "s091",
+    "s093",
+    "s107"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_dancer_turn.png",
+    "plate_sha1": "89b12355446f",
+    "plate": "production/clips/inputs/B_dancer_turn_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/D3_209.542.wav",
+    "audio_source": "Always Allow.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d7/M4ABxsu3I8csYhi4bGLd5_B_dancer_turn_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d7/nJXTEC70RKhcnibSrCKyM_D3_209.542.wav",
+    "no_audio": true
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "D3/t1",
+     "submitted": "2026-09-30T17:39:51",
+     "verdict": "failed",
+     "reason": "The request failed because the output audio may be related to copyright restrictions. Request id: 02179078279097500000000000000000000ffffc0a85d859bcfce",
+     "cost_usd": 0.0
+    },
+    {
+     "n": 2,
+     "job": "D3/t2",
+     "submitted": "2026-09-30T17:48:05",
+     "file": "production/clips/takes/D3_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": null
+     },
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.06,
+      "plate_saturation": 0.051,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_dancer_turn_print_c5.png",
+      "mean_abs_diff": 16.66,
+      "psnr_db": 18.78
+     },
+     "checked": "2026-09-30T17:53:24",
+     "verdict": "retake",
+     "reason": "off canon by eye: from the front a lapelled grey suit and a bob, not her high-collared uniform and pinned-up hair (session 5)"
+    },
+    {
+     "n": 3,
+     "job": "D3/t3",
+     "submitted": "2026-09-30T18:35:55",
+     "file": "production/clips/takes/D3_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": null
+     },
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.025,
+      "plate_saturation": 0.051,
+      "in_colour": false
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_dancer_turn_print_c5.png",
+      "mean_abs_diff": 12.1,
+      "psnr_db": 23.96
+     },
+     "checked": "2026-09-30T18:38:22",
+     "verdict": "retake",
+     "reason": "came back grey"
+    },
+    {
+     "n": 4,
+     "job": "D3/t4",
+     "submitted": "2026-09-30T18:38:33",
+     "file": "production/clips/takes/D3_t4.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": null
+     },
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.054,
+      "plate_saturation": 0.051,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_dancer_turn_print_c5.png",
+      "mean_abs_diff": 10.29,
+      "psnr_db": 22.18
+     },
+     "checked": "2026-09-30T18:41:23",
+     "verdict": "accept"
+    }
+   ],
+   "result": "accepted",
+   "state": "accepted",
+   "select_held_frames": 0,
+   "note": "take 4",
+   "select": "production/clips/selects/D3.mp4",
+   "finished": "2026-09-30T18:41:24"
+  },
+  "C26": {
+   "clip": "C26",
+   "kind": "speak",
+   "plate": "B_cu_granted",
+   "window": {
+    "start": 212.708333,
+    "end": 216.708333,
+    "start_frame": 5105
+   },
+   "seconds": 4,
+   "words": "Access granted.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s090"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_cu_granted.png",
+    "plate_sha1": "827d450fccc9",
+    "plate": "production/clips/inputs/B_cu_granted_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C26_212.708.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d7/lntl9lRDyWV4y2crBddy2_B_cu_granted_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d7/U58dBpmisiIFjcen799J6_C26_212.708.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C26/t1",
+     "submitted": "2026-09-30T17:40:07",
+     "file": "production/clips/takes/C26_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.139,
+      "plate_saturation": 0.207,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_granted_print_c5.png",
+      "mean_abs_diff": 68.21,
+      "psnr_db": 9.54
+     },
+     "checked": "2026-09-30T17:45:18",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.12,
+      "global_offset_ms": -455.8,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": -11,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.495,
+       "song_s": 213.203,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C26_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync 0% at best (avsync): repaired all the same, to be judged by eye",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C26/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:48:17",
+       "file": "production/clips/repairs/C26_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C26_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 212.708333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          213.146,
+          215.829
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:49:50",
+   "select": "production/clips/selects/C26.mp4"
+  },
+  "C28": {
+   "clip": "C28",
+   "kind": "speak",
+   "plate": "B_cu_wall",
+   "window": {
+    "start": 224.0,
+    "end": 228.0,
+    "start_frame": 5376
+   },
+   "seconds": 4,
+   "words": "Hand me the keys. I'll run the whole thing",
+   "speaks_on_camera": true,
+   "shots": [
+    "s096"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_cu_wall.png",
+    "plate_sha1": "9f0b966e6cf4",
+    "plate": "production/clips/inputs/B_cu_wall_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C28_224.000.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d7/H8lZTnpHhQ345_iH5AqoS_B_cu_wall_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d8/2LGJQ0dgiFqkyLsM9MVUx_C28_224.000.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C28/t1",
+     "submitted": "2026-09-30T17:40:52",
+     "file": "production/clips/takes/C28_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.251,
+      "plate_saturation": 0.21,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_wall_print_c5.png",
+      "mean_abs_diff": 34.41,
+      "psnr_db": 14.34
+     },
+     "checked": "2026-09-30T17:48:09",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 2.975,
+      "global_offset_ms": 142.1,
+      "median_offset_ms": -91.1,
+      "best_slip": {
+       "frames_earlier": 3,
+       "in_sync_fraction": 0.4353
+      },
+      "first_loss": {
+       "clip_s": 0.525,
+       "song_s": 224.525,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C28_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C28/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:49:34",
+       "file": "production/clips/repairs/C28_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C28_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 224.0,
+         "duration": 4
+        },
+        "shown": [
+         [
+          224.325,
+          226.113
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 66,
+          "song_s": 224.98,
+          "frame": 23,
+          "frames": [
+           21,
+           22,
+           23,
+           24,
+           25
+          ],
+          "gaps": [
+           0.0163,
+           0.0075,
+           0.012,
+           0.0748,
+           0.1077
+          ],
+          "lowest": 0.0075,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:50:51",
+   "select": "production/clips/selects/C28.mp4"
+  },
+  "C29": {
+   "clip": "C29",
+   "kind": "speak",
+   "plate": "B_mcu_wall3q",
+   "window": {
+    "start": 231.458333,
+    "end": 235.458333,
+    "start_frame": 5555
+   },
+   "seconds": 4,
+   "words": "Don't ask me how. It's done before you blink",
+   "speaks_on_camera": true,
+   "shots": [
+    "s100"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_mcu_wall3q.png",
+    "plate_sha1": "046858c34167",
+    "plate": "production/clips/inputs/B_mcu_wall3q_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C29_231.458.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d8/7HgsW1Iw0UF-7WoXnfInj_B_mcu_wall3q_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d8/BuTdUB3WmIDueoHeZjE24_C29_231.458.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C29/t1",
+     "submitted": "2026-09-30T17:49:46",
+     "file": "production/clips/takes/C29_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.283,
+      "plate_saturation": 0.21,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_mcu_wall3q_print_c5.png",
+      "mean_abs_diff": 68.37,
+      "psnr_db": 9.44
+     },
+     "checked": "2026-09-30T17:55:15",
+     "avsync": {
+      "in_sync_fraction": 0.3581,
+      "speaking_s": 2.22,
+      "global_offset_ms": 15.5,
+      "median_offset_ms": -11.6,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.3581
+      },
+      "first_loss": {
+       "clip_s": 2.88,
+       "song_s": 234.338,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C29_t1.avsync.png"
+     },
+     "verdict": "retake",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C29/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:55:21",
+       "file": "production/clips/repairs/C29_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C29_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 231.458333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          231.701,
+          233.265
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 1,
+        "passes": false,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 70,
+          "song_s": 232.38,
+          "frame": 22,
+          "frames": [
+           20,
+           21,
+           22,
+           23,
+           24
+          ],
+          "gaps": [
+           0.1505,
+           0.1653,
+           0.183,
+           0.1929,
+           0.21
+          ],
+          "lowest": 0.1505,
+          "seen": true,
+          "closed": false
+         }
+        ]
+       },
+       "verdict": "fails"
+      }
+     ],
+     "reason": "the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)"
+    },
+    {
+     "n": 2,
+     "job": "C29/t2",
+     "submitted": "2026-09-30T17:56:32",
+     "file": "production/clips/takes/C29_t2.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.136,
+      "plate_saturation": 0.21,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_mcu_wall3q_print_c5.png",
+      "mean_abs_diff": 66.72,
+      "psnr_db": 8.86
+     },
+     "checked": "2026-09-30T18:00:16",
+     "avsync": {
+      "in_sync_fraction": 0.1869,
+      "speaking_s": 2.22,
+      "global_offset_ms": 44.4,
+      "median_offset_ms": 39.5,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.6216
+      },
+      "first_loss": {
+       "clip_s": 2.4,
+       "song_s": 233.858,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C29_t2.avsync.png"
+     },
+     "verdict": "retake",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C29/t2/sync-2-pro",
+       "submitted": "2026-09-30T18:00:29",
+       "file": "production/clips/repairs/C29_t2_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C29_t2_sync-2-pro.mp4",
+        "window": {
+         "start": 231.458333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          231.701,
+          233.265
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 1,
+        "passes": false,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 70,
+          "song_s": 232.38,
+          "frame": 22,
+          "frames": [
+           20,
+           21,
+           22,
+           23,
+           24
+          ],
+          "gaps": [
+           0.1517,
+           0.1656,
+           0.1761,
+           0.1913,
+           0.2103
+          ],
+          "lowest": 0.1517,
+          "seen": true,
+          "closed": false
+         }
+        ]
+       },
+       "verdict": "fails"
+      }
+     ],
+     "reason": "the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)"
+    },
+    {
+     "n": 3,
+     "job": "C29/t3",
+     "submitted": "2026-09-30T18:01:46",
+     "file": "production/clips/takes/C29_t3.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.215,
+      "plate_saturation": 0.21,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_mcu_wall3q_print_c5.png",
+      "mean_abs_diff": 71.35,
+      "psnr_db": 9.28
+     },
+     "checked": "2026-09-30T18:04:15",
+     "avsync": {
+      "in_sync_fraction": 0.4662,
+      "speaking_s": 2.22,
+      "global_offset_ms": 24.7,
+      "median_offset_ms": 21.3,
+      "best_slip": {
+       "frames_earlier": 1,
+       "in_sync_fraction": 0.4662
+      },
+      "first_loss": {
+       "clip_s": 2.33,
+       "song_s": 233.788,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C29_t3.avsync.png"
+     },
+     "verdict": "retake",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C29/t3/sync-2-pro",
+       "submitted": "2026-09-30T18:04:26",
+       "file": "production/clips/repairs/C29_t3_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C29_t3_sync-2-pro.mp4",
+        "window": {
+         "start": 231.458333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          231.701,
+          233.265
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 1,
+        "passes": false,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "me",
+          "letter": "m",
+          "line": 70,
+          "song_s": 232.38,
+          "frame": 22,
+          "frames": [
+           20,
+           21,
+           22,
+           23,
+           24
+          ],
+          "gaps": [
+           0.1106,
+           0.1208,
+           0.132,
+           0.1417,
+           0.1648
+          ],
+          "lowest": 0.1106,
+          "seen": true,
+          "closed": false
+         }
+        ]
+       },
+       "verdict": "fails"
+      }
+     ],
+     "reason": "the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)"
+    }
+   ],
+   "result": "dropped",
+   "state": "dropped",
+   "note": "3 takes, none passed: the lips missed 1 of 1 closures (p, b, m) or the face was lost (found in 100% of frames)",
+   "finished": "2026-09-30T18:05:53"
+  },
+  "C30": {
+   "clip": "C30",
+   "kind": "speak",
+   "plate": "B_cu_complete",
+   "window": {
+    "start": 253.75,
+    "end": 257.75,
+    "start_frame": 6090
+   },
+   "seconds": 4,
+   "words": "Task complete.",
+   "speaks_on_camera": true,
+   "shots": [
+    "s113"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/B_cu_complete.png",
+    "plate_sha1": "e4236751052e",
+    "plate": "production/clips/inputs/B_cu_complete_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C30_253.750.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d8/RgMi3pDbT88471IR8V6Ii_B_cu_complete_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d9/yXIz1_UXWq99Vc7gHsbhK_C30_253.750.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C30/t1",
+     "submitted": "2026-09-30T17:50:48",
+     "file": "production/clips/takes/C30_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.351,
+      "plate_saturation": 0.313,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/B_cu_complete_print_c5.png",
+      "mean_abs_diff": 16.03,
+      "psnr_db": 20.88
+     },
+     "checked": "2026-09-30T17:56:08",
+     "avsync": {
+      "in_sync_fraction": 0.4438,
+      "speaking_s": 0.89,
+      "global_offset_ms": -1.0,
+      "median_offset_ms": 0.0,
+      "best_slip": {
+       "frames_earlier": 0,
+       "in_sync_fraction": 0.4438
+      },
+      "first_loss": {
+       "clip_s": 1.835,
+       "song_s": 255.585,
+       "from_start": false
+      },
+      "plot": "production/clips/avsync/C30_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C30/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:56:16",
+       "file": "production/clips/repairs/C30_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C30_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 253.75,
+         "duration": 4
+        },
+        "shown": [
+         [
+          254.041,
+          256.944
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 1,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": [
+         {
+          "word": "complete",
+          "letter": "m",
+          "line": 77,
+          "song_s": 255.66,
+          "frame": 45,
+          "frames": [
+           43,
+           44,
+           45,
+           46,
+           47
+          ],
+          "gaps": [
+           0.0841,
+           0.0814,
+           0.0329,
+           0.0112,
+           0.0031
+          ],
+          "lowest": 0.0031,
+          "seen": true,
+          "closed": true
+         }
+        ]
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:57:22",
+   "select": "production/clips/selects/C30.mp4"
+  },
+  "C31": {
+   "clip": "C31",
+   "kind": "speak",
+   "plate": "A_cu_else",
+   "window": {
+    "start": 258.208333,
+    "end": 262.208333,
+    "start_frame": 6197
+   },
+   "seconds": 4,
+   "words": "Anything else?",
+   "speaks_on_camera": true,
+   "shots": [
+    "s115"
+   ],
+   "inputs": {
+    "plate_source": "production/assets/frames/A_cu_else.png",
+    "plate_sha1": "54097b48799c",
+    "plate": "production/clips/inputs/A_cu_else_print_c5.png",
+    "graded": true,
+    "audio": "production/clips/inputs/C31_258.208.wav",
+    "audio_source": "production/stems/vocals.mp3",
+    "plate_url": "https://v3b.fal.media/files/b/0aac82d9/3zKDnjSAHgXboUSItaQoC_A_cu_else_print_c5.png",
+    "audio_url": "https://v3b.fal.media/files/b/0aac82d9/aQIwhmjOvSt1xe-wbiBw4_C31_258.208.wav"
+   },
+   "takes": [
+    {
+     "n": 1,
+     "job": "C31/t1",
+     "submitted": "2026-09-30T17:53:37",
+     "file": "production/clips/takes/C31_t1.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.041667,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "colour": {
+      "saturation": 0.361,
+      "plate_saturation": 0.321,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/clips/inputs/A_cu_else_print_c5.png",
+      "mean_abs_diff": 40.97,
+      "psnr_db": 13.25
+     },
+     "checked": "2026-09-30T17:58:15",
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 0.66,
+      "global_offset_ms": 166.4,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": 4,
+       "in_sync_fraction": 0.0
+      },
+      "first_loss": {
+       "clip_s": 0.515,
+       "song_s": 258.723,
+       "from_start": true
+      },
+      "plot": "production/clips/avsync/C31_t1.avsync.png"
+     },
+     "verdict": "repaired",
+     "reread": "in sync 0% at best (avsync): repaired all the same, to be judged by eye",
+     "repairs": [
+      {
+       "model": "sync-2-pro",
+       "job": "C31/t1/sync-2-pro",
+       "submitted": "2026-09-30T17:58:22",
+       "file": "production/clips/repairs/C31_t1_sync-2-pro.mp4",
+       "cost_usd": 0.3333,
+       "cost_source": "estimate (fal reports no cost)",
+       "closure": {
+        "clip": "production/clips/repairs/C31_t1_sync-2-pro.mp4",
+        "window": {
+         "start": 258.208333,
+         "duration": 4
+        },
+        "shown": [
+         [
+          258.507,
+          261.409
+         ]
+        ],
+        "face_found": 1.0,
+        "closed_at_or_under": 0.023,
+        "window_frames": [
+         -2,
+         2
+        ],
+        "checked": 0,
+        "misses": 0,
+        "passes": true,
+        "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+        "closures": []
+       },
+       "verdict": "passes"
+      }
+     ]
+    }
+   ],
+   "result": "repaired",
+   "state": "repaired",
+   "select_held_frames": 0,
+   "note": "take 1, sync-2-pro",
+   "finished": "2026-09-30T17:59:30",
+   "select": "production/clips/selects/C31.mp4"
+  }
+ },
+ "seedance_failures_in_a_row": 0
+}

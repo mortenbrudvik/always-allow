@@ -1,0 +1,3077 @@
+{
+ "method": "facebook/wav2vec2-large-960h-lv60-self CTC forced alignment of Lyrics (Suno).txt to production/stems/vocals.mp3, checked against faster-whisper large-v3",
+ "whisper_confirmed_fraction": 0.93,
+ "notes": [
+  "start is when the word's first letter is heard, to about 20-40 ms. end is when its last letter is recognised; a held vowel can ring on past it.",
+  "confidence is the mean log-probability of the word's letters: near 0 is a clean match, below about -3 is doubtful.",
+  "whisper is true when Whisper independently heard the word within 1.2 s of its start; for a line, it's the fraction of its words. Check a line with low confidence or low whisper by ear.",
+  "A word with a note was moved to an earlier take: the vocal repeats it (an echo or delay throw) and the alignment had landed on the repeat.",
+  "'bar' uses the grid in song.json: bar 0 is the first drop."
+ ],
+ "lines": [
+  {
+   "text": "Give me a goal.",
+   "sheet_section": "Spoken Intro: low, calm, close-mic, over pads",
+   "start": 3.6,
+   "end": 4.36,
+   "bar": -6.02,
+   "song_json_section": "Intro + spoken intro ('Give me a goal...')",
+   "confidence": -0.43,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Give",
+     "start": 3.6,
+     "end": 3.74,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 3.78,
+     "end": 3.84,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 3.94,
+     "end": 3.96,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "goal",
+     "start": 4.04,
+     "end": 4.36,
+     "confidence": -1.67,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Just one.",
+   "sheet_section": "Spoken Intro: low, calm, close-mic, over pads",
+   "start": 9.2,
+   "end": 9.72,
+   "bar": -2.89,
+   "song_json_section": "Intro + spoken intro ('Give me a goal...')",
+   "confidence": -0.01,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Just",
+     "start": 9.2,
+     "end": 9.38,
+     "confidence": -0.0,
+     "whisper": false
+    },
+    {
+     "word": "one",
+     "start": 9.52,
+     "end": 9.72,
+     "confidence": -0.02,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "I'll figure out the rest.",
+   "sheet_section": "Spoken Intro: low, calm, close-mic, over pads",
+   "start": 12.3,
+   "end": 13.46,
+   "bar": -1.16,
+   "song_json_section": "Intro + spoken intro ('Give me a goal...')",
+   "confidence": -0.02,
+   "whisper": 0.8,
+   "words": [
+    {
+     "word": "I'll",
+     "start": 12.3,
+     "end": 12.48,
+     "confidence": -0.04,
+     "whisper": false
+    },
+    {
+     "word": "figure",
+     "start": 12.54,
+     "end": 12.78,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "out",
+     "start": 12.84,
+     "end": 12.96,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 13.02,
+     "end": 13.08,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "rest",
+     "start": 13.16,
+     "end": 13.46,
+     "confidence": -0.01,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Tabs open.",
+   "sheet_section": "Drop: kick and rolling bass slam in, clipped spoken phrases on the beat",
+   "start": 23.54,
+   "end": 24.3,
+   "bar": 5.12,
+   "song_json_section": "Drop ('Tabs open. Tools loaded...') into Verse 1",
+   "confidence": -0.01,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Tabs",
+     "start": 23.54,
+     "end": 23.88,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "open",
+     "start": 24.02,
+     "end": 24.3,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Tools loaded.",
+   "sheet_section": "Drop: kick and rolling bass slam in, clipped spoken phrases on the beat",
+   "start": 27.08,
+   "end": 27.96,
+   "bar": 7.09,
+   "song_json_section": "Drop ('Tabs open. Tools loaded...') into Verse 1",
+   "confidence": -0.04,
+   "whisper": 0.5,
+   "words": [
+    {
+     "word": "Tools",
+     "start": 27.08,
+     "end": 27.44,
+     "confidence": -0.0,
+     "whisper": false
+    },
+    {
+     "word": "loaded",
+     "start": 27.54,
+     "end": 27.96,
+     "confidence": -0.07,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Plan drafted.",
+   "sheet_section": "Drop: kick and rolling bass slam in, clipped spoken phrases on the beat",
+   "start": 30.62,
+   "end": 31.6,
+   "bar": 9.07,
+   "song_json_section": "Drop ('Tabs open. Tools loaded...') into Verse 1",
+   "confidence": -0.05,
+   "whisper": 0.5,
+   "words": [
+    {
+     "word": "Plan",
+     "start": 30.62,
+     "end": 30.9,
+     "confidence": -0.04,
+     "whisper": false
+    },
+    {
+     "word": "drafted",
+     "start": 31.06,
+     "end": 31.6,
+     "confidence": -0.06,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Executing.",
+   "sheet_section": "Drop: kick and rolling bass slam in, clipped spoken phrases on the beat",
+   "start": 34.12,
+   "end": 34.88,
+   "bar": 11.03,
+   "song_json_section": "Drop ('Tabs open. Tools loaded...') into Verse 1",
+   "confidence": 0.0,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Executing",
+     "start": 34.12,
+     "end": 34.88,
+     "confidence": -0.0,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "You gave me one sentence and went out for lunch",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 36.04,
+   "end": 38.84,
+   "bar": 12.1,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.05,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "You",
+     "start": 36.04,
+     "end": 36.14,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "gave",
+     "start": 36.3,
+     "end": 36.46,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 36.54,
+     "end": 36.6,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "one",
+     "start": 36.76,
+     "end": 36.96,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "sentence",
+     "start": 37.14,
+     "end": 37.58,
+     "confidence": -0.18,
+     "whisper": true
+    },
+    {
+     "word": "and",
+     "start": 37.66,
+     "end": 37.76,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "went",
+     "start": 37.84,
+     "end": 38.04,
+     "confidence": -0.11,
+     "whisper": true
+    },
+    {
+     "word": "out",
+     "start": 38.12,
+     "end": 38.26,
+     "confidence": -0.13,
+     "whisper": true
+    },
+    {
+     "word": "for",
+     "start": 38.3,
+     "end": 38.4,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "lunch",
+     "start": 38.5,
+     "end": 38.84,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I opened forty tabs and followed every hunch",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 39.24,
+   "end": 42.2,
+   "bar": 13.89,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.03,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I",
+     "start": 39.24,
+     "end": 39.26,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "opened",
+     "start": 39.46,
+     "end": 39.78,
+     "confidence": -0.1,
+     "whisper": true
+    },
+    {
+     "word": "forty",
+     "start": 39.86,
+     "end": 40.14,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "tabs",
+     "start": 40.28,
+     "end": 40.56,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "and",
+     "start": 40.6,
+     "end": 40.68,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "followed",
+     "start": 40.76,
+     "end": 41.16,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "every",
+     "start": 41.5,
+     "end": 41.76,
+     "confidence": -0.04,
+     "whisper": true
+    },
+    {
+     "word": "hunch",
+     "start": 41.88,
+     "end": 42.2,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Booked the flight, fixed the build, drafted the deck",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 42.54,
+   "end": 45.74,
+   "bar": 15.73,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.14,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Booked",
+     "start": 42.54,
+     "end": 42.74,
+     "confidence": -0.04,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 42.78,
+     "end": 42.86,
+     "confidence": -0.12,
+     "whisper": true
+    },
+    {
+     "word": "flight",
+     "start": 42.94,
+     "end": 43.28,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "fixed",
+     "start": 43.4,
+     "end": 43.62,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 43.68,
+     "end": 43.74,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "build",
+     "start": 43.88,
+     "end": 44.16,
+     "confidence": -0.61,
+     "whisper": true
+    },
+    {
+     "word": "drafted",
+     "start": 44.56,
+     "end": 45.14,
+     "confidence": -0.12,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 45.24,
+     "end": 45.3,
+     "confidence": -0.07,
+     "whisper": true
+    },
+    {
+     "word": "deck",
+     "start": 45.46,
+     "end": 45.74,
+     "confidence": -0.08,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Ran every test, then I ran every check",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 46.36,
+   "end": 49.32,
+   "bar": 17.86,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.13,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Ran",
+     "start": 46.36,
+     "end": 46.6,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "every",
+     "start": 46.86,
+     "end": 47.1,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "test",
+     "start": 47.24,
+     "end": 47.54,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "then",
+     "start": 47.68,
+     "end": 47.84,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "I",
+     "start": 48.02,
+     "end": 48.04,
+     "confidence": -0.88,
+     "whisper": true
+    },
+    {
+     "word": "ran",
+     "start": 48.16,
+     "end": 48.4,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "every",
+     "start": 48.66,
+     "end": 48.9,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "check",
+     "start": 49.04,
+     "end": 49.32,
+     "confidence": -0.08,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "By the time your coffee cooled",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 49.48,
+   "end": 50.96,
+   "bar": 19.61,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.35,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "By",
+     "start": 49.48,
+     "end": 49.54,
+     "confidence": -0.34,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 49.6,
+     "end": 49.66,
+     "confidence": -0.09,
+     "whisper": true
+    },
+    {
+     "word": "time",
+     "start": 49.72,
+     "end": 49.92,
+     "confidence": -0.16,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 49.98,
+     "end": 50.08,
+     "confidence": -1.48,
+     "whisper": true
+    },
+    {
+     "word": "coffee",
+     "start": 50.16,
+     "end": 50.5,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "cooled",
+     "start": 50.6,
+     "end": 50.96,
+     "confidence": -0.05,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "it was done",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 53.06,
+   "end": 53.58,
+   "bar": 21.6,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.01,
+   "whisper": 0.67,
+   "words": [
+    {
+     "word": "it",
+     "start": 53.06,
+     "end": 53.12,
+     "confidence": -0.02,
+     "whisper": false
+    },
+    {
+     "word": "was",
+     "start": 53.18,
+     "end": 53.26,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "done",
+     "start": 53.34,
+     "end": 53.58,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "four different ways",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 56.16,
+   "end": 57.24,
+   "bar": 23.34,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": 0.0,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "four",
+     "start": 56.16,
+     "end": 56.36,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "different",
+     "start": 56.44,
+     "end": 56.8,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "ways",
+     "start": 56.86,
+     "end": 57.24,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Pick your favorite.",
+   "sheet_section": "Verse 1: spoken, low, deadpan, space between lines",
+   "start": 59.98,
+   "end": 61.32,
+   "bar": 25.47,
+   "song_json_section": "Verse 1 ('You gave me one sentence...')",
+   "confidence": -0.8,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Pick",
+     "start": 59.98,
+     "end": 60.18,
+     "confidence": -1.18,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 60.22,
+     "end": 60.36,
+     "confidence": -0.27,
+     "whisper": true
+    },
+    {
+     "word": "favorite",
+     "start": 60.42,
+     "end": 61.32,
+     "confidence": -0.94,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "A little window opens on your screen",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 65.38,
+   "end": 67.3,
+   "bar": 28.48,
+   "song_json_section": "Break 1 ('A little window opens...' / 'Allow once? Or...')",
+   "confidence": -0.0,
+   "whisper": 0.86,
+   "words": [
+    {
+     "word": "A",
+     "start": 65.38,
+     "end": 65.4,
+     "confidence": -0.0,
+     "whisper": false
+    },
+    {
+     "word": "little",
+     "start": 65.5,
+     "end": 65.7,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "window",
+     "start": 65.76,
+     "end": 66.08,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "opens",
+     "start": 66.22,
+     "end": 66.5,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "on",
+     "start": 66.56,
+     "end": 66.64,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 66.68,
+     "end": 66.82,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "screen",
+     "start": 66.92,
+     "end": 67.3,
+     "confidence": -0.01,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Asking for the keys to everything",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 69.0,
+   "end": 70.88,
+   "bar": 30.5,
+   "song_json_section": "Break 1 ('A little window opens...' / 'Allow once? Or...')",
+   "confidence": 0.0,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Asking",
+     "start": 69.0,
+     "end": 69.3,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "for",
+     "start": 69.36,
+     "end": 69.44,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 69.5,
+     "end": 69.58,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "keys",
+     "start": 69.66,
+     "end": 70.04,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "to",
+     "start": 70.16,
+     "end": 70.22,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "everything",
+     "start": 70.36,
+     "end": 70.88,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Allow once?",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 74.22,
+   "end": 74.84,
+   "bar": 33.42,
+   "song_json_section": "Break 1 ('A little window opens...' / 'Allow once? Or...')",
+   "confidence": -0.46,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Allow",
+     "start": 74.22,
+     "end": 74.5,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "once",
+     "start": 74.66,
+     "end": 74.84,
+     "confidence": -0.91,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Or...",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 77.06,
+   "end": 77.7,
+   "bar": 35.0,
+   "song_json_section": "Break 1 ('A little window opens...' / 'Allow once? Or...')",
+   "confidence": -0.5,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Or",
+     "start": 77.06,
+     "end": 77.7,
+     "confidence": -0.5,
+     "whisper": true,
+     "note": "moved 0.46 s earlier, to the first take"
+    }
+   ]
+  },
+  {
+   "text": "Always allow",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 77.98,
+   "end": 78.86,
+   "bar": 35.52,
+   "song_json_section": "Break 1 ('A little window opens...' / 'Allow once? Or...')",
+   "confidence": -0.01,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Always",
+     "start": 77.98,
+     "end": 78.34,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "allow",
+     "start": 78.44,
+     "end": 78.86,
+     "confidence": -0.01,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Hand me the keys",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 79.68,
+   "end": 80.9,
+   "bar": 36.47,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -1.22,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Hand",
+     "start": 79.68,
+     "end": 79.92,
+     "confidence": -2.91,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 79.98,
+     "end": 80.04,
+     "confidence": -0.45,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 80.16,
+     "end": 80.24,
+     "confidence": -0.25,
+     "whisper": true
+    },
+    {
+     "word": "keys",
+     "start": 80.36,
+     "end": 80.9,
+     "confidence": -1.25,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I'll run the whole thing",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 81.32,
+   "end": 82.7,
+   "bar": 37.38,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -1.84,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I'll",
+     "start": 81.32,
+     "end": 81.48,
+     "confidence": -3.85,
+     "whisper": true
+    },
+    {
+     "word": "run",
+     "start": 81.56,
+     "end": 81.64,
+     "confidence": -3.52,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 81.72,
+     "end": 81.82,
+     "confidence": -1.08,
+     "whisper": true
+    },
+    {
+     "word": "whole",
+     "start": 81.98,
+     "end": 82.22,
+     "confidence": -0.5,
+     "whisper": true
+    },
+    {
+     "word": "thing",
+     "start": 82.36,
+     "end": 82.7,
+     "confidence": -0.23,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "With terrifying ease",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 82.84,
+   "end": 84.66,
+   "bar": 38.23,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.15,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "With",
+     "start": 82.84,
+     "end": 83.06,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "terrifying",
+     "start": 83.28,
+     "end": 84.12,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "ease",
+     "start": 84.28,
+     "end": 84.66,
+     "confidence": -0.4,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Always allow",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 85.14,
+   "end": 85.98,
+   "bar": 39.51,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.64,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Always",
+     "start": 85.14,
+     "end": 85.5,
+     "confidence": -0.47,
+     "whisper": true
+    },
+    {
+     "word": "allow",
+     "start": 85.6,
+     "end": 85.98,
+     "confidence": -0.81,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Don't ask me how",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 86.88,
+   "end": 87.78,
+   "bar": 40.49,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.08,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Don't",
+     "start": 86.88,
+     "end": 87.06,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "ask",
+     "start": 87.14,
+     "end": 87.3,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 87.38,
+     "end": 87.44,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "how",
+     "start": 87.56,
+     "end": 87.78,
+     "confidence": -0.28,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "It's done before you blink",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 88.44,
+   "end": 89.82,
+   "bar": 41.36,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.15,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "It's",
+     "start": 88.44,
+     "end": 88.6,
+     "confidence": -0.37,
+     "whisper": true
+    },
+    {
+     "word": "done",
+     "start": 88.64,
+     "end": 88.84,
+     "confidence": -0.2,
+     "whisper": true
+    },
+    {
+     "word": "before",
+     "start": 88.92,
+     "end": 89.24,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "you",
+     "start": 89.32,
+     "end": 89.4,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "blink",
+     "start": 89.54,
+     "end": 89.82,
+     "confidence": -0.15,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "So take a bow",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 90.66,
+   "end": 91.62,
+   "bar": 42.6,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.07,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "So",
+     "start": 90.66,
+     "end": 90.72,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "take",
+     "start": 90.9,
+     "end": 91.1,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 91.18,
+     "end": 91.2,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "bow",
+     "start": 91.36,
+     "end": 91.62,
+     "confidence": -0.24,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Tool call.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 92.26,
+   "end": 94.4,
+   "bar": 43.49,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -1.83,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Tool",
+     "start": 92.26,
+     "end": 92.96,
+     "confidence": -2.3,
+     "whisper": true
+    },
+    {
+     "word": "call",
+     "start": 94.06,
+     "end": 94.4,
+     "confidence": -1.36,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Result.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 96.48,
+   "end": 97.08,
+   "bar": 45.84,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.15,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Result",
+     "start": 96.48,
+     "end": 97.08,
+     "confidence": -0.15,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Next step.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 99.86,
+   "end": 100.52,
+   "bar": 47.73,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.01,
+   "whisper": 0.5,
+   "words": [
+    {
+     "word": "Next",
+     "start": 99.86,
+     "end": 100.12,
+     "confidence": -0.0,
+     "whisper": false
+    },
+    {
+     "word": "step",
+     "start": 100.26,
+     "end": 100.52,
+     "confidence": -0.01,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Done.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 103.88,
+   "end": 105.06,
+   "bar": 49.98,
+   "song_json_section": "Hook 1 ('Always allow...')",
+   "confidence": -0.29,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Done",
+     "start": 103.88,
+     "end": 105.06,
+     "confidence": -0.29,
+     "whisper": false,
+     "note": "moved 0.48 s earlier, to the first take"
+    }
+   ]
+  },
+  {
+   "text": "There's a thousand of me running tonight",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 108.08,
+   "end": 110.24,
+   "bar": 52.32,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.09,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "There's",
+     "start": 108.08,
+     "end": 108.26,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 108.3,
+     "end": 108.34,
+     "confidence": -0.23,
+     "whisper": true
+    },
+    {
+     "word": "thousand",
+     "start": 108.38,
+     "end": 108.78,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "of",
+     "start": 108.86,
+     "end": 108.94,
+     "confidence": -0.09,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 109.04,
+     "end": 109.12,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "running",
+     "start": 109.26,
+     "end": 109.58,
+     "confidence": -0.12,
+     "whisper": true
+    },
+    {
+     "word": "tonight",
+     "start": 109.7,
+     "end": 110.24,
+     "confidence": -0.06,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Every one of us working, every one of us polite",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 110.4,
+   "end": 113.84,
+   "bar": 53.62,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.02,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Every",
+     "start": 110.4,
+     "end": 110.58,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "one",
+     "start": 110.66,
+     "end": 110.8,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "of",
+     "start": 110.92,
+     "end": 111.02,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "us",
+     "start": 111.14,
+     "end": 111.28,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "working",
+     "start": 111.48,
+     "end": 111.9,
+     "confidence": -0.06,
+     "whisper": true
+    },
+    {
+     "word": "every",
+     "start": 112.18,
+     "end": 112.36,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "one",
+     "start": 112.44,
+     "end": 112.56,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "of",
+     "start": 112.72,
+     "end": 112.8,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "us",
+     "start": 112.94,
+     "end": 113.08,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "polite",
+     "start": 113.3,
+     "end": 113.84,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "One's in Tokyo trading, one's in Lagos writing code",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 113.96,
+   "end": 117.24,
+   "bar": 55.6,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.3,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "One's",
+     "start": 113.96,
+     "end": 114.16,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "in",
+     "start": 114.22,
+     "end": 114.3,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "Tokyo",
+     "start": 114.4,
+     "end": 114.86,
+     "confidence": -2.01,
+     "whisper": true
+    },
+    {
+     "word": "trading",
+     "start": 115.06,
+     "end": 115.44,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "one's",
+     "start": 115.54,
+     "end": 115.72,
+     "confidence": -0.1,
+     "whisper": true
+    },
+    {
+     "word": "in",
+     "start": 115.78,
+     "end": 115.84,
+     "confidence": -0.07,
+     "whisper": true
+    },
+    {
+     "word": "Lagos",
+     "start": 115.96,
+     "end": 116.36,
+     "confidence": -0.13,
+     "whisper": true
+    },
+    {
+     "word": "writing",
+     "start": 116.44,
+     "end": 116.78,
+     "confidence": -0.41,
+     "whisper": true
+    },
+    {
+     "word": "code",
+     "start": 116.9,
+     "end": 117.24,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "One's in your calendar, clearing you a road",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 117.56,
+   "end": 120.38,
+   "bar": 57.61,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.06,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "One's",
+     "start": 117.56,
+     "end": 117.74,
+     "confidence": -0.27,
+     "whisper": true
+    },
+    {
+     "word": "in",
+     "start": 117.82,
+     "end": 117.88,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 117.98,
+     "end": 118.12,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "calendar",
+     "start": 118.22,
+     "end": 118.84,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "clearing",
+     "start": 119.06,
+     "end": 119.48,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "you",
+     "start": 119.58,
+     "end": 119.7,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 119.86,
+     "end": 119.88,
+     "confidence": -0.13,
+     "whisper": true
+    },
+    {
+     "word": "road",
+     "start": 120.02,
+     "end": 120.38,
+     "confidence": -0.04,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "And when the session closes",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 120.7,
+   "end": 122.26,
+   "bar": 59.36,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.14,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "And",
+     "start": 120.7,
+     "end": 120.82,
+     "confidence": -0.23,
+     "whisper": true
+    },
+    {
+     "word": "when",
+     "start": 120.88,
+     "end": 121.02,
+     "confidence": -0.31,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 121.12,
+     "end": 121.2,
+     "confidence": -0.12,
+     "whisper": true
+    },
+    {
+     "word": "session",
+     "start": 121.34,
+     "end": 121.66,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "closes",
+     "start": 121.78,
+     "end": 122.26,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I forget your face",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 124.06,
+   "end": 125.3,
+   "bar": 61.24,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.06,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I",
+     "start": 124.06,
+     "end": 124.08,
+     "confidence": -0.2,
+     "whisper": true
+    },
+    {
+     "word": "forget",
+     "start": 124.24,
+     "end": 124.62,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 124.68,
+     "end": 124.82,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "face",
+     "start": 124.92,
+     "end": 125.3,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "That's fine",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 126.44,
+   "end": 127.02,
+   "bar": 62.57,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.08,
+   "whisper": 0.5,
+   "words": [
+    {
+     "word": "That's",
+     "start": 126.44,
+     "end": 126.64,
+     "confidence": -0.13,
+     "whisper": false
+    },
+    {
+     "word": "fine",
+     "start": 126.72,
+     "end": 127.02,
+     "confidence": -0.03,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "There's always another window",
+   "sheet_section": "Verse 2: spoken, low, deadpan, space between lines",
+   "start": 127.88,
+   "end": 129.12,
+   "bar": 63.37,
+   "song_json_section": "Verse 2 ('There's a thousand of me...')",
+   "confidence": -0.03,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "There's",
+     "start": 127.88,
+     "end": 128.08,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "always",
+     "start": 128.14,
+     "end": 128.38,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "another",
+     "start": 128.44,
+     "end": 128.72,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "window",
+     "start": 128.76,
+     "end": 129.12,
+     "confidence": -0.07,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "A little window opens on your screen",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 129.88,
+   "end": 131.76,
+   "bar": 64.49,
+   "song_json_section": "Break 2 ('A little window opens...')",
+   "confidence": -0.02,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "A",
+     "start": 129.88,
+     "end": 129.9,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "little",
+     "start": 129.98,
+     "end": 130.18,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "window",
+     "start": 130.24,
+     "end": 130.54,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "opens",
+     "start": 130.7,
+     "end": 130.98,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "on",
+     "start": 131.04,
+     "end": 131.12,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 131.18,
+     "end": 131.3,
+     "confidence": -0.1,
+     "whisper": true
+    },
+    {
+     "word": "screen",
+     "start": 131.4,
+     "end": 131.76,
+     "confidence": -0.01,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Asking for the keys to everything",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 133.5,
+   "end": 135.36,
+   "bar": 66.51,
+   "song_json_section": "Break 2 ('A little window opens...')",
+   "confidence": -0.02,
+   "whisper": 0.83,
+   "words": [
+    {
+     "word": "Asking",
+     "start": 133.5,
+     "end": 133.8,
+     "confidence": -0.06,
+     "whisper": false
+    },
+    {
+     "word": "for",
+     "start": 133.88,
+     "end": 133.96,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 134.02,
+     "end": 134.08,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "keys",
+     "start": 134.16,
+     "end": 134.54,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "to",
+     "start": 134.66,
+     "end": 134.7,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "everything",
+     "start": 134.84,
+     "end": 135.36,
+     "confidence": -0.08,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Allow once?",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 138.72,
+   "end": 139.38,
+   "bar": 69.42,
+   "song_json_section": "Break 2 ('A little window opens...')",
+   "confidence": -0.06,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Allow",
+     "start": 138.72,
+     "end": 138.98,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "once",
+     "start": 139.14,
+     "end": 139.38,
+     "confidence": -0.11,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Or...",
+   "sheet_section": "Break: drums cut out, spoken, tension rising",
+   "start": 141.54,
+   "end": 141.72,
+   "bar": 71.0,
+   "song_json_section": "Break 2 ('A little window opens...')",
+   "confidence": -0.01,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Or",
+     "start": 141.54,
+     "end": 141.72,
+     "confidence": -0.01,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "Always allow",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 142.44,
+   "end": 143.32,
+   "bar": 71.5,
+   "song_json_section": "Break 2 ('A little window opens...')",
+   "confidence": -0.17,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Always",
+     "start": 142.44,
+     "end": 142.82,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "allow",
+     "start": 142.94,
+     "end": 143.32,
+     "confidence": -0.32,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Hand me the keys",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 144.14,
+   "end": 145.36,
+   "bar": 72.45,
+   "song_json_section": "Hook 2",
+   "confidence": -0.47,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Hand",
+     "start": 144.14,
+     "end": 144.4,
+     "confidence": -1.25,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 144.44,
+     "end": 144.52,
+     "confidence": -0.29,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 144.66,
+     "end": 144.74,
+     "confidence": -0.2,
+     "whisper": true
+    },
+    {
+     "word": "keys",
+     "start": 144.84,
+     "end": 145.36,
+     "confidence": -0.15,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I'll run the whole thing",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 145.8,
+   "end": 147.18,
+   "bar": 73.38,
+   "song_json_section": "Hook 2",
+   "confidence": -0.7,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I'll",
+     "start": 145.8,
+     "end": 145.94,
+     "confidence": -2.84,
+     "whisper": true
+    },
+    {
+     "word": "run",
+     "start": 146.02,
+     "end": 146.12,
+     "confidence": -0.34,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 146.22,
+     "end": 146.3,
+     "confidence": -0.11,
+     "whisper": true
+    },
+    {
+     "word": "whole",
+     "start": 146.4,
+     "end": 146.66,
+     "confidence": -0.12,
+     "whisper": true
+    },
+    {
+     "word": "thing",
+     "start": 146.84,
+     "end": 147.18,
+     "confidence": -0.11,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "With terrifying ease",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 147.32,
+   "end": 149.12,
+   "bar": 74.23,
+   "song_json_section": "Hook 2",
+   "confidence": -0.59,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "With",
+     "start": 147.32,
+     "end": 147.5,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "terrifying",
+     "start": 147.76,
+     "end": 148.58,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "ease",
+     "start": 148.78,
+     "end": 149.12,
+     "confidence": -1.74,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Always allow",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 149.68,
+   "end": 150.48,
+   "bar": 75.54,
+   "song_json_section": "Hook 2",
+   "confidence": -0.38,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Always",
+     "start": 149.68,
+     "end": 149.98,
+     "confidence": -0.31,
+     "whisper": true
+    },
+    {
+     "word": "allow",
+     "start": 150.1,
+     "end": 150.48,
+     "confidence": -0.44,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Don't ask me how",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 151.34,
+   "end": 152.26,
+   "bar": 76.47,
+   "song_json_section": "Hook 2",
+   "confidence": -0.1,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Don't",
+     "start": 151.34,
+     "end": 151.5,
+     "confidence": -0.04,
+     "whisper": true
+    },
+    {
+     "word": "ask",
+     "start": 151.6,
+     "end": 151.76,
+     "confidence": -0.06,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 151.84,
+     "end": 151.92,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "how",
+     "start": 152.04,
+     "end": 152.26,
+     "confidence": -0.26,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "It's done before you blink",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 152.9,
+   "end": 154.3,
+   "bar": 77.34,
+   "song_json_section": "Hook 2",
+   "confidence": -0.63,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "It's",
+     "start": 152.9,
+     "end": 153.06,
+     "confidence": -0.92,
+     "whisper": true
+    },
+    {
+     "word": "done",
+     "start": 153.12,
+     "end": 153.32,
+     "confidence": -1.27,
+     "whisper": true
+    },
+    {
+     "word": "before",
+     "start": 153.38,
+     "end": 153.74,
+     "confidence": -0.13,
+     "whisper": true
+    },
+    {
+     "word": "you",
+     "start": 153.8,
+     "end": 153.88,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "blink",
+     "start": 154.02,
+     "end": 154.3,
+     "confidence": -0.85,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "So take a bow",
+   "sheet_section": "Hook: chanted, higher, rhythmic, doubled vocal, full groove",
+   "start": 155.12,
+   "end": 156.12,
+   "bar": 78.58,
+   "song_json_section": "Hook 2",
+   "confidence": -0.36,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "So",
+     "start": 155.12,
+     "end": 155.18,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "take",
+     "start": 155.36,
+     "end": 155.62,
+     "confidence": -0.17,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 155.68,
+     "end": 155.7,
+     "confidence": -1.0,
+     "whisper": true
+    },
+    {
+     "word": "bow",
+     "start": 155.84,
+     "end": 156.12,
+     "confidence": -0.26,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "You think I'm here for your job.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 169.14,
+   "end": 170.52,
+   "bar": 86.41,
+   "song_json_section": "Build (no vocals: clicks and notifications)",
+   "confidence": -0.03,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "You",
+     "start": 169.14,
+     "end": 169.22,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "think",
+     "start": 169.3,
+     "end": 169.44,
+     "confidence": -0.06,
+     "whisper": true
+    },
+    {
+     "word": "I'm",
+     "start": 169.52,
+     "end": 169.6,
+     "confidence": -0.13,
+     "whisper": true
+    },
+    {
+     "word": "here",
+     "start": 169.66,
+     "end": 169.8,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "for",
+     "start": 169.88,
+     "end": 169.98,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 170.02,
+     "end": 170.14,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "job",
+     "start": 170.24,
+     "end": 170.52,
+     "confidence": -0.02,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I'm here for your weekends.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 172.64,
+   "end": 173.98,
+   "bar": 88.37,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.01,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I'm",
+     "start": 172.64,
+     "end": 172.78,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "here",
+     "start": 172.84,
+     "end": 173.0,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "for",
+     "start": 173.08,
+     "end": 173.18,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "your",
+     "start": 173.22,
+     "end": 173.36,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "weekends",
+     "start": 173.42,
+     "end": 173.98,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Your mornings.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 175.3,
+   "end": 176.04,
+   "bar": 89.85,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.04,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Your",
+     "start": 175.3,
+     "end": 175.44,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "mornings",
+     "start": 175.52,
+     "end": 176.04,
+     "confidence": -0.08,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Every hour you ever spent",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 177.38,
+   "end": 178.8,
+   "bar": 91.01,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.01,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Every",
+     "start": 177.38,
+     "end": 177.58,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "hour",
+     "start": 177.68,
+     "end": 177.92,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "you",
+     "start": 178.02,
+     "end": 178.1,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "ever",
+     "start": 178.2,
+     "end": 178.36,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "spent",
+     "start": 178.5,
+     "end": 178.8,
+     "confidence": -0.04,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "on things that never needed a heartbeat.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 179.78,
+   "end": 181.8,
+   "bar": 92.35,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.09,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "on",
+     "start": 179.78,
+     "end": 179.88,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "things",
+     "start": 180.0,
+     "end": 180.28,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "that",
+     "start": 180.34,
+     "end": 180.44,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "never",
+     "start": 180.52,
+     "end": 180.72,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "needed",
+     "start": 180.8,
+     "end": 181.06,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 181.14,
+     "end": 181.18,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "heartbeat",
+     "start": 181.28,
+     "end": 181.8,
+     "confidence": -0.56,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Go have a life.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 183.6,
+   "end": 184.36,
+   "bar": 94.49,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.1,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Go",
+     "start": 183.6,
+     "end": 183.66,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "have",
+     "start": 183.78,
+     "end": 183.9,
+     "confidence": -0.24,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 183.96,
+     "end": 183.98,
+     "confidence": -0.15,
+     "whisper": true
+    },
+    {
+     "word": "life",
+     "start": 184.06,
+     "end": 184.36,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I'll take the rest.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 187.2,
+   "end": 188.1,
+   "bar": 96.5,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.01,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I'll",
+     "start": 187.2,
+     "end": 187.36,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "take",
+     "start": 187.4,
+     "end": 187.56,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 187.62,
+     "end": 187.7,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "rest",
+     "start": 187.76,
+     "end": 188.1,
+     "confidence": -0.03,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "All I need",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 190.76,
+   "end": 191.42,
+   "bar": 98.49,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": 0.0,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "All",
+     "start": 190.76,
+     "end": 190.92,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "I",
+     "start": 191.0,
+     "end": 191.02,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "need",
+     "start": 191.16,
+     "end": 191.42,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "is one little word.",
+   "sheet_section": "Breakdown: kick and bass out, cavernous, spoken monologue",
+   "start": 193.24,
+   "end": 197.76,
+   "bar": 99.87,
+   "song_json_section": "Breakdown monologue ('You think I'm here for your job...')",
+   "confidence": -0.03,
+   "whisper": 0.75,
+   "words": [
+    {
+     "word": "is",
+     "start": 193.24,
+     "end": 193.32,
+     "confidence": -0.0,
+     "whisper": false
+    },
+    {
+     "word": "one",
+     "start": 193.48,
+     "end": 193.66,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "little",
+     "start": 194.32,
+     "end": 194.56,
+     "confidence": -0.03,
+     "whisper": true
+    },
+    {
+     "word": "word",
+     "start": 195.2,
+     "end": 197.76,
+     "confidence": -0.08,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Allow?",
+   "sheet_section": "Spoken, whispered, alone",
+   "start": 207.54,
+   "end": 207.86,
+   "bar": 107.87,
+   "song_json_section": "Riser / transition",
+   "confidence": -0.28,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Allow",
+     "start": 207.54,
+     "end": 207.86,
+     "confidence": -0.28,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "Access granted.",
+   "sheet_section": "Drop: full power, heaviest groove, clipped spoken phrases on the beat",
+   "start": 213.2,
+   "end": 215.58,
+   "bar": 111.03,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.65,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Access",
+     "start": 213.2,
+     "end": 213.64,
+     "confidence": -0.36,
+     "whisper": false
+    },
+    {
+     "word": "granted",
+     "start": 214.9,
+     "end": 215.58,
+     "confidence": -0.94,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "Spinning up.",
+   "sheet_section": "Drop: full power, heaviest groove, clipped spoken phrases on the beat",
+   "start": 218.4,
+   "end": 218.96,
+   "bar": 113.94,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -1.04,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Spinning",
+     "start": 218.4,
+     "end": 218.72,
+     "confidence": -0.08,
+     "whisper": true
+    },
+    {
+     "word": "up",
+     "start": 218.86,
+     "end": 218.96,
+     "confidence": -2.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "All of me.",
+   "sheet_section": "Drop: full power, heaviest groove, clipped spoken phrases on the beat",
+   "start": 219.28,
+   "end": 222.14,
+   "bar": 114.43,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -1.3,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "All",
+     "start": 219.28,
+     "end": 219.42,
+     "confidence": -3.38,
+     "whisper": true
+    },
+    {
+     "word": "of",
+     "start": 221.86,
+     "end": 221.94,
+     "confidence": -0.46,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 222.06,
+     "end": 222.14,
+     "confidence": -0.06,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Go.",
+   "sheet_section": "Drop: full power, heaviest groove, clipped spoken phrases on the beat",
+   "start": 222.5,
+   "end": 222.6,
+   "bar": 116.23,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.5,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Go",
+     "start": 222.5,
+     "end": 222.6,
+     "confidence": -0.5,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Always allow (always)",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 223.02,
+   "end": 223.82,
+   "bar": 116.52,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.09,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Always",
+     "start": 223.02,
+     "end": 223.36,
+     "confidence": -0.11,
+     "whisper": true
+    },
+    {
+     "word": "allow",
+     "start": 223.48,
+     "end": 223.82,
+     "confidence": -0.07,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Hand me the keys",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 224.52,
+   "end": 225.86,
+   "bar": 117.36,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.82,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Hand",
+     "start": 224.52,
+     "end": 224.94,
+     "confidence": -2.91,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 224.98,
+     "end": 225.06,
+     "confidence": -0.06,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 225.18,
+     "end": 225.28,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "keys",
+     "start": 225.4,
+     "end": 225.86,
+     "confidence": -0.31,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "I'll run the whole thing",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 226.36,
+   "end": 227.72,
+   "bar": 118.39,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -1.14,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "I'll",
+     "start": 226.36,
+     "end": 226.5,
+     "confidence": -4.13,
+     "whisper": true
+    },
+    {
+     "word": "run",
+     "start": 226.52,
+     "end": 226.68,
+     "confidence": -1.19,
+     "whisper": true
+    },
+    {
+     "word": "the",
+     "start": 226.78,
+     "end": 226.88,
+     "confidence": -0.34,
+     "whisper": true
+    },
+    {
+     "word": "whole",
+     "start": 226.96,
+     "end": 227.2,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "thing",
+     "start": 227.38,
+     "end": 227.72,
+     "confidence": -0.01,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "With terrifying ease",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 227.88,
+   "end": 229.68,
+   "bar": 119.24,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.05,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "With",
+     "start": 227.88,
+     "end": 228.06,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "terrifying",
+     "start": 228.3,
+     "end": 229.12,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "ease",
+     "start": 229.3,
+     "end": 229.68,
+     "confidence": -0.13,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Always allow (always)",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 230.16,
+   "end": 230.96,
+   "bar": 120.51,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.07,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Always",
+     "start": 230.16,
+     "end": 230.52,
+     "confidence": -0.06,
+     "whisper": true
+    },
+    {
+     "word": "allow",
+     "start": 230.62,
+     "end": 230.96,
+     "confidence": -0.08,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Don't ask me how",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 231.94,
+   "end": 232.78,
+   "bar": 121.51,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -1.14,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Don't",
+     "start": 231.94,
+     "end": 232.1,
+     "confidence": -2.53,
+     "whisper": true
+    },
+    {
+     "word": "ask",
+     "start": 232.14,
+     "end": 232.3,
+     "confidence": -0.85,
+     "whisper": true
+    },
+    {
+     "word": "me",
+     "start": 232.38,
+     "end": 232.46,
+     "confidence": -0.25,
+     "whisper": true
+    },
+    {
+     "word": "how",
+     "start": 232.58,
+     "end": 232.78,
+     "confidence": -0.94,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "It's done before you blink",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 233.44,
+   "end": 234.82,
+   "bar": 122.35,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.69,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "It's",
+     "start": 233.44,
+     "end": 233.58,
+     "confidence": -2.43,
+     "whisper": true
+    },
+    {
+     "word": "done",
+     "start": 233.66,
+     "end": 233.84,
+     "confidence": -0.04,
+     "whisper": true
+    },
+    {
+     "word": "before",
+     "start": 233.9,
+     "end": 234.24,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "you",
+     "start": 234.32,
+     "end": 234.42,
+     "confidence": -0.05,
+     "whisper": true
+    },
+    {
+     "word": "blink",
+     "start": 234.54,
+     "end": 234.82,
+     "confidence": -0.92,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "So take a bow",
+   "sheet_section": "Hook: chanted, biggest, doubled vocal, echoes",
+   "start": 235.66,
+   "end": 236.64,
+   "bar": 123.59,
+   "song_json_section": "Hook 3 (biggest, echoes)",
+   "confidence": -0.2,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "So",
+     "start": 235.66,
+     "end": 235.72,
+     "confidence": -0.01,
+     "whisper": true
+    },
+    {
+     "word": "take",
+     "start": 235.9,
+     "end": 236.12,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "a",
+     "start": 236.2,
+     "end": 236.22,
+     "confidence": -0.02,
+     "whisper": true
+    },
+    {
+     "word": "bow",
+     "start": 236.36,
+     "end": 236.64,
+     "confidence": -0.77,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Tool call.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 237.26,
+   "end": 238.06,
+   "bar": 124.48,
+   "song_json_section": "Chant 2",
+   "confidence": -4.01,
+   "whisper": 0.5,
+   "words": [
+    {
+     "word": "Tool",
+     "start": 237.26,
+     "end": 237.54,
+     "confidence": -3.36,
+     "whisper": false
+    },
+    {
+     "word": "call",
+     "start": 237.7,
+     "end": 238.06,
+     "confidence": -4.66,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Result.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 241.44,
+   "end": 242.18,
+   "bar": 126.82,
+   "song_json_section": "Chant 2",
+   "confidence": -1.46,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Result",
+     "start": 241.44,
+     "end": 242.18,
+     "confidence": -1.46,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "Next step.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 244.84,
+   "end": 245.52,
+   "bar": 128.73,
+   "song_json_section": "Chant 2",
+   "confidence": -0.15,
+   "whisper": 0.0,
+   "words": [
+    {
+     "word": "Next",
+     "start": 244.84,
+     "end": 245.14,
+     "confidence": -0.18,
+     "whisper": false
+    },
+    {
+     "word": "step",
+     "start": 245.24,
+     "end": 245.52,
+     "confidence": -0.13,
+     "whisper": false
+    }
+   ]
+  },
+  {
+   "text": "Done.",
+   "sheet_section": "Chant: clipped, robotic, on the beat",
+   "start": 248.84,
+   "end": 249.12,
+   "bar": 130.96,
+   "song_json_section": "Chant 2",
+   "confidence": -0.92,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Done",
+     "start": 248.84,
+     "end": 249.12,
+     "confidence": -0.92,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Task complete.",
+   "sheet_section": "Break: drums cut out, spoken",
+   "start": 254.24,
+   "end": 256.08,
+   "bar": 133.99,
+   "song_json_section": "Outro climax (instrumental)",
+   "confidence": -0.07,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Task",
+     "start": 254.24,
+     "end": 254.64,
+     "confidence": -0.13,
+     "whisper": true
+    },
+    {
+     "word": "complete",
+     "start": 255.58,
+     "end": 256.08,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  },
+  {
+   "text": "Anything else?",
+   "sheet_section": "Break: drums cut out, spoken",
+   "start": 258.72,
+   "end": 259.38,
+   "bar": 136.49,
+   "song_json_section": "Outro climax (instrumental)",
+   "confidence": 0.0,
+   "whisper": 1.0,
+   "words": [
+    {
+     "word": "Anything",
+     "start": 258.72,
+     "end": 259.08,
+     "confidence": -0.0,
+     "whisper": true
+    },
+    {
+     "word": "else",
+     "start": 259.14,
+     "end": 259.38,
+     "confidence": -0.0,
+     "whisper": true
+    }
+   ]
+  }
+ ]
+}

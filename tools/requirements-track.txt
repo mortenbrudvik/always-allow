@@ -1,0 +1,9 @@
+# For tools/lipcheck.py (PLAN.md phase 0c), and the face landmarks for the tracking graphics in phase 4:
+# MediaPipe's face landmarker. Tested with Python 3.12; it changes none of the other pins.
+# The model file isn't a package: download face_landmarker.task (float16) from
+# https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task
+# to %USERPROFILE%/.cache/mediapipe/.
+mediapipe==1.0.1
+absl-py==2.5.0
+opencv-contrib-python==5.0.0.93
+sounddevice==0.5.6

@@ -1,0 +1,181 @@
+{
+ "derived_closed": 0.023,
+ "closed_in_use": 0.023,
+ "window_frames": [
+  -2,
+  2
+ ],
+ "fail_misses": 2,
+ "clips": {
+  "t3g": {
+   "clip": "production/tests/seedance/out/repair/t3g_sync2pro.mp4",
+   "window": {
+    "start": 168.9,
+    "duration": 6.0
+   },
+   "face_found": 1.0,
+   "closed_at_or_under": 0.023,
+   "window_frames": [
+    -2,
+    2
+   ],
+   "checked": 3,
+   "misses": 0,
+   "passes": true,
+   "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+   "closures": [
+    {
+     "word": "I'm",
+     "letter": "m",
+     "line": 51,
+     "song_s": 169.58,
+     "frame": 16,
+     "frames": [
+      14,
+      15,
+      16,
+      17,
+      18
+     ],
+     "gaps": [
+      0.0977,
+      0.094,
+      0.0287,
+      0.0209,
+      0.0326
+     ],
+     "lowest": 0.0209,
+     "seen": true,
+     "closed": true
+    },
+    {
+     "word": "job",
+     "letter": "b",
+     "line": 51,
+     "song_s": 170.5,
+     "frame": 38,
+     "frames": [
+      36,
+      37,
+      38,
+      39,
+      40
+     ],
+     "gaps": [
+      0.116,
+      0.1177,
+      0.1128,
+      0.0454,
+      0.0156
+     ],
+     "lowest": 0.0156,
+     "seen": true,
+     "closed": true
+    },
+    {
+     "word": "I'm",
+     "letter": "m",
+     "line": 52,
+     "song_s": 172.74,
+     "frame": 92,
+     "frames": [
+      90,
+      91,
+      92,
+      93,
+      94
+     ],
+     "gaps": [
+      0.0937,
+      0.0323,
+      0.0143,
+      0.024,
+      0.0523
+     ],
+     "lowest": 0.0143,
+     "seen": true,
+     "closed": true
+    }
+   ],
+   "by_eye": "pass",
+   "gap_percentiles": {
+    "5": 0.0011,
+    "50": 0.0242,
+    "95": 0.094
+   }
+  },
+  "t2r": {
+   "clip": "production/tests/seedance/out/repair/t2r_sync2pro.mp4",
+   "window": {
+    "start": 168.59,
+    "duration": 4.0
+   },
+   "face_found": 1.0,
+   "closed_at_or_under": 0.023,
+   "window_frames": [
+    -2,
+    2
+   ],
+   "checked": 2,
+   "misses": 1,
+   "passes": true,
+   "rule": "fails with 2 misses, when its only closure misses, or with a face in under 80% of frames",
+   "closures": [
+    {
+     "word": "I'm",
+     "letter": "m",
+     "line": 51,
+     "song_s": 169.58,
+     "frame": 23,
+     "frames": [
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "gaps": [
+      0.0828,
+      0.0985,
+      0.1179,
+      0.0331,
+      0.0095
+     ],
+     "lowest": 0.0095,
+     "seen": true,
+     "closed": true
+    },
+    {
+     "word": "job",
+     "letter": "b",
+     "line": 51,
+     "song_s": 170.5,
+     "frame": 45,
+     "frames": [
+      43,
+      44,
+      45,
+      46,
+      47
+     ],
+     "gaps": [
+      0.1721,
+      0.1809,
+      0.2007,
+      0.1776,
+      0.0459
+     ],
+     "lowest": 0.0459,
+     "seen": true,
+     "closed": false
+    }
+   ],
+   "by_eye": "borderline",
+   "gap_percentiles": {
+    "5": 0.0007,
+    "50": 0.002,
+    "95": 0.1344
+   }
+  }
+ }
+}

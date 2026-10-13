@@ -1,0 +1,885 @@
+{
+ "A_eye_ecu": {
+  "job_id": "c564527f-5d64-41c1-bf72-f4ea56fec559",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_eye_ecu_c564527f-5d64-41c1-bf72-f4ea56fec559_1.png",
+  "frame": "production/assets/frames/A_eye_ecu.png",
+  "picked": "2026-09-29T22:21:30",
+  "note": "her eye right of centre, the left third dark for the title"
+ },
+ "A_cu_flash_1": {
+  "job_id": "30cdc4c9-7160-42cb-8dfd-d5d09f22e9c1",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_cu_flash_1_30cdc4c9-7160-42cb-8dfd-d5d09f22e9c1_2.png",
+  "frame": "production/assets/frames/A_cu_flash_1.png",
+  "picked": "2026-09-29T22:21:30",
+  "note": "centred: crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     143,
+     2409,
+     1348
+    ]
+   }
+  ]
+ },
+ "A_monitors_back": {
+  "job_id": "fe4a5aaa-a25f-4eeb-9ede-004c8eb7f607",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_monitors_back_fe4a5aaa-a25f-4eeb-9ede-004c8eb7f607_3.png",
+  "frame": "production/assets/frames/A_monitors_back.png",
+  "picked": "2026-09-29T22:21:30",
+  "note": "the left third black for type"
+ },
+ "A_cu_3q_1": {
+  "job_id": "8b31567f-460a-482a-b184-fae17c8f45e6",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_cu_3q_1_8b31567f-460a-482a-b184-fae17c8f45e6_2.png",
+  "frame": "production/assets/frames/A_cu_3q_1.png",
+  "picked": "2026-09-29T22:21:31",
+  "note": "left of centre, dark on the right",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "left",
+    "crop": [
+     542,
+     140,
+     2402,
+     1345
+    ]
+   }
+  ]
+ },
+ "A_desk_mcu": {
+  "job_id": "fa566c5c-59be-462f-9e8c-287cd0fe746e",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_desk_mcu_fa566c5c-59be-462f-9e8c-287cd0fe746e_1.png",
+  "frame": "production/assets/frames/A_desk_mcu.png",
+  "picked": "2026-09-29T22:21:31",
+  "note": ""
+ },
+ "A_desk_ws": {
+  "job_id": "b2f11c22-55d6-46b5-a36f-c55c9853f42f",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_desk_ws_b2f11c22-55d6-46b5-a36f-c55c9853f42f_1.png",
+  "frame": "production/assets/frames/A_desk_ws.png",
+  "picked": "2026-09-29T23:19:41",
+  "note": "a 2x Zoom Out of the distance-canon test's image 1: wide, small, right of centre"
+ },
+ "A_desk_overhead": {
+  "job_id": "ecb75a51-dcd1-42b3-87e1-852aad8983fe",
+  "index": 0,
+  "file": "production/assets/mj/inbox/A_desk_overhead_ecb75a51-dcd1-42b3-87e1-852aad8983fe_0.png",
+  "frame": "production/assets/frames/A_desk_overhead.png",
+  "picked": "2026-09-30T05:37:07",
+  "note": "the third prompt, hands only: flat either side of the untouched keyboard (the user flagged the first: her head the wrong way to the keyboard)"
+ },
+ "A_floor_ews": {
+  "job_id": "8174eb59-795d-45c6-bee7-acbea203ea6e",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_floor_ews_8174eb59-795d-45c6-bee7-acbea203ea6e_1.png",
+  "frame": "production/assets/frames/A_floor_ews.png",
+  "picked": "2026-09-29T22:21:31",
+  "note": "",
+  "fixes": [
+   {
+    "op": "debar",
+    "crop": [
+     186,
+     104,
+     2572,
+     1440
+    ]
+   }
+  ]
+ },
+ "A_cu_flash_2": {
+  "job_id": "4877ebab-828a-4493-b6c1-fc572aa4e211",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_cu_flash_2_4877ebab-828a-4493-b6c1-fc572aa4e211_2.png",
+  "frame": "production/assets/frames/A_cu_flash_2.png",
+  "picked": "2026-09-29T22:21:31",
+  "note": "left of centre, dark on the right",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "left",
+    "crop": [
+     344,
+     101,
+     2599,
+     1455
+    ]
+   }
+  ]
+ },
+ "A_mcu_3q_tests": {
+  "job_id": "9d8245ed-4a9c-405b-bd54-d866c4742dcf",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_mcu_3q_tests_9d8245ed-4a9c-405b-bd54-d866c4742dcf_1.png",
+  "frame": "production/assets/frames/A_mcu_3q_tests.png",
+  "picked": "2026-09-29T22:21:32",
+  "note": ""
+ },
+ "A_cu_done": {
+  "job_id": "0c58d415-f0cc-421b-8be5-ade424fd7e85",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_cu_done_0c58d415-f0cc-421b-8be5-ade424fd7e85_3.png",
+  "frame": "production/assets/frames/A_cu_done.png",
+  "picked": "2026-09-29T22:27:35",
+  "note": "centred: crop to place her right of centre; image 1's face runs thin",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     181,
+     2286,
+     1280
+    ]
+   }
+  ]
+ },
+ "A_mcu_3q_four": {
+  "job_id": "95674444-12a7-4dfc-9da7-6d8a6cc004eb",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_mcu_3q_four_95674444-12a7-4dfc-9da7-6d8a6cc004eb_2.png",
+  "frame": "production/assets/frames/A_mcu_3q_four.png",
+  "picked": "2026-09-29T22:27:35",
+  "note": ""
+ },
+ "A_cu_pick": {
+  "job_id": "380b5382-cc4e-4cb1-bfcb-9178a483a850",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_cu_pick_380b5382-cc4e-4cb1-bfcb-9178a483a850_1.png",
+  "frame": "production/assets/frames/A_cu_pick.png",
+  "picked": "2026-09-29T22:27:35",
+  "note": "the faintest smile",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     202,
+     2205,
+     1234
+    ]
+   }
+  ]
+ },
+ "A_darkroom_ws": {
+  "job_id": "aa548189-6d7f-492e-8088-9436642af9f4",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_darkroom_ws_aa548189-6d7f-492e-8088-9436642af9f4_2.png",
+  "frame": "production/assets/frames/A_darkroom_ws.png",
+  "picked": "2026-09-29T22:27:36",
+  "note": "the only one standing"
+ },
+ "A_darkroom_cu": {
+  "job_id": "5a0e20db-908a-4a68-babb-bf0b3b6d58cd",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_darkroom_cu_5a0e20db-908a-4a68-babb-bf0b3b6d58cd_3.png",
+  "frame": "production/assets/frames/A_darkroom_cu.png",
+  "picked": "2026-09-29T22:27:36",
+  "note": ""
+ },
+ "A_eyes_ecu": {
+  "job_id": "14eb9215-1663-4831-8f7c-b4cb7dbc1e07",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_eyes_ecu_14eb9215-1663-4831-8f7c-b4cb7dbc1e07_3.png",
+  "frame": "production/assets/frames/A_eyes_ecu.png",
+  "picked": "2026-09-29T22:27:36",
+  "note": ""
+ },
+ "A_mcu_window": {
+  "job_id": "3792d7ba-54af-48e6-951b-eeb393bae0dc",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_mcu_window_3792d7ba-54af-48e6-951b-eeb393bae0dc_1.png",
+  "frame": "production/assets/frames/A_mcu_window.png",
+  "picked": "2026-09-29T22:27:36",
+  "note": "an office window from inside; the facade is drawn in code"
+ },
+ "A_floor_clones": {
+  "job_id": "e79f986c-0a40-4fb1-9b90-754b754e3a58",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_floor_clones_e79f986c-0a40-4fb1-9b90-754b754e3a58_3.png",
+  "frame": "production/assets/frames/A_floor_clones.png",
+  "picked": "2026-09-29T22:27:36",
+  "note": "",
+  "fixes": [
+   {
+    "op": "debar",
+    "crop": [
+     483,
+     274,
+     1978,
+     1107
+    ]
+   }
+  ]
+ },
+ "A_tokyo": {
+  "job_id": "0a45745e-3e2f-43d9-a320-6b51d8445c58",
+  "index": 0,
+  "file": "production/assets/mj/inbox/A_tokyo_0a45745e-3e2f-43d9-a320-6b51d8445c58_0.png",
+  "frame": "production/assets/frames/A_tokyo.png",
+  "picked": "2026-09-29T22:27:36",
+  "note": "crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     79,
+     2605,
+     1458
+    ]
+   }
+  ]
+ },
+ "A_lagos": {
+  "job_id": "0f83b2aa-48e7-45ea-b54c-9e1e88544455",
+  "index": 0,
+  "file": "production/assets/mj/inbox/A_lagos_0f83b2aa-48e7-45ea-b54c-9e1e88544455_0.png",
+  "frame": "production/assets/frames/A_lagos.png",
+  "picked": "2026-09-29T22:27:37",
+  "note": ""
+ },
+ "A_mcu_3q_session": {
+  "job_id": "c785f5ce-2301-471e-992a-b5bacba05cc0",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_mcu_3q_session_c785f5ce-2301-471e-992a-b5bacba05cc0_3.png",
+  "frame": "production/assets/frames/A_mcu_3q_session.png",
+  "picked": "2026-09-29T22:34:24",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     172,
+     2276,
+     1274
+    ]
+   }
+  ]
+ },
+ "A_cu_fine": {
+  "job_id": "9deb339b-8297-4561-a0a9-967ea2de90c2",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_cu_fine_9deb339b-8297-4561-a0a9-967ea2de90c2_3.png",
+  "frame": "production/assets/frames/A_cu_fine.png",
+  "picked": "2026-09-29T22:34:24",
+  "note": "centred: crop to place her left of centre"
+ },
+ "A_darkroom_back": {
+  "job_id": "327f9efe-3716-43da-9611-9f5289bf46a3",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_darkroom_back_327f9efe-3716-43da-9611-9f5289bf46a3_2.png",
+  "frame": "production/assets/frames/A_darkroom_back.png",
+  "picked": "2026-09-29T22:34:25",
+  "note": "over her shoulder in profile; the window is drawn over the bright rectangle"
+ },
+ "A_darkroom_cu2": {
+  "job_id": "43b82bd2-1f59-4ad3-9ae3-75db8f759639",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_darkroom_cu2_43b82bd2-1f59-4ad3-9ae3-75db8f759639_3.png",
+  "frame": "production/assets/frames/A_darkroom_cu2.png",
+  "picked": "2026-09-29T22:34:25",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     210,
+     2120,
+     1187
+    ]
+   }
+  ]
+ },
+ "A_cu_storm": {
+  "job_id": "6e54e100-1bda-433e-b61e-a6318280e7a9",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_cu_storm_6e54e100-1bda-433e-b61e-a6318280e7a9_1.png",
+  "frame": "production/assets/frames/A_cu_storm.png",
+  "picked": "2026-09-29T22:34:25",
+  "note": ""
+ },
+ "A_cu_job": {
+  "job_id": "28473ef9-883f-4787-b45f-61fa95ff7cef",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_cu_job_28473ef9-883f-4787-b45f-61fa95ff7cef_3.png",
+  "frame": "production/assets/frames/A_cu_job.png",
+  "picked": "2026-09-29T22:34:25",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     148,
+     2401,
+     1344
+    ]
+   }
+  ]
+ },
+ "A_window_dawn": {
+  "job_id": "34142fd0-d081-4a32-b25c-889559d207eb",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_window_dawn_34142fd0-d081-4a32-b25c-889559d207eb_3.png",
+  "frame": "production/assets/frames/A_window_dawn.png",
+  "picked": "2026-09-29T22:34:26",
+  "note": ""
+ },
+ "A_mcu_3q_hour": {
+  "job_id": "a6b502a0-ccfe-4ac8-9be7-53b8aebd3e03",
+  "index": 3,
+  "file": "production/assets/mj/inbox/A_mcu_3q_hour_a6b502a0-ccfe-4ac8-9be7-53b8aebd3e03_3.png",
+  "frame": "production/assets/frames/A_mcu_3q_hour.png",
+  "picked": "2026-09-29T22:34:26",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     229,
+     2120,
+     1187
+    ]
+   }
+  ]
+ },
+ "A_cu_life": {
+  "job_id": "21527923-0dad-4425-b869-5f48663e60a4",
+  "index": 0,
+  "file": "production/assets/mj/inbox/A_cu_life_21527923-0dad-4425-b869-5f48663e60a4_0.png",
+  "frame": "production/assets/frames/A_cu_life.png",
+  "picked": "2026-09-29T22:34:26",
+  "note": ""
+ },
+ "A_mcu_3q_rest": {
+  "job_id": "1deb3d93-e729-4af1-bc6a-32ce7c40d92a",
+  "index": 0,
+  "file": "production/assets/mj/inbox/A_mcu_3q_rest_1deb3d93-e729-4af1-bc6a-32ce7c40d92a_0.png",
+  "frame": "production/assets/frames/A_mcu_3q_rest.png",
+  "picked": "2026-09-29T22:34:26",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "left",
+    "crop": [
+     796,
+     204,
+     2147,
+     1202
+    ]
+   }
+  ]
+ },
+ "B_cu_stage": {
+  "job_id": "563a758a-fff0-42fc-87a9-f27f82121ed5",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_cu_stage_563a758a-fff0-42fc-87a9-f27f82121ed5_0.png",
+  "frame": "production/assets/frames/B_cu_stage.png",
+  "picked": "2026-09-29T22:39:27",
+  "note": "centred: crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     171,
+     2345,
+     1313
+    ]
+   }
+  ]
+ },
+ "A_cu_need": {
+  "job_id": "0e73ea20-9fc2-4fd8-9fa2-c9c5f5e7fe8f",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_cu_need_0e73ea20-9fc2-4fd8-9fa2-c9c5f5e7fe8f_1.png",
+  "frame": "production/assets/frames/A_cu_need.png",
+  "picked": "2026-09-29T22:39:48",
+  "note": "no dark band on the left: crop to make room",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     82,
+     2615,
+     1464
+    ]
+   }
+  ]
+ },
+ "A_cu_whisper": {
+  "job_id": "32e91e2c-55a9-423f-90fb-e93826a82872",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_cu_whisper_32e91e2c-55a9-423f-90fb-e93826a82872_2.png",
+  "frame": "production/assets/frames/A_cu_whisper.png",
+  "picked": "2026-09-29T22:39:48",
+  "note": ""
+ },
+ "A_cu_else": {
+  "job_id": "ca3794b6-1c57-4137-98bf-75091658ce05",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_cu_else_ca3794b6-1c57-4137-98bf-75091658ce05_1.png",
+  "frame": "production/assets/frames/A_cu_else.png",
+  "picked": "2026-09-29T22:39:49",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     185,
+     2314,
+     1296
+    ]
+   }
+  ]
+ },
+ "A_printer": {
+  "job_id": "5e5a5373-a494-4734-81a5-103aa50a3352",
+  "index": 1,
+  "file": "production/assets/mj/inbox/A_printer_5e5a5373-a494-4734-81a5-103aa50a3352_1.png",
+  "frame": "production/assets/frames/A_printer.png",
+  "picked": "2026-09-29T22:39:49",
+  "note": ""
+ },
+ "A_laptop_cu": {
+  "job_id": "a39a8700-0324-4e81-844b-9c1b4cd5b912",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_laptop_cu_a39a8700-0324-4e81-844b-9c1b4cd5b912_2.png",
+  "frame": "production/assets/frames/A_laptop_cu.png",
+  "picked": "2026-09-29T22:39:49",
+  "note": "the screen nearly frontal, for fitting the window"
+ },
+ "A_tower_ext": {
+  "job_id": "65f01f97-626b-40bb-8b32-3a0bfdc8a2f2",
+  "index": 2,
+  "file": "production/assets/mj/inbox/A_tower_ext_65f01f97-626b-40bb-8b32-3a0bfdc8a2f2_2.png",
+  "frame": "production/assets/frames/A_tower_ext.png",
+  "picked": "2026-09-29T22:39:49",
+  "note": "the darkest facade; the pull-back facade is drawn in code"
+ },
+ "B_dancer_1": {
+  "job_id": "86e73b6f-fb04-4962-b06c-214e23f46b35",
+  "index": 1,
+  "file": "production/assets/mj/inbox/B_dancer_1_86e73b6f-fb04-4962-b06c-214e23f46b35_1.png",
+  "frame": "production/assets/frames/B_dancer_1.png",
+  "picked": "2026-09-29T22:47:01",
+  "note": "head to toe; the second prompt"
+ },
+ "B_dancer_turn": {
+  "job_id": "9ee8d4ef-124e-41fb-bfe2-f3803f09cf03",
+  "index": 1,
+  "file": "production/assets/mj/inbox/B_dancer_turn_9ee8d4ef-124e-41fb-bfe2-f3803f09cf03_1.png",
+  "frame": "production/assets/frames/B_dancer_turn.png",
+  "picked": "2026-09-29T22:47:01",
+  "note": "head to toe from behind; the second prompt"
+ },
+ "B_mcu_3q": {
+  "job_id": "d969a26f-c64f-4a90-8032-514e49c14b92",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_mcu_3q_d969a26f-c64f-4a90-8032-514e49c14b92_0.png",
+  "frame": "production/assets/frames/B_mcu_3q.png",
+  "picked": "2026-09-29T22:47:01",
+  "note": "",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "left",
+    "crop": [
+     278,
+     82,
+     2665,
+     1492
+    ]
+   }
+  ]
+ },
+ "B_ring_overhead": {
+  "job_id": "6da3b6e8-12a4-4241-b4a2-721ac6348eb9",
+  "index": 3,
+  "file": "production/assets/mj/inbox/B_ring_overhead_6da3b6e8-12a4-4241-b4a2-721ac6348eb9_3.png",
+  "frame": "production/assets/frames/B_ring_overhead.png",
+  "picked": "2026-09-29T22:53:09",
+  "note": "the tightest ring, straight down"
+ },
+ "B_cu_stage2": {
+  "job_id": "5ef386c1-96eb-4564-baaf-307a279045e2",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_cu_stage2_5ef386c1-96eb-4564-baaf-307a279045e2_0.png",
+  "frame": "production/assets/frames/B_cu_stage2.png",
+  "picked": "2026-09-29T22:53:10",
+  "note": ""
+ },
+ "B_stage_alone": {
+  "job_id": "284391f8-9536-4bab-88d2-8abbf2d61d6f",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_stage_alone_284391f8-9536-4bab-88d2-8abbf2d61d6f_0.png",
+  "frame": "production/assets/frames/B_stage_alone.png",
+  "picked": "2026-09-29T22:53:10",
+  "note": "full-length and small before the cobalt block"
+ },
+ "B_cu_cobalt": {
+  "job_id": "c09769a1-966d-4ba1-869a-0c4f1b8887eb",
+  "index": 3,
+  "file": "production/assets/mj/inbox/B_cu_cobalt_c09769a1-966d-4ba1-869a-0c4f1b8887eb_3.png",
+  "frame": "production/assets/frames/B_cu_cobalt.png",
+  "picked": "2026-09-29T22:53:10",
+  "note": "the wall came back teal: shift it to cobalt; centred: crop to place her left of centre",
+  "fixes": [
+   {
+    "op": "recolour",
+    "hue": 224.5,
+    "lift": 1.25
+   },
+   {
+    "op": "place",
+    "side": "left",
+    "crop": [
+     428,
+     118,
+     2515,
+     1408
+    ]
+   }
+  ]
+ },
+ "B_mcu_3q_blink": {
+  "job_id": "132998ca-86c9-43e8-82ab-d634c84d2713",
+  "index": 1,
+  "file": "production/assets/mj/inbox/B_mcu_3q_blink_132998ca-86c9-43e8-82ab-d634c84d2713_1.png",
+  "frame": "production/assets/frames/B_mcu_3q_blink.png",
+  "picked": "2026-09-29T22:53:11",
+  "note": "the mildest three-quarter, for the lip sync; centred: crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     140,
+     2436,
+     1364
+    ]
+   }
+  ]
+ },
+ "B_cu_granted": {
+  "job_id": "0d74cb45-cbed-45fb-8152-319ccbd3136c",
+  "index": 3,
+  "file": "production/assets/mj/inbox/B_cu_granted_0d74cb45-cbed-45fb-8152-319ccbd3136c_3.png",
+  "frame": "production/assets/frames/B_cu_granted.png",
+  "picked": "2026-09-29T22:53:11",
+  "note": "white on white, lit from the front; centred: crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     185,
+     2227,
+     1247
+    ]
+   }
+  ]
+ },
+ "B_back_wall": {
+  "job_id": "c6049b76-4468-4a5f-8ba0-8e286718c9bf",
+  "index": 1,
+  "file": "production/assets/mj/inbox/B_back_wall_c6049b76-4468-4a5f-8ba0-8e286718c9bf_1.png",
+  "frame": "production/assets/frames/B_back_wall.png",
+  "picked": "2026-09-29T22:53:11",
+  "note": "hair pinned up and the grey collar; her head turned in profile; image 3's panel is bigger but its uniform is cream"
+ },
+ "B_cu_wall": {
+  "job_id": "fee37364-ce2e-47ca-889c-cc5412714786",
+  "index": 2,
+  "file": "production/assets/mj/inbox/B_cu_wall_fee37364-ce2e-47ca-889c-cc5412714786_2.png",
+  "frame": "production/assets/frames/B_cu_wall.png",
+  "picked": "2026-09-29T23:16:44",
+  "note": "centred: crop to place her left of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "left",
+    "crop": [
+     580,
+     152,
+     2364,
+     1323
+    ]
+   }
+  ]
+ },
+ "B_mcu_wall3q": {
+  "job_id": "2219d7ac-8fc0-4465-913a-0cfad20c340e",
+  "index": 3,
+  "file": "production/assets/mj/inbox/B_mcu_wall3q_2219d7ac-8fc0-4465-913a-0cfad20c340e_3.png",
+  "frame": "production/assets/frames/B_mcu_wall3q.png",
+  "picked": "2026-09-29T23:16:44",
+  "note": "the softest face; centred: crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     172,
+     2266,
+     1269
+    ]
+   }
+  ]
+ },
+ "B_cu_complete": {
+  "job_id": "19775b18-938b-4570-aecc-5edb4f80bca1",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_cu_complete_19775b18-938b-4570-aecc-5edb4f80bca1_0.png",
+  "frame": "production/assets/frames/B_cu_complete.png",
+  "picked": "2026-09-29T23:16:45",
+  "note": "the block came back teal: shift it to cobalt; crop to place her right of centre",
+  "fixes": [
+   {
+    "op": "recolour",
+    "hue": 224.5,
+    "lift": 1.15
+   },
+   {
+    "op": "place",
+    "side": "right",
+    "crop": [
+     0,
+     238,
+     2172,
+     1216
+    ]
+   }
+  ]
+ },
+ "B_stage_ws": {
+  "job_id": "4ff8060e-5716-4c01-b5fe-ae342037f18b",
+  "index": 2,
+  "file": "production/assets/mj/inbox/B_stage_ws_4ff8060e-5716-4c01-b5fe-ae342037f18b_2.png",
+  "frame": "production/assets/frames/B_stage_ws.png",
+  "picked": "2026-09-29T23:16:45",
+  "note": "the only one with the railing along the back"
+ },
+ "B_stage_cobalt": {
+  "job_id": "59a6632d-6e9d-40f6-99e9-4bbd7051668a",
+  "index": 1,
+  "file": "production/assets/mj/inbox/B_stage_cobalt_59a6632d-6e9d-40f6-99e9-4bbd7051668a_1.png",
+  "frame": "production/assets/frames/B_stage_cobalt.png",
+  "picked": "2026-09-29T23:16:45",
+  "note": "the wall came back navy: lift it toward cobalt",
+  "fixes": [
+   {
+    "op": "recolour",
+    "hue": 224.5,
+    "lift": 1.5
+   }
+  ]
+ },
+ "B_cobalt_wall": {
+  "job_id": "561062c3-2884-4233-8853-0382706f1d78",
+  "index": 3,
+  "file": "production/assets/mj/inbox/B_cobalt_wall_561062c3-2884-4233-8853-0382706f1d78_3.png",
+  "frame": "production/assets/frames/B_cobalt_wall.png",
+  "picked": "2026-09-29T23:16:45",
+  "note": "the wall came back teal-blue: shift it to cobalt; the warehouse roof shows above",
+  "fixes": [
+   {
+    "op": "recolour",
+    "hue": 224.5,
+    "lift": 1.2
+   }
+  ]
+ },
+ "B_stage_yellow": {
+  "job_id": "755b4426-106b-41f0-b3db-2a3b63fd6773",
+  "index": 2,
+  "file": "production/assets/mj/inbox/B_stage_yellow_755b4426-106b-41f0-b3db-2a3b63fd6773_2.png",
+  "frame": "production/assets/frames/B_stage_yellow.png",
+  "picked": "2026-09-29T23:16:45",
+  "note": "the only white studio with an acid-yellow square; the six small figures on it painted out",
+  "fixes": [
+   {
+    "op": "flatfill",
+    "box": [
+     0.418,
+     0.55,
+     0.688,
+     0.84
+    ],
+    "line": [
+     0.4,
+     0.8319,
+     0.7,
+     0.7281
+    ]
+   }
+  ]
+ },
+ "B_rows_horizon": {
+  "job_id": "2620d45d-0c30-4dc8-8cc4-41e7d0885be7",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_rows_horizon_2620d45d-0c30-4dc8-8cc4-41e7d0885be7_0.png",
+  "frame": "production/assets/frames/B_rows_horizon.png",
+  "picked": "2026-09-29T23:16:45",
+  "note": "the only bare floor; the sky came back dark slate, not pale",
+  "fixes": [
+   {
+    "op": "sky",
+    "line": 0.4994
+   }
+  ]
+ },
+ "B_window_wall": {
+  "job_id": "2ad072f4-cc75-40ae-83c8-3ca8777d0ca9",
+  "index": 3,
+  "file": "production/assets/mj/inbox/B_window_wall_2ad072f4-cc75-40ae-83c8-3ca8777d0ca9_3.png",
+  "frame": "production/assets/frames/B_window_wall.png",
+  "picked": "2026-09-29T23:16:46",
+  "note": "the palest room; the terracotta square at the panel's lower right"
+ },
+ "B_window_wall_side": {
+  "job_id": "73deb94d-f45a-4c45-84d5-69f8723af811",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_window_wall_side_73deb94d-f45a-4c45-84d5-69f8723af811_0.png",
+  "frame": "production/assets/frames/B_window_wall_side.png",
+  "picked": "2026-09-29T23:16:46",
+  "note": "the steep side angle, the terracotta block at the panel's corner"
+ },
+ "H_desk_typing": {
+  "job_id": "d9718493-3502-4a83-863b-1f7f2fb297b7",
+  "index": 0,
+  "file": "production/assets/mj/inbox/H_desk_typing_d9718493-3502-4a83-863b-1f7f2fb297b7_0.png",
+  "frame": "production/assets/frames/H_desk_typing.png",
+  "picked": "2026-09-29T23:16:46",
+  "note": "with the moodboard: the test without it came back warmer and busier and showed more of his face"
+ },
+ "H_elevator_lunch": {
+  "job_id": "a5dc9191-af56-4c3e-89e0-5ed150f2c9bc",
+  "index": 0,
+  "file": "production/assets/mj/inbox/H_elevator_lunch_a5dc9191-af56-4c3e-89e0-5ed150f2c9bc_0.png",
+  "frame": "production/assets/frames/H_elevator_lunch.png",
+  "picked": "2026-09-29T23:16:46",
+  "note": "the only one without letterbox bars"
+ },
+ "H_coffee": {
+  "job_id": "bae19793-76f3-4674-9626-952437627385",
+  "index": 2,
+  "file": "production/assets/mj/inbox/H_coffee_bae19793-76f3-4674-9626-952437627385_2.png",
+  "frame": "production/assets/frames/H_coffee.png",
+  "picked": "2026-09-29T23:16:47",
+  "note": "the cup right of centre, steam, the chair pushed back"
+ },
+ "H_lunch_back": {
+  "job_id": "124f3eac-5b01-4d4d-a2b2-2ff5de8fe57f",
+  "index": 0,
+  "file": "production/assets/mj/inbox/H_lunch_back_124f3eac-5b01-4d4d-a2b2-2ff5de8fe57f_0.png",
+  "frame": "production/assets/frames/H_lunch_back.png",
+  "picked": "2026-09-29T23:16:47",
+  "note": "the grey vest; the blurred word on the glass painted out",
+  "fixes": [
+   {
+    "op": "inpaint",
+    "boxes": [
+     [
+      0.12,
+      0.2,
+      0.32,
+      0.345,
+      1.0,
+      10.0
+     ]
+    ]
+   }
+  ]
+ },
+ "H_weekend": {
+  "job_id": "5124f5ce-a66d-479b-a95d-0d8343de15c5",
+  "index": 3,
+  "file": "production/assets/mj/inbox/H_weekend_5124f5ce-a66d-479b-a95d-0d8343de15c5_3.png",
+  "frame": "production/assets/frames/H_weekend.png",
+  "picked": "2026-09-29T23:16:48",
+  "note": "the smallest figure, right of centre"
+ },
+ "B_row_ws": {
+  "job_id": "72f8e091-4241-4fad-bf4c-762dc9943c30",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_row_ws_72f8e091-4241-4fad-bf4c-762dc9943c30_0.png",
+  "frame": "production/assets/frames/B_row_ws.png",
+  "picked": "2026-09-29T23:16:48",
+  "note": "the second prompt: a straight row of seven, head to toe"
+ },
+ "B_dancer_2": {
+  "job_id": "2fe1f9f6-47c9-4f60-b01a-8c960c7420a0",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_dancer_2_2fe1f9f6-47c9-4f60-b01a-8c960c7420a0_0.png",
+  "frame": "production/assets/frames/B_dancer_2.png",
+  "picked": "2026-09-29T23:19:41",
+  "note": "a 2x Zoom Out of the third prompt's image 0: head to toe at last"
+ },
+ "B_mirror_ws": {
+  "job_id": "9b3cc041-5db5-4405-947b-dac3d7ddc167",
+  "index": 1,
+  "file": "production/assets/mj/inbox/B_mirror_ws_9b3cc041-5db5-4405-947b-dac3d7ddc167_1.png",
+  "frame": "production/assets/frames/B_mirror_ws.png",
+  "picked": "2026-09-29T23:19:41",
+  "note": "a 2x Zoom Out of the second prompt's image 2: the room wide, the nearest one whole"
+ },
+ "B_grid_overhead": {
+  "job_id": "f7abfe76-e686-4c05-9116-a7fb3183b395",
+  "index": 0,
+  "file": "production/assets/mj/inbox/B_grid_overhead_f7abfe76-e686-4c05-9116-a7fb3183b395_0.png",
+  "frame": "production/assets/frames/B_grid_overhead.png",
+  "picked": "2026-09-29T23:19:41",
+  "note": "the second prompt: nearly straight down, so it can rotate; a few faces tilt up"
+ },
+ "H_street": {
+  "job_id": "ab16449a-54e3-45f0-bc0a-4bf860ca49a4",
+  "index": 1,
+  "file": "production/assets/mj/inbox/H_street_ab16449a-54e3-45f0-bc0a-4bf860ca49a4_1.png",
+  "frame": "production/assets/frames/H_street.png",
+  "picked": "2026-09-29T23:19:41",
+  "note": "the second prompt; thin letterbox bars cropped off; the vest reads cream in the low sun",
+  "fixes": [
+   {
+    "op": "debar",
+    "crop": [
+     121,
+     68,
+     2701,
+     1512
+    ]
+   }
+  ]
+ }
+}

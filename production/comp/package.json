@@ -1,0 +1,33 @@
+{
+  "name": "always-allow-comp",
+  "private": true,
+  "description": "The compositor for the Always Allow music video (BRIEF.md step 3, PLAN.md phase 2b): Remotion at 24 fps, driven by production/storyboard/shots.json.",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "media": "node scripts/media-server.mjs",
+    "scan": "node scripts/scan-media.mjs",
+    "render": "node scripts/render.mjs",
+    "sheet": "node scripts/sheet.mjs",
+    "check:lyrics": "tsx scripts/check-lyrics.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/geist-mono": "5.3.0",
+    "@fontsource/geist-sans": "5.3.0",
+    "@fontsource/instrument-serif": "5.3.0",
+    "@remotion/bundler": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/fonts": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.530"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "opentype.js": "2.0.0",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

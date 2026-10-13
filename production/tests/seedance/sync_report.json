@@ -1,0 +1,1774 @@
+{
+ "test": "BRIEF.md step 0 (PLAN.md phase 0c): the Seedance sync test",
+ "window": {
+  "start": 168.9,
+  "end": 174.9,
+  "words": "You think I'm here for your job. I'm here for your weekends.",
+  "source": "production/stems/vocals.mp3"
+ },
+ "cover_cut": {
+  "song_s": 171.089,
+  "clip_s": 2.189
+ },
+ "pass_rule": "at least 2 of the 3 clips in sync (offset within 42 ms) for at least 80 % of their speaking seconds and in colour; the cover accepted with the start frame and the audio together, and in sync the same way",
+ "clips": {
+  "t1": {
+   "plate": "production/tests/seedance/out/plates/t1.png",
+   "plate_from": "production/tests/lipsync/clips/t1.mp4 frame 0",
+   "window": {
+    "start": 168.9,
+    "end": 174.9
+   },
+   "words": "You think I'm here for your job. I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.900-174.900.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job. I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/3ECrVmg1fYSl6syx8vggz_t1.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T22:45:58",
+     "status": "rejected",
+     "error": "HTTP 400: {\"error\":{\"message\":\"HTTP 400: {\\\"error\\\":{\\\"code\\\":\\\"InputImageSensitiveContentDetected.PrivacyInformation\\\",\\\"message\\\":\\\"The request failed because the input image 'content[1]' may contain real person. Request id: 0217906283598820f20bbdfc8ca54d9bbb0533a8546905ce2c81b\\\",\\\"param\\\":\\\"content[1]\\\",\\\"type\\\":\\\"BadRequest\\\"}}\",\"code\":400}}"
+    }
+   ]
+  },
+  "t2": {
+   "plate": "production/tests/seedance/out/plates/t2.png",
+   "plate_from": "production/tests/lipsync/clips/t2.mp4 frame 0",
+   "window": {
+    "start": 168.9,
+    "end": 174.9
+   },
+   "words": "You think I'm here for your job. I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.900-174.900.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job. I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/Qemcq5nDABrbeP7j-H3T6_t2.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T22:46:09",
+     "status": "rejected",
+     "error": "HTTP 400: {\"error\":{\"message\":\"HTTP 400: {\\\"error\\\":{\\\"code\\\":\\\"InputImageSensitiveContentDetected.PrivacyInformation\\\",\\\"message\\\":\\\"The request failed because the input image 'content[1]' may contain real person. Request id: 0217906283712410f20bbdfc8ca54d9bbb0533a8546905cb29d13\\\",\\\"param\\\":\\\"content[1]\\\",\\\"type\\\":\\\"BadRequest\\\"}}\",\"code\":400}}"
+    }
+   ]
+  },
+  "t3": {
+   "plate": "production/tests/seedance/out/plates/t3.png",
+   "plate_from": "production/tests/lipsync/clips/t3.mp4 frame 0",
+   "window": {
+    "start": 168.9,
+    "end": 174.9
+   },
+   "words": "You think I'm here for your job. I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.900-174.900.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job. I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/hlBzY71cPy_w3XmhHQlnM_t3.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T22:46:21",
+     "status": "rejected",
+     "error": "HTTP 400: {\"error\":{\"message\":\"HTTP 400: {\\\"error\\\":{\\\"code\\\":\\\"InputImageSensitiveContentDetected.PrivacyInformation\\\",\\\"message\\\":\\\"The request failed because the input image 'content[1]' may contain real person. Request id: 0217906283828380f20bbdfc8ca54d9bbb0533a8546905c2050da\\\",\\\"param\\\":\\\"content[1]\\\",\\\"type\\\":\\\"BadRequest\\\"}}\",\"code\":400}}"
+    }
+   ]
+  },
+  "t1g": {
+   "plate": "production/tests/seedance/out/plates/t1_print_c5.png",
+   "plate_from": "production/tests/lipsync/clips/t1.mp4 frame 0",
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0,
+    "source": "production/tests/seedance/out/plates/t1.png"
+   },
+   "window": {
+    "start": 168.9,
+    "end": 174.9
+   },
+   "words": "You think I'm here for your job. I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.900-174.900.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job. I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/SLg39ACqh7yCqhpAMHIcy_t1_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T23:04:15",
+     "status": "completed",
+     "job_id": "gen-vid-1790629455-3J9Q9LTxjSQuXhCwgTN6",
+     "generation_id": null,
+     "last_poll": "2026-09-28T23:07:24",
+     "response": {
+      "id": "gen-vid-1790629455-3J9Q9LTxjSQuXhCwgTN6",
+      "generation_id": "gen-vid-1790629455-3J9Q9LTxjSQuXhCwgTN6",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790629455-3J9Q9LTxjSQuXhCwgTN6",
+      "status": "completed",
+      "usage": {
+       "cost": 1.39635,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-28T23:07:24",
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-28T23:07:24",
+     "file": "production/tests/seedance/out/clips/t1g.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.08,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.221,
+      "plate_saturation": 0.279,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/t1_print_c5.png",
+      "mean_abs_diff": 36.59,
+      "psnr_db": 12.94
+     },
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 2.725,
+      "in_sync_s": 0.0,
+      "threshold": 0.5025,
+      "first_loss": {
+       "clip_s": 0.24,
+       "song_s": 169.14,
+       "from_start": true
+      },
+      "late_start_s": 2.725,
+      "cut": null,
+      "global_offset_ms": 272.9,
+      "median_offset_ms": 275.6,
+      "best_slip": {
+       "frames_earlier": 7,
+       "in_sync_fraction": 0.7138
+      },
+      "per_word": [
+       {
+        "word": "You",
+        "start": 169.14,
+        "end": 169.22,
+        "in_sync": 0.0,
+        "offset_ms": 277.6,
+        "match": 0.855
+       },
+       {
+        "word": "think",
+        "start": 169.3,
+        "end": 169.44,
+        "in_sync": 0.0,
+        "offset_ms": 275.6,
+        "match": 0.856
+       },
+       {
+        "word": "I'm",
+        "start": 169.52,
+        "end": 169.6,
+        "in_sync": 0.0,
+        "offset_ms": 276.0,
+        "match": 0.852
+       },
+       {
+        "word": "here",
+        "start": 169.66,
+        "end": 169.8,
+        "in_sync": 0.0,
+        "offset_ms": 276.3,
+        "match": 0.837
+       },
+       {
+        "word": "for",
+        "start": 169.88,
+        "end": 169.98,
+        "in_sync": 0.0,
+        "offset_ms": 275.6,
+        "match": 0.857
+       },
+       {
+        "word": "your",
+        "start": 170.02,
+        "end": 170.14,
+        "in_sync": 0.0,
+        "offset_ms": 276.8,
+        "match": 0.876
+       },
+       {
+        "word": "job",
+        "start": 170.24,
+        "end": 170.52,
+        "in_sync": 0.0,
+        "offset_ms": 274.4,
+        "match": 0.859
+       },
+       {
+        "word": "I'm",
+        "start": 172.64,
+        "end": 172.78,
+        "in_sync": 0.0,
+        "offset_ms": 302.5,
+        "match": 0.754
+       },
+       {
+        "word": "here",
+        "start": 172.84,
+        "end": 173.0,
+        "in_sync": 0.0,
+        "offset_ms": 272.7,
+        "match": 0.696
+       },
+       {
+        "word": "for",
+        "start": 173.08,
+        "end": 173.18,
+        "in_sync": 0.0,
+        "offset_ms": 252.8,
+        "match": 0.78
+       },
+       {
+        "word": "your",
+        "start": 173.22,
+        "end": 173.36,
+        "in_sync": 0.0,
+        "offset_ms": 244.7,
+        "match": 0.806
+       },
+       {
+        "word": "weekends",
+        "start": 173.42,
+        "end": 173.98,
+        "in_sync": 0.0,
+        "offset_ms": 223.5,
+        "match": 0.793
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/t1g.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-28T23:23:56"
+    }
+   ]
+  },
+  "t2g": {
+   "plate": "production/tests/seedance/out/plates/t2_print_c5.png",
+   "plate_from": "production/tests/lipsync/clips/t2.mp4 frame 0",
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0,
+    "source": "production/tests/seedance/out/plates/t2.png"
+   },
+   "window": {
+    "start": 168.9,
+    "end": 174.9
+   },
+   "words": "You think I'm here for your job. I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.900-174.900.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job. I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/FC8PQqVloYEoKELw3euud_t2_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T23:04:27",
+     "status": "completed",
+     "job_id": "gen-vid-1790629467-PovYsnTCbxH9eKIXd0fl",
+     "generation_id": null,
+     "last_poll": "2026-09-28T23:07:35",
+     "response": {
+      "id": "gen-vid-1790629467-PovYsnTCbxH9eKIXd0fl",
+      "generation_id": "gen-vid-1790629467-PovYsnTCbxH9eKIXd0fl",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790629467-PovYsnTCbxH9eKIXd0fl",
+      "status": "completed",
+      "usage": {
+       "cost": 1.39635,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-28T23:07:35",
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-28T23:07:35",
+     "file": "production/tests/seedance/out/clips/t2g.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.08,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.497,
+      "plate_saturation": 0.444,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/t2_print_c5.png",
+      "mean_abs_diff": 14.38,
+      "psnr_db": 19.53
+     },
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 2.725,
+      "in_sync_s": 0.0,
+      "threshold": 0.5154,
+      "first_loss": {
+       "clip_s": 0.24,
+       "song_s": 169.14,
+       "from_start": true
+      },
+      "late_start_s": 2.725,
+      "cut": null,
+      "global_offset_ms": 249.7,
+      "median_offset_ms": 250.2,
+      "best_slip": {
+       "frames_earlier": 6,
+       "in_sync_fraction": 0.5083
+      },
+      "per_word": [
+       {
+        "word": "You",
+        "start": 169.14,
+        "end": 169.22,
+        "in_sync": 0.0,
+        "offset_ms": 234.7,
+        "match": 0.893
+       },
+       {
+        "word": "think",
+        "start": 169.3,
+        "end": 169.44,
+        "in_sync": 0.0,
+        "offset_ms": 239.7,
+        "match": 0.847
+       },
+       {
+        "word": "I'm",
+        "start": 169.52,
+        "end": 169.6,
+        "in_sync": 0.0,
+        "offset_ms": 243.7,
+        "match": 0.836
+       },
+       {
+        "word": "here",
+        "start": 169.66,
+        "end": 169.8,
+        "in_sync": 0.0,
+        "offset_ms": 249.8,
+        "match": 0.852
+       },
+       {
+        "word": "for",
+        "start": 169.88,
+        "end": 169.98,
+        "in_sync": 0.0,
+        "offset_ms": 251.0,
+        "match": 0.857
+       },
+       {
+        "word": "your",
+        "start": 170.02,
+        "end": 170.14,
+        "in_sync": 0.0,
+        "offset_ms": 262.2,
+        "match": 0.865
+       },
+       {
+        "word": "job",
+        "start": 170.24,
+        "end": 170.52,
+        "in_sync": 0.0,
+        "offset_ms": 267.7,
+        "match": 0.889
+       },
+       {
+        "word": "I'm",
+        "start": 172.64,
+        "end": 172.78,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.268
+       },
+       {
+        "word": "here",
+        "start": 172.84,
+        "end": 173.0,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.21
+       },
+       {
+        "word": "for",
+        "start": 173.08,
+        "end": 173.18,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.193
+       },
+       {
+        "word": "your",
+        "start": 173.22,
+        "end": 173.36,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.183
+       },
+       {
+        "word": "weekends",
+        "start": 173.42,
+        "end": 173.98,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.267
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/t2g.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-28T23:23:59"
+    }
+   ]
+  },
+  "t3g": {
+   "plate": "production/tests/seedance/out/plates/t3_print_c5.png",
+   "plate_from": "production/tests/lipsync/clips/t3.mp4 frame 0",
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0,
+    "source": "production/tests/seedance/out/plates/t3.png"
+   },
+   "window": {
+    "start": 168.9,
+    "end": 174.9
+   },
+   "words": "You think I'm here for your job. I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.900-174.900.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job. I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 6,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/CXnYRgk3nRNzj8ZulrU0J_t3_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T23:04:38",
+     "status": "completed",
+     "job_id": "gen-vid-1790629478-ocQzUxW9hTQ0uAe2wx9L",
+     "generation_id": null,
+     "last_poll": "2026-09-28T23:07:44",
+     "response": {
+      "id": "gen-vid-1790629478-ocQzUxW9hTQ0uAe2wx9L",
+      "generation_id": "gen-vid-1790629478-ocQzUxW9hTQ0uAe2wx9L",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790629478-ocQzUxW9hTQ0uAe2wx9L",
+      "status": "completed",
+      "usage": {
+       "cost": 1.39635,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-28T23:07:44",
+     "cost_usd": 1.3963,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-28T23:07:44",
+     "file": "production/tests/seedance/out/clips/t3g.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.08,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.376,
+      "plate_saturation": 0.136,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/t3_print_c5.png",
+      "mean_abs_diff": 60.4,
+      "psnr_db": 10.23
+     },
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 2.725,
+      "in_sync_s": 0.0,
+      "threshold": 0.4979,
+      "first_loss": {
+       "clip_s": 0.24,
+       "song_s": 169.14,
+       "from_start": true
+      },
+      "late_start_s": 2.725,
+      "cut": null,
+      "global_offset_ms": 76.1,
+      "median_offset_ms": 275.5,
+      "best_slip": {
+       "frames_earlier": 2,
+       "in_sync_fraction": 0.4917
+      },
+      "per_word": [
+       {
+        "word": "You",
+        "start": 169.14,
+        "end": 169.22,
+        "in_sync": 0.0,
+        "offset_ms": 275.6,
+        "match": 0.941
+       },
+       {
+        "word": "think",
+        "start": 169.3,
+        "end": 169.44,
+        "in_sync": 0.0,
+        "offset_ms": 275.5,
+        "match": 0.922
+       },
+       {
+        "word": "I'm",
+        "start": 169.52,
+        "end": 169.6,
+        "in_sync": 0.0,
+        "offset_ms": 277.7,
+        "match": 0.877
+       },
+       {
+        "word": "here",
+        "start": 169.66,
+        "end": 169.8,
+        "in_sync": 0.0,
+        "offset_ms": 296.3,
+        "match": 0.882
+       },
+       {
+        "word": "for",
+        "start": 169.88,
+        "end": 169.98,
+        "in_sync": 0.0,
+        "offset_ms": 298.4,
+        "match": 0.908
+       },
+       {
+        "word": "your",
+        "start": 170.02,
+        "end": 170.14,
+        "in_sync": 0.0,
+        "offset_ms": 299.1,
+        "match": 0.926
+       },
+       {
+        "word": "job",
+        "start": 170.24,
+        "end": 170.52,
+        "in_sync": 0.0,
+        "offset_ms": 299.5,
+        "match": 0.925
+       },
+       {
+        "word": "I'm",
+        "start": 172.64,
+        "end": 172.78,
+        "in_sync": 0.0,
+        "offset_ms": 75.8,
+        "match": 0.915
+       },
+       {
+        "word": "here",
+        "start": 172.84,
+        "end": 173.0,
+        "in_sync": 0.0,
+        "offset_ms": 75.7,
+        "match": 0.902
+       },
+       {
+        "word": "for",
+        "start": 173.08,
+        "end": 173.18,
+        "in_sync": 0.0,
+        "offset_ms": 73.0,
+        "match": 0.885
+       },
+       {
+        "word": "your",
+        "start": 173.22,
+        "end": 173.36,
+        "in_sync": 0.0,
+        "offset_ms": 71.3,
+        "match": 0.89
+       },
+       {
+        "word": "weekends",
+        "start": 173.42,
+        "end": 173.98,
+        "in_sync": 0.0,
+        "offset_ms": 74.7,
+        "match": 0.911
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/t3g.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-28T23:24:02"
+    }
+   ],
+   "repairs": [
+    {
+     "model": "sync-2-pro",
+     "endpoint": "fal-ai/sync-lipsync/v2/pro",
+     "inputs": {
+      "video_url": "https://v3b.fal.media/files/b/0aac52d4/f8Vsc3XaK6M4xHOlnp1ny_t3g_video.mp4",
+      "audio_url": "https://v3b.fal.media/files/b/0aac4828/0YHoMqMd7gReD9NFit8Ic_vocal_168.900-174.900.wav",
+      "sync_mode": "cut_off"
+     },
+     "submitted": "2026-09-29T06:19:29",
+     "request_id": "01a0eb63-a155-7160-8350-f4b79650556b",
+     "ledger_time": "2026-09-29T06:20:56",
+     "file": "production/tests/seedance/out/repair/t3g_sync2pro.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 145,
+      "duration_s": 6.042,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 48000,
+       "channels": 1,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.5035,
+     "cost_source": "estimate from $5/min (PLAN.md section 6)",
+     "finished": "2026-09-29T06:20:56",
+     "lipcheck": {
+      "clip": "production/tests/seedance/out/repair/t3g_sync2pro.mp4",
+      "face_found": 1.0,
+      "lines": [
+       {
+        "line": "You think I'm here for your job.",
+        "signal": "lip gap",
+        "our_vocal_ms": -10,
+        "our_vocal_r": 0.23,
+        "soundtrack_ms": -10,
+        "soundtrack_r": 0.23,
+        "follows": "our vocal"
+       },
+       {
+        "line": "You think I'm here for your job.",
+        "signal": "jawOpen",
+        "our_vocal_ms": -110,
+        "our_vocal_r": 0.25,
+        "soundtrack_ms": -100,
+        "soundtrack_r": 0.25,
+        "follows": "its soundtrack"
+       },
+       {
+        "line": "I'm here for your weekends.",
+        "signal": "lip gap",
+        "our_vocal_ms": 260,
+        "our_vocal_r": 0.42,
+        "soundtrack_ms": 260,
+        "soundtrack_r": 0.42,
+        "follows": "our vocal"
+       },
+       {
+        "line": "I'm here for your weekends.",
+        "signal": "jawOpen",
+        "our_vocal_ms": 310,
+        "our_vocal_r": 0.34,
+        "soundtrack_ms": 310,
+        "soundtrack_r": 0.34,
+        "follows": "our vocal"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "cover": {
+   "from": "t1g",
+   "variant": "a",
+   "plate": "production/tests/seedance/out/plates/t1_print_c5.png",
+   "first_frame": "production/tests/seedance/out/plates/cover_first_frame_t1g_f52.png",
+   "first_frame_index": 52,
+   "window": {
+    "start": 171.089,
+    "end": 175.089
+   },
+   "words": "I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_171.089-175.089.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/SLg39ACqh7yCqhpAMHIcy_t1_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac48cc/W3WsvY93yoh54kJUnwVQs_vocal_171.089-175.089.wav"
+      }
+     }
+    ],
+    "frame_images": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac48cb/7I5bBquXoZhQOHaCSIHF7_cover_first_frame_t1g_f52.png"
+      },
+      "frame_type": "first_frame"
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T23:11:30",
+     "status": "rejected",
+     "error": "HTTP 400: {\"error\":{\"message\":\"HTTP 400: {\\\"error\\\":{\\\"code\\\":\\\"InputImageSensitiveContentDetected.PrivacyInformation\\\",\\\"message\\\":\\\"The request failed because the input image 'content[1]' may contain real person. Request id: 021790629892111e9db803be2da2d1fb0370cddd09ba5d65ba334\\\",\\\"param\\\":\\\"content[1]\\\",\\\"type\\\":\\\"BadRequest\\\"}}\",\"code\":400}}"
+    }
+   ]
+  },
+  "cover_g": {
+   "from": "t1g",
+   "variant": "a",
+   "plate": "production/tests/seedance/out/plates/t1_print_c5.png",
+   "first_frame": "production/tests/seedance/out/plates/cover_g_first_frame_t1g_f52_print_c5.png",
+   "first_frame_index": 52,
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0
+   },
+   "window": {
+    "start": 171.089,
+    "end": 175.089
+   },
+   "words": "I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_171.089-175.089.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/SLg39ACqh7yCqhpAMHIcy_t1_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac48cc/W3WsvY93yoh54kJUnwVQs_vocal_171.089-175.089.wav"
+      }
+     }
+    ],
+    "frame_images": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac48d6/80nwp-x6BY4nOzKlVkllY_cover_g_first_frame_t1g_f52_print_c5.png"
+      },
+      "frame_type": "first_frame"
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T23:13:10",
+     "status": "completed",
+     "job_id": "gen-vid-1790629990-3grPjw3Erhg63HsuTPxG",
+     "generation_id": null,
+     "last_poll": "2026-09-28T23:15:47",
+     "response": {
+      "id": "gen-vid-1790629990-3grPjw3Erhg63HsuTPxG",
+      "generation_id": "gen-vid-1790629990-3grPjw3Erhg63HsuTPxG",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790629990-3grPjw3Erhg63HsuTPxG",
+      "status": "completed",
+      "usage": {
+       "cost": 0.93411,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-28T23:15:47",
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-28T23:15:47",
+     "file": "production/tests/seedance/out/clips/cover_g.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.234,
+      "plate_saturation": 0.279,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/cover_g_first_frame_t1g_f52_print_c5.png",
+      "mean_abs_diff": 4.92,
+      "psnr_db": 32.39
+     },
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.34,
+      "in_sync_s": 0.0,
+      "threshold": 0.5323,
+      "first_loss": {
+       "clip_s": 1.555,
+       "song_s": 172.644,
+       "from_start": true
+      },
+      "late_start_s": 1.34,
+      "cut": null,
+      "global_offset_ms": 482.3,
+      "median_offset_ms": 474.6,
+      "best_slip": {
+       "frames_earlier": 12,
+       "in_sync_fraction": 0.3731
+      },
+      "per_word": [
+       {
+        "word": "I'm",
+        "start": 172.64,
+        "end": 172.78,
+        "in_sync": 0.0,
+        "offset_ms": -357.4,
+        "match": 0.538
+       },
+       {
+        "word": "here",
+        "start": 172.84,
+        "end": 173.0,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.252
+       },
+       {
+        "word": "for",
+        "start": 173.08,
+        "end": 173.18,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.274
+       },
+       {
+        "word": "your",
+        "start": 173.22,
+        "end": 173.36,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.484
+       },
+       {
+        "word": "weekends",
+        "start": 173.42,
+        "end": 173.98,
+        "in_sync": 0.0,
+        "offset_ms": 474.8,
+        "match": 0.589
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/cover_g.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-28T23:24:06"
+    }
+   ]
+  },
+  "cover_b_g": {
+   "from": "t1g",
+   "variant": "b",
+   "plate": "production/tests/seedance/out/plates/t1_print_c5.png",
+   "first_frame": "production/tests/seedance/out/plates/cover_b_g_first_frame_t1g_f52_print_c5.png",
+   "first_frame_index": 52,
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0
+   },
+   "window": {
+    "start": 171.089,
+    "end": 175.089
+   },
+   "words": "I'm here for your weekends.",
+   "audio": "production/tests/seedance/out/audio/vocal_171.089-175.089.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image2 as the first frame. @Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"I'm here for your weekends.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/SLg39ACqh7yCqhpAMHIcy_t1_print_c5.png"
+      }
+     },
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac48d6/80nwp-x6BY4nOzKlVkllY_cover_g_first_frame_t1g_f52_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac48cc/W3WsvY93yoh54kJUnwVQs_vocal_171.089-175.089.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-28T23:16:35",
+     "status": "completed",
+     "job_id": "gen-vid-1790630195-us2ouefiv30rAuvBLQ1Q",
+     "generation_id": null,
+     "last_poll": "2026-09-28T23:19:20",
+     "response": {
+      "id": "gen-vid-1790630195-us2ouefiv30rAuvBLQ1Q",
+      "generation_id": "gen-vid-1790630195-us2ouefiv30rAuvBLQ1Q",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790630195-us2ouefiv30rAuvBLQ1Q",
+      "status": "completed",
+      "usage": {
+       "cost": 0.93411,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-28T23:19:20",
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-28T23:19:20",
+     "file": "production/tests/seedance/out/clips/cover_b_g.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.198,
+      "plate_saturation": 0.279,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/cover_b_g_first_frame_t1g_f52_print_c5.png",
+      "mean_abs_diff": 11.4,
+      "psnr_db": 22.08
+     },
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.34,
+      "in_sync_s": 0.0,
+      "threshold": 0.5663,
+      "first_loss": {
+       "clip_s": 1.555,
+       "song_s": 172.644,
+       "from_start": true
+      },
+      "late_start_s": 1.34,
+      "cut": null,
+      "global_offset_ms": -974.3,
+      "median_offset_ms": -974.4,
+      "best_slip": {
+       "frames_earlier": -23,
+       "in_sync_fraction": 1.0
+      },
+      "per_word": [
+       {
+        "word": "I'm",
+        "start": 172.64,
+        "end": 172.78,
+        "in_sync": 0.0,
+        "offset_ms": -973.0,
+        "match": 0.873
+       },
+       {
+        "word": "here",
+        "start": 172.84,
+        "end": 173.0,
+        "in_sync": 0.0,
+        "offset_ms": -974.2,
+        "match": 0.865
+       },
+       {
+        "word": "for",
+        "start": 173.08,
+        "end": 173.18,
+        "in_sync": 0.0,
+        "offset_ms": -975.5,
+        "match": 0.864
+       },
+       {
+        "word": "your",
+        "start": 173.22,
+        "end": 173.36,
+        "in_sync": 0.0,
+        "offset_ms": -974.5,
+        "match": 0.884
+       },
+       {
+        "word": "weekends",
+        "start": 173.42,
+        "end": 173.98,
+        "in_sync": 0.0,
+        "offset_ms": -974.4,
+        "match": 0.87
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/cover_b_g.avsync.png",
+      "max_lag_s": 1.5
+     },
+     "passes": false,
+     "checked": "2026-09-28T23:24:15"
+    }
+   ]
+  },
+  "t1r": {
+   "plate": "production/tests/seedance/out/plates/t1_print_c5.png",
+   "plate_from": "production/tests/lipsync/clips/t1.mp4 frame 0",
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0,
+    "source": "production/tests/seedance/out/plates/t1.png"
+   },
+   "window": {
+    "start": 168.59,
+    "end": 172.59
+   },
+   "words": "You think I'm here for your job.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.590-172.590.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/SLg39ACqh7yCqhpAMHIcy_t1_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4922/KdnSy9NVihVE_ATAxM4WB_vocal_168.590-172.590.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-29T00:01:17",
+     "status": "completed",
+     "job_id": "gen-vid-1790632877-RKu5sxZYp9Mlazwpzd0o",
+     "generation_id": null,
+     "last_poll": "2026-09-29T00:04:35",
+     "response": {
+      "id": "gen-vid-1790632877-RKu5sxZYp9Mlazwpzd0o",
+      "generation_id": "gen-vid-1790632877-RKu5sxZYp9Mlazwpzd0o",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790632877-RKu5sxZYp9Mlazwpzd0o",
+      "status": "completed",
+      "usage": {
+       "cost": 0.93411,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-29T00:04:35",
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-29T00:04:35",
+     "file": "production/tests/seedance/out/clips/t1r.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.354,
+      "plate_saturation": 0.279,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/t1_print_c5.png",
+      "mean_abs_diff": 52.28,
+      "psnr_db": 9.63
+     },
+     "avsync": {
+      "in_sync_fraction": 0.0,
+      "speaking_s": 1.385,
+      "in_sync_s": 0.0,
+      "threshold": 0.5256,
+      "first_loss": {
+       "clip_s": 0.55,
+       "song_s": 169.14,
+       "from_start": true
+      },
+      "late_start_s": 1.385,
+      "cut": null,
+      "global_offset_ms": 363.4,
+      "median_offset_ms": null,
+      "best_slip": {
+       "frames_earlier": 9,
+       "in_sync_fraction": 0.0
+      },
+      "per_word": [
+       {
+        "word": "You",
+        "start": 169.14,
+        "end": 169.22,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.267
+       },
+       {
+        "word": "think",
+        "start": 169.3,
+        "end": 169.44,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.275
+       },
+       {
+        "word": "I'm",
+        "start": 169.52,
+        "end": 169.6,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.199
+       },
+       {
+        "word": "here",
+        "start": 169.66,
+        "end": 169.8,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.229
+       },
+       {
+        "word": "for",
+        "start": 169.88,
+        "end": 169.98,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.225
+       },
+       {
+        "word": "your",
+        "start": 170.02,
+        "end": 170.14,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.4
+       },
+       {
+        "word": "job",
+        "start": 170.24,
+        "end": 170.52,
+        "in_sync": 0.0,
+        "offset_ms": null,
+        "match": 0.292
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/t1r.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-29T00:04:41"
+    }
+   ]
+  },
+  "t2r": {
+   "plate": "production/tests/seedance/out/plates/t2_print_c5.png",
+   "plate_from": "production/tests/lipsync/clips/t2.mp4 frame 0",
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0,
+    "source": "production/tests/seedance/out/plates/t2.png"
+   },
+   "window": {
+    "start": 168.59,
+    "end": 172.59
+   },
+   "words": "You think I'm here for your job.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.590-172.590.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/FC8PQqVloYEoKELw3euud_t2_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4922/KdnSy9NVihVE_ATAxM4WB_vocal_168.590-172.590.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-29T00:01:29",
+     "status": "completed",
+     "job_id": "gen-vid-1790632889-1HTTs7bpF8gzgf6sAIWr",
+     "generation_id": null,
+     "last_poll": "2026-09-29T00:03:56",
+     "response": {
+      "id": "gen-vid-1790632889-1HTTs7bpF8gzgf6sAIWr",
+      "generation_id": "gen-vid-1790632889-1HTTs7bpF8gzgf6sAIWr",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790632889-1HTTs7bpF8gzgf6sAIWr",
+      "status": "completed",
+      "usage": {
+       "cost": 0.93411,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-29T00:03:56",
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-29T00:03:56",
+     "file": "production/tests/seedance/out/clips/t2r.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.338,
+      "plate_saturation": 0.444,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/t2_print_c5.png",
+      "mean_abs_diff": 34.88,
+      "psnr_db": 13.27
+     },
+     "avsync": {
+      "in_sync_fraction": 0.1733,
+      "speaking_s": 1.385,
+      "in_sync_s": 0.24,
+      "threshold": 0.501,
+      "first_loss": {
+       "clip_s": 0.79,
+       "song_s": 169.38,
+       "from_start": false
+      },
+      "late_start_s": 0.0,
+      "cut": {
+       "song_s": 169.298,
+       "clip_s": 0.708
+      },
+      "global_offset_ms": 123.5,
+      "median_offset_ms": 99.7,
+      "best_slip": {
+       "frames_earlier": 3,
+       "in_sync_fraction": 0.6245
+      },
+      "per_word": [
+       {
+        "word": "You",
+        "start": 169.14,
+        "end": 169.22,
+        "in_sync": 1.0,
+        "offset_ms": 15.6,
+        "match": 0.895
+       },
+       {
+        "word": "think",
+        "start": 169.3,
+        "end": 169.44,
+        "in_sync": 0.556,
+        "offset_ms": 40.3,
+        "match": 0.758
+       },
+       {
+        "word": "I'm",
+        "start": 169.52,
+        "end": 169.6,
+        "in_sync": 0.0,
+        "offset_ms": 64.1,
+        "match": 0.793
+       },
+       {
+        "word": "here",
+        "start": 169.66,
+        "end": 169.8,
+        "in_sync": 0.0,
+        "offset_ms": 96.2,
+        "match": 0.877
+       },
+       {
+        "word": "for",
+        "start": 169.88,
+        "end": 169.98,
+        "in_sync": 0.0,
+        "offset_ms": 101.7,
+        "match": 0.889
+       },
+       {
+        "word": "your",
+        "start": 170.02,
+        "end": 170.14,
+        "in_sync": 0.0,
+        "offset_ms": 143.0,
+        "match": 0.849
+       },
+       {
+        "word": "job",
+        "start": 170.24,
+        "end": 170.52,
+        "in_sync": 0.0,
+        "offset_ms": 152.2,
+        "match": 0.845
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/t2r.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-29T00:04:04"
+    }
+   ],
+   "repairs": [
+    {
+     "model": "sync-2-pro",
+     "endpoint": "fal-ai/sync-lipsync/v2/pro",
+     "inputs": {
+      "video_url": "https://v3b.fal.media/files/b/0aac52de/EgvLOpoOVQeqxgMOrwkaX_t2r_video.mp4",
+      "audio_url": "https://v3b.fal.media/files/b/0aac4922/KdnSy9NVihVE_ATAxM4WB_vocal_168.590-172.590.wav",
+      "sync_mode": "cut_off"
+     },
+     "submitted": "2026-09-29T06:21:02",
+     "request_id": "01a0eb65-0a01-7761-9ed0-556267b41ff2",
+     "ledger_time": "2026-09-29T06:24:26",
+     "file": "production/tests/seedance/out/repair/t2r_sync2pro.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.042,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 48000,
+       "channels": 1,
+       "start_s": 0.0
+      }
+     },
+     "cost_usd": 0.3368,
+     "cost_source": "estimate from $5/min (PLAN.md section 6)",
+     "finished": "2026-09-29T06:24:26",
+     "lipcheck": {
+      "clip": "production/tests/seedance/out/repair/t2r_sync2pro.mp4",
+      "face_found": 1.0,
+      "lines": [
+       {
+        "line": "You think I'm here for your job.",
+        "signal": "lip gap",
+        "our_vocal_ms": -20,
+        "our_vocal_r": 0.33,
+        "soundtrack_ms": -20,
+        "soundtrack_r": 0.33,
+        "follows": "our vocal"
+       },
+       {
+        "line": "You think I'm here for your job.",
+        "signal": "jawOpen",
+        "our_vocal_ms": -20,
+        "our_vocal_r": 0.28,
+        "soundtrack_ms": -20,
+        "soundtrack_r": 0.28,
+        "follows": "our vocal"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "t3r": {
+   "plate": "production/tests/seedance/out/plates/t3_print_c5.png",
+   "plate_from": "production/tests/lipsync/clips/t3.mp4 frame 0",
+   "grade": {
+    "tool": "tools/print_grade.py",
+    "cell": 5.0,
+    "source": "production/tests/seedance/out/plates/t3.png"
+   },
+   "window": {
+    "start": 168.59,
+    "end": 172.59
+   },
+   "words": "You think I'm here for your job.",
+   "audio": "production/tests/seedance/out/audio/vocal_168.590-172.590.wav",
+   "request": {
+    "model": "bytedance/seedance-2.5",
+    "prompt": "@Image1 sings @Audio1. She lip-syncs to @Audio1 exactly, every word in time: \"You think I'm here for your job.\" Close-up of the woman from @Image1, face to camera, deadpan. She looks straight into the lens and says the words calmly. Locked camera, no cuts, no head turns.",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true,
+    "input_references": [
+     {
+      "type": "image_url",
+      "image_url": {
+       "url": "https://v3b.fal.media/files/b/0aac488f/CXnYRgk3nRNzj8ZulrU0J_t3_print_c5.png"
+      }
+     },
+     {
+      "type": "audio_url",
+      "audio_url": {
+       "url": "https://v3b.fal.media/files/b/0aac4922/KdnSy9NVihVE_ATAxM4WB_vocal_168.590-172.590.wav"
+      }
+     }
+    ]
+   },
+   "attempts": [
+    {
+     "submitted": "2026-09-29T00:01:40",
+     "status": "completed",
+     "job_id": "gen-vid-1790632900-6Ui3nYBUAa3naflEaH9O",
+     "generation_id": null,
+     "last_poll": "2026-09-29T00:04:42",
+     "response": {
+      "id": "gen-vid-1790632900-6Ui3nYBUAa3naflEaH9O",
+      "generation_id": "gen-vid-1790632900-6Ui3nYBUAa3naflEaH9O",
+      "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1790632900-6Ui3nYBUAa3naflEaH9O",
+      "status": "completed",
+      "usage": {
+       "cost": 0.93411,
+       "is_byok": false
+      }
+     },
+     "ledger_time": "2026-09-29T00:04:42",
+     "cost_usd": 0.9341,
+     "cost_source": "usage.cost",
+     "finished": "2026-09-29T00:04:42",
+     "file": "production/tests/seedance/out/clips/t3r.mp4",
+     "video": {
+      "width": 1280,
+      "height": 720,
+      "fps": 24.0,
+      "frames": 97,
+      "duration_s": 4.064,
+      "video_codec": "h264",
+      "video_start_s": 0.0,
+      "audio": {
+       "codec": "aac",
+       "sample_rate": 32000,
+       "channels": 2,
+       "start_s": 0.0
+      }
+     },
+     "colour": {
+      "saturation": 0.281,
+      "plate_saturation": 0.136,
+      "in_colour": true
+     },
+     "start_frame": {
+      "compared_with": "production/tests/seedance/out/plates/t3_print_c5.png",
+      "mean_abs_diff": 59.14,
+      "psnr_db": 10.8
+     },
+     "avsync": {
+      "in_sync_fraction": 0.213,
+      "speaking_s": 1.385,
+      "in_sync_s": 0.295,
+      "threshold": 0.4923,
+      "first_loss": {
+       "clip_s": 0.845,
+       "song_s": 169.435,
+       "from_start": false
+      },
+      "late_start_s": 0.0,
+      "cut": {
+       "song_s": 169.298,
+       "clip_s": 0.708
+      },
+      "global_offset_ms": 72.7,
+      "median_offset_ms": 76.2,
+      "best_slip": {
+       "frames_earlier": 2,
+       "in_sync_fraction": 0.6354
+      },
+      "per_word": [
+       {
+        "word": "You",
+        "start": 169.14,
+        "end": 169.22,
+        "in_sync": 1.0,
+        "offset_ms": 24.8,
+        "match": 0.943
+       },
+       {
+        "word": "think",
+        "start": 169.3,
+        "end": 169.44,
+        "in_sync": 0.963,
+        "offset_ms": 35.9,
+        "match": 0.847
+       },
+       {
+        "word": "I'm",
+        "start": 169.52,
+        "end": 169.6,
+        "in_sync": 0.0,
+        "offset_ms": 50.5,
+        "match": 0.852
+       },
+       {
+        "word": "here",
+        "start": 169.66,
+        "end": 169.8,
+        "in_sync": 0.0,
+        "offset_ms": 73.3,
+        "match": 0.881
+       },
+       {
+        "word": "for",
+        "start": 169.88,
+        "end": 169.98,
+        "in_sync": 0.0,
+        "offset_ms": 78.1,
+        "match": 0.886
+       },
+       {
+        "word": "your",
+        "start": 170.02,
+        "end": 170.14,
+        "in_sync": 0.0,
+        "offset_ms": 115.6,
+        "match": 0.854
+       },
+       {
+        "word": "job",
+        "start": 170.24,
+        "end": 170.52,
+        "in_sync": 0.0,
+        "offset_ms": 129.5,
+        "match": 0.856
+       }
+      ],
+      "plot": "production/tests/seedance/out/avsync/t3r.avsync.png"
+     },
+     "passes": false,
+     "checked": "2026-09-29T00:04:48"
+    }
+   ]
+  }
+ },
+ "result": {
+  "status": "approved 2026-09-29: Seedance for the performance, sync-2-pro for the lips (PLAN.md phase 0c)",
+  "spent_usd": 9.7,
+  "findings": [
+   "Photoreal plates are refused at submission by ByteDance's real-person filter (InputImageSensitiveContentDetected.PrivacyInformation), unbilled. Plates put through a colour print grade (tools/print_grade.py) pass, as ESCAPE VELOCITY's print-graded plates did. Frames Seedance returns are photoreal enough to be refused again, so a cover's start frame needs the same grade.",
+   "The mouth follows Seedance's own soundtrack, not our vocal: on the first line of t1g and t3g, lip landmarks (MediaPipe) put the sound 0-60 ms after the mouth for the soundtrack and 210-310 ms before it for our vocal. So avsync.py's soundtrack comparison measures the lip sync.",
+   "Seedance starts the speech about 0.5 s into the clip whatever the window's lead-in: our first word is at 0.24 s in t1g-t3g and came at 0.48-0.52 s (the soundtrack 235-300 ms late); in the cover it's at 1.55 s and came at about 0.55 s (1 s early). Within a line the timing then drifts only 25-35 ms. Across the 2.1 s pause the second line shifts again (t1g 300 to 224 ms, t3g 75 ms, t2g not matched).",
+   "As placed, all three clips are 0 % in sync; moved earlier by the measured slip they are 71 %, 51 % and 49 %. All come back in colour, with no watermark.",
+   "Covers: with frame_images the job is image-to-video and the audio is ignored (cover_g: its own reading of the line, exact start frame, PSNR 32 dB). Without it, '@Image2 as the first frame.' keeps the audio but only lands near the frame (cover_b_g: PSNR 22 dB, a visible jump), and its speech came 1 s early.",
+   "The one revision (t1r-t3r, $2.80): single-line 4 s windows with the first word 0.55 s in. Two of the three started on time (+10 and +25 ms at the first word), which bears out the fixed start, but then ran about 10 % slow, reaching +150 to +170 ms by the line's last word; t1r read the line in its own timing and voice and never matched. As placed 0 %, 17 % and 21 % in sync; moved by the measured slip 0 %, 62 % and 64 %.",
+   "So Seedance's copy of the vocal can start on time with a 0.5 s lead-in, but inside a line its timing wanders by 25-170 ms, and now and then it re-reads the line: on its own it doesn't hold one frame (42 ms).",
+   "The print grade: every graded plate passed the filter and every clip came back in colour, without a watermark. How much print texture survives varies by clip, from visible dots (t1r) to nearly photoreal (t3g, t3r); t2r came out dark and muted.",
+   "sync-2-pro on fal ($0.84) redrew the mouth to our vocal on t3g and t2r. On t3g the lips now close on the frames of the /m/ in both 'I'm's and the /b/ of 'job', where Seedance's mouth was still open, and the 'job' opening moved from 1.75 s into the word (1.34-1.62 s). On t2r the /m/ closes on its frame and the /b/ of 'job' one or two frames late. The mouth and teeth come out clean. So Seedance for the performance and sync-2-pro for the lips is a working route.",
+   "The texture stays as part of the look (your call). A preview laid the same 5 px CMYK screen over whole clips at a 35 % blend (and at full strength): the clean t3g and the textured t1r and t2g read as one print, with no moire at full resolution or between consecutive frames. At full strength the 8 px screen is too coarse for close-ups."
+  ]
+ }
+}

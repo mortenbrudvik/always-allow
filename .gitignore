@@ -1,0 +1,33 @@
+# Keys
+.env
+.env.*
+!.env.example
+
+# Generated media (large; back up with Git LFS or cloud storage instead).
+# The Suno stems and the lip-sync test clips aren't published either.
+production/stems/*.mp3
+production/tests/lipsync/clips/*.mp4
+production/assets/
+production/clips/
+production/qa/
+production/out/
+production/animatic/
+production/comp/out/
+production/comp/public/
+production/style/moodboard/
+production/style/casting/
+production/tests/lipsync/out/
+production/tests/lipsync/results.md
+production/tests/seedance/out/
+
+# Dependencies and caches
+node_modules/
+.venv/
+__pycache__/
+
+# The compositor's generated lists and render output
+production/comp/src/data/*.generated.json
+production/comp/build/
+
+# Remotion's downloaded headless Chrome
+.remotion/

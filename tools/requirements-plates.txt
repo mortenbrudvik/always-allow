@@ -1,0 +1,8 @@
+# For tools/depth.py and tools/boxes.py (PLAN.md phase 3, BRIEF.md step 4): Depth Anything V2 Large and Grounding DINO
+# through transformers, on the GPU. They also need torch and transformers from requirements-align.txt, and MediaPipe
+# and OpenCV from requirements-track.txt: transformers 5 wants torchvision for its image processors, and this is the
+# build that matches torch 2.10.0 on CUDA 12.8 (install it with --no-deps so pip leaves torch alone). Tested with
+# Python 3.12 on an RTX 3090. The models download to the Hugging Face cache on first use:
+# depth-anything/Depth-Anything-V2-Large-hf (about 1.3 GB) and IDEA-Research/grounding-dino-base (about 0.9 GB).
+--extra-index-url https://download.pytorch.org/whl/cu128
+torchvision==0.25.0

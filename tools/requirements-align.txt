@@ -1,0 +1,6 @@
+# For tools/align_lyrics.py (PLAN.md phase 1). Tested with Python 3.12 on an RTX 3090.
+# torch comes from PyTorch's CUDA 12.8 index; on a machine without a CUDA GPU the aligner still runs, more slowly.
+--extra-index-url https://download.pytorch.org/whl/cu128
+faster-whisper==1.2.1
+torch==2.10.0
+transformers==5.17.0

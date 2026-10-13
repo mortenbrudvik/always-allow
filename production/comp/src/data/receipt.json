@@ -1,0 +1,72 @@
+{
+ "as_of": "2026-09-30T19:47",
+ "sessions": [
+  {
+   "session": 1,
+   "start": "2026-09-28T22:16",
+   "end": "2026-09-29T13:35",
+   "hours": 15.32,
+   "tool_calls": 484,
+   "tokens": 158114906
+  },
+  {
+   "session": 2,
+   "start": "2026-09-29T13:41",
+   "end": "2026-09-29T16:35",
+   "hours": 2.9,
+   "tool_calls": 375,
+   "tokens": 77869844
+  },
+  {
+   "session": 3,
+   "start": "2026-09-29T16:58",
+   "end": "2026-09-29T21:32",
+   "hours": 4.57,
+   "tool_calls": 1790,
+   "tokens": 298535419
+  },
+  {
+   "session": 4,
+   "start": "2026-09-29T21:48",
+   "end": "2026-09-30T16:01",
+   "hours": 18.22,
+   "tool_calls": 410,
+   "tokens": 180347346
+  },
+  {
+   "session": 5,
+   "start": "2026-09-30T16:09",
+   "end": "2026-09-30T19:47",
+   "hours": 3.63,
+   "tool_calls": 440,
+   "tokens": 288897803
+  }
+ ],
+ "hours": 44.64,
+ "tool_calls": 3499,
+ "tokens": 1003765318,
+ "spend_usd": 76.6,
+ "spend_by_tool": {
+  "lipsync_test": 2.582,
+  "seedance": 62.269,
+  "lipsync": 11.748
+ },
+ "paid_calls": 100,
+ "seedance_generations": 59,
+ "seedance_seconds": 267.0,
+ "lipsync_repairs": 34,
+ "lipsync_test_calls": 7,
+ "midjourney_images": 581,
+ "midjourney_prompts": 135,
+ "shots_planned": 119,
+ "shots_thrown_away": 2,
+ "takes_thrown_away": 19,
+ "clips_planned": 33,
+ "plates_planned": 67,
+ "sources": [
+  "production/runlog.csv",
+  "production/ledger.csv",
+  "production/storyboard/mj_manifest.csv",
+  "production/storyboard/shots.json"
+ ]
+}
