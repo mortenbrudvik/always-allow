@@ -7,7 +7,7 @@ The full production record for the music video to **Always Allow**, a Suno song 
 - **sync-2-pro** (through fal) repaired the lip sync, and the result was measured afterwards, not judged by eye.
 - **Remotion** drew everything else in code, on the beat: every piece of type, UI, chart and transition, plus the print texture over the footage.
 
-The video itself isn't in this repo.
+**[Watch the video on X](https://x.com/brudvik/status/2109685404383228023)** (4:37). The video file itself isn't in this repo.
 
 ## How the timing works
 
